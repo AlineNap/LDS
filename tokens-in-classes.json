@@ -2683,6 +2683,42 @@
         "logius.icon-size.default": "c90876278b70262a4246c307a4870669b8a8e6a7",
         "logius.icon-size.large": "bb1eeb3db4f170722d443948ef78fca5b3014521"
       }
+    },
+    {
+      "id": "bd37c158653263dda36574eb3a490e6b1c0e5280",
+      "name": "primary",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "component/button/variant/primary-action": "enabled"
+      },
+      "group": "button/variant"
+    },
+    {
+      "id": "c0a91f0dd275e5c8d86f8d1bed88a008e0e9f773",
+      "name": "secondary",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "component/button/variant/secondary-action": "enabled"
+      },
+      "group": "button/variant"
+    },
+    {
+      "id": "a9b43e2e41d9368954f33ea36182858725df86b1",
+      "name": "default",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "component/button/size/default": "enabled"
+      },
+      "group": "button/size"
+    },
+    {
+      "id": "5820d3851b2d976871c6ef66abd4c4862cbc06c5",
+      "name": "small",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "component/button/size/small": "enabled"
+      },
+      "group": "button/size"
     }
   ],
   "$metadata": {
