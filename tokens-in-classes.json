@@ -1177,116 +1177,9 @@
       }
     }
   },
-  "component/button": {
+  "component/button/default": {
     "utrecht": {
       "button": {
-        "primary-action": {
-          "hover": {
-            "background-color": {
-              "type": "color",
-              "value": "{logius.color.brand.hover}"
-            },
-            "border-color": {
-              "value": "{logius.color.none}",
-              "type": "color"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.button.primary-action.color}"
-            }
-          },
-          "background-color": {
-            "type": "color",
-            "value": "{logius.color.brand.default}"
-          },
-          "border-color": {
-            "value": "{logius.color.none}",
-            "type": "color"
-          },
-          "color": {
-            "type": "color",
-            "value": "{logius.color.onEmphasis.foreground}"
-          },
-          "disabled": {
-            "background-color": {
-              "type": "color",
-              "value": "{utrecht.button.disabled.background-color}"
-            },
-            "border-color": {
-              "value": "{utrecht.button.disabled.border-color}",
-              "type": "color"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.button.disabled.color}"
-            }
-          },
-          "font-weight": {
-            "value": "{utrecht.button.font-weight}",
-            "type": "fontWeights"
-          }
-        },
-        "secondary-action": {
-          "hover": {
-            "background-color": {
-              "type": "color",
-              "value": "{utrecht.button.secondary-action.background-color}"
-            },
-            "border-color": {
-              "type": "color",
-              "value": "{logius.color.brand.hover}"
-            },
-            "color": {
-              "type": "color",
-              "value": "{logius.color.brand.hover}"
-            }
-          },
-          "background-color": {
-            "type": "color",
-            "value": "{logius.color.background}"
-          },
-          "border-color": {
-            "type": "color",
-            "value": "{logius.color.brand.default}"
-          },
-          "color": {
-            "type": "color",
-            "value": "{logius.color.brand.default}"
-          },
-          "disabled": {
-            "background-color": {
-              "type": "color",
-              "value": "{utrecht.button.disabled.background-color}"
-            },
-            "border-color": {
-              "type": "color",
-              "value": "{utrecht.button.disabled.border-color}"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.button.disabled.color}"
-            }
-          },
-          "focus": {
-            "background-color": {
-              "type": "color",
-              "$comment-FIXME-value": "{utrecht.focus.background-color}",
-              "value": "{utrecht.button.secondary-action.background-color}"
-            },
-            "border-color": {
-              "type": "color",
-              "value": "transparent"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.button.secondary-action.color}"
-            }
-          },
-          "font-weight": {
-            "value": "{utrecht.button.font-weight}",
-            "type": "fontWeights"
-          }
-        },
         "background-color": {
           "type": "color",
           "value": "{logius.color.brand.default}"
@@ -1298,6 +1191,61 @@
         "color": {
           "type": "color",
           "value": "{logius.color.onEmphasis.foreground}"
+        },
+        "disabled": {
+          "background-color": {
+            "value": "{logius.color.subdued.background}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{logius.color.none}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{logius.color.subdued.foreground}",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "type": "color",
+            "value": "{logius.color.brand.hover}"
+          },
+          "border-color": {
+            "value": "{logius.color.none}",
+            "type": "color"
+          },
+          "color": {
+            "type": "color",
+            "value": "{logius.color.onEmphasis.foreground}"
+          }
+        },
+        "primary-action": {
+          "font-weight": {
+            "value": "{utrecht.button.font-weight}",
+            "type": "fontWeights"
+          }
+        },
+        "focus": {
+          "background-color": {
+            "type": "color",
+            "$comment-FIXME-value": "{utrecht.focus.background-color}",
+            "value": "{logius.color.brand.default}"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "{logius.color.none}"
+          },
+          "color": {
+            "type": "color",
+            "value": "{logius.color.onEmphasis.foreground}"
+          }
+        },
+        "secondary-action": {
+          "font-weight": {
+            "value": "{utrecht.button.font-weight}",
+            "type": "fontWeights"
+          }
         },
         "border-radius": {
           "type": "borderRadius",
@@ -1333,46 +1281,6 @@
           "font-weight": {
             "value": "{utrecht.button.font-weight}",
             "type": "fontWeights"
-          },
-          "hover": {
-            "background-color": {
-              "type": "color",
-              "value": "{utrecht.button.subtle.background-color}"
-            },
-            "border-color": {
-              "type": "color",
-              "value": "{utrecht.button.subtle.border-color}"
-            },
-            "color": {
-              "type": "color",
-              "value": "{logius.color.brand.hover}"
-            }
-          },
-          "background-color": {
-            "type": "color",
-            "value": "{logius.color.none}"
-          },
-          "border-color": {
-            "type": "color",
-            "value": "{logius.color.none}"
-          },
-          "color": {
-            "type": "color",
-            "value": "{logius.color.brand.default}"
-          },
-          "disabled": {
-            "background-color": {
-              "type": "color",
-              "value": "{utrecht.button.disabled.background-color}"
-            },
-            "border-color": {
-              "type": "color",
-              "value": "{utrecht.button.disabled.border-color}"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.button.disabled.color}"
-            }
           }
         },
         "line-height": {
@@ -1395,6 +1303,46 @@
           "value": "{logius.space.2-x}",
           "type": "spacing"
         },
+        "min-block-size": {
+          "type": "sizing",
+          "value": "{logius.size.m}"
+        },
+        "min-inline-size": {
+          "type": "sizing",
+          "value": "0"
+        },
+        "active": {
+          "background-color": {
+            "value": "{logius.color.subdued.background}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{logius.color.none}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{logius.color.subdued.foreground}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "component/button/variant/primary-action": {
+    "utrecht": {
+      "button": {
+        "background-color": {
+          "type": "color",
+          "value": "{logius.color.brand.default}"
+        },
+        "border-color": {
+          "type": "color",
+          "value": "{logius.color.none}"
+        },
+        "color": {
+          "type": "color",
+          "value": "{logius.color.onEmphasis.foreground}"
+        },
         "disabled": {
           "background-color": {
             "value": "{logius.color.subdued.background}",
@@ -1408,6 +1356,196 @@
             "value": "{logius.color.subdued.foreground}",
             "type": "color"
           }
+        },
+        "hover": {
+          "background-color": {
+            "type": "color",
+            "value": "{logius.color.brand.hover}"
+          },
+          "border-color": {
+            "value": "{logius.color.none}",
+            "type": "color"
+          },
+          "color": {
+            "type": "color",
+            "value": "{logius.color.onEmphasis.foreground}"
+          }
+        },
+        "focus": {
+          "background-color": {
+            "type": "color",
+            "$comment-FIXME-value": "{utrecht.focus.background-color}",
+            "value": "{logius.color.brand.default}"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "{logius.color.none}"
+          },
+          "color": {
+            "type": "color",
+            "value": "{logius.color.onEmphasis.foreground}"
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{logius.color.subdued.background}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{logius.color.none}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{logius.color.subdued.foreground}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "component/button/variant/secondary-action": {
+    "utrecht": {
+      "button": {
+        "background-color": {
+          "type": "color",
+          "value": "{logius.color.brand.default}"
+        },
+        "border-color": {
+          "type": "color",
+          "value": "{logius.color.none}"
+        },
+        "color": {
+          "type": "color",
+          "value": "{logius.color.onEmphasis.foreground}"
+        },
+        "disabled": {
+          "background-color": {
+            "value": "{logius.color.subdued.background}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{logius.color.none}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{logius.color.subdued.foreground}",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "type": "color",
+            "value": "{logius.color.brand.hover}"
+          },
+          "border-color": {
+            "value": "{logius.color.none}",
+            "type": "color"
+          },
+          "color": {
+            "type": "color",
+            "value": "{logius.color.onEmphasis.foreground}"
+          }
+        },
+        "focus": {
+          "background-color": {
+            "type": "color",
+            "$comment-FIXME-value": "{utrecht.focus.background-color}",
+            "value": "{logius.color.brand.default}"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "{logius.color.none}"
+          },
+          "color": {
+            "type": "color",
+            "value": "{logius.color.onEmphasis.foreground}"
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{logius.color.subdued.background}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{logius.color.none}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{logius.color.subdued.foreground}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "component/button/size/default": {
+    "utrecht": {
+      "button": {
+        "icon": {
+          "size": {
+            "type": "sizing",
+            "value": "{logius.icon-size.default}"
+          },
+          "margin-inline": {
+            "value": "{logius.space.1-x}",
+            "type": "spacing"
+          }
+        },
+        "padding-block-end": {
+          "value": "{logius.space.1-x}",
+          "type": "spacing"
+        },
+        "padding-block-start": {
+          "value": "{logius.space.1-x}",
+          "type": "spacing"
+        },
+        "padding-inline-end": {
+          "value": "{logius.space.2-x}",
+          "type": "spacing"
+        },
+        "padding-inline-start": {
+          "value": "{logius.space.2-x}",
+          "type": "spacing"
+        },
+        "min-block-size": {
+          "type": "sizing",
+          "value": "{logius.size.m}"
+        },
+        "min-inline-size": {
+          "type": "sizing",
+          "value": "0"
+        }
+      }
+    }
+  },
+  "component/button/size/small": {
+    "utrecht": {
+      "button": {
+        "icon": {
+          "size": {
+            "type": "sizing",
+            "value": "{logius.icon-size.default}"
+          },
+          "margin-inline": {
+            "value": "{logius.space.1-x}",
+            "type": "spacing"
+          }
+        },
+        "padding-block-end": {
+          "value": "{logius.space.1-x}",
+          "type": "spacing"
+        },
+        "padding-block-start": {
+          "value": "{logius.space.1-x}",
+          "type": "spacing"
+        },
+        "padding-inline-end": {
+          "value": "{logius.space.2-x}",
+          "type": "spacing"
+        },
+        "padding-inline-start": {
+          "value": "{logius.space.2-x}",
+          "type": "spacing"
         },
         "min-block-size": {
           "type": "sizing",
@@ -1426,7 +1564,12 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "brand": "enabled"
+        "brand": "enabled",
+        "component/button/default": "disabled",
+        "component/button/size/small": "disabled",
+        "component/button/variant/primary-action": "disabled",
+        "component/button/size/default": "disabled",
+        "component/button/variant/secondary-action": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:7:2",
       "$figmaModeId": "7:0",
@@ -1527,20 +1670,15 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button": "enabled"
+        "component/button/default": "enabled",
+        "component/button/size/small": "disabled",
+        "component/button/variant/primary-action": "disabled",
+        "component/button/size/default": "disabled",
+        "component/button/variant/secondary-action": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:7:97",
       "$figmaModeId": "7:1",
       "$figmaVariableReferences": {
-        "utrecht.button.primary-action.hover.background-color": "dff162a13f175b673e5809a4b504bfa072c9b183",
-        "utrecht.button.primary-action.hover.border-color": "aba36bd361c97224007d1b3d1a7a2b4091955c43",
-        "utrecht.button.primary-action.hover.color": "941b3217126e2de49efa4c4c3a2e42977f490c79",
-        "utrecht.button.primary-action.background-color": "c5a75a66fa08001c55b6c658b66aeae4e1ca4106",
-        "utrecht.button.primary-action.border-color": "a4df8f0d5225079320e1b57b20a2bf4a0d900419",
-        "utrecht.button.primary-action.color": "aa27bf145845d0581651358c9d87af506b684ebf",
-        "utrecht.button.primary-action.disabled.background-color": "eef8a757cb109887456cc7bcc2a754082db7ea3a",
-        "utrecht.button.primary-action.disabled.border-color": "14dfe7e77b9aba968f100f481ffeefd30058576d",
-        "utrecht.button.primary-action.disabled.color": "cb6e9cc3012b6937cbbff60a140a9c636d57fa38",
         "utrecht.button.secondary-action.hover.background-color": "dc7685f07b1c3f7dfd2b8cb45c62a7b839c48a5a",
         "utrecht.button.secondary-action.hover.border-color": "d0d1483ef01d2627896fa4f54d290f73c6b5e517",
         "utrecht.button.secondary-action.hover.color": "11f4adf4c5b32b8e7537419c0196526b1fff6525",
@@ -1550,12 +1688,9 @@
         "utrecht.button.secondary-action.disabled.background-color": "048d6465e38708f26391d7872637254b07c89414",
         "utrecht.button.secondary-action.disabled.border-color": "79f4a5e81a4faff631afd0018a308efed2e8a1d5",
         "utrecht.button.secondary-action.disabled.color": "9c299334f2fa0135a6c81571f56ab616d1761535",
-        "utrecht.button.secondary-action.focus.background-color": "dc326a1abaa672bff678c9b76045ec26a53336ea",
-        "utrecht.button.secondary-action.focus.border-color": "50ef0a4111ae9608b58908c663f47dd16895056b",
-        "utrecht.button.secondary-action.focus.color": "3322b82a73e82f1ebeaef2f0dd89cdedcccfcb7a",
-        "utrecht.button.background-color": "828800777b5c9357f657c3dae05f214bfaa8d5c4",
-        "utrecht.button.border-color": "02d422e9c02736d69ff6a340097470c7c9aa36dc",
-        "utrecht.button.color": "c2e0a4aff0b1723bdd4d81dd92007919f09ecff8",
+        "utrecht.button.background-color": "c5a75a66fa08001c55b6c658b66aeae4e1ca4106",
+        "utrecht.button.border-color": "a4df8f0d5225079320e1b57b20a2bf4a0d900419",
+        "utrecht.button.color": "aa27bf145845d0581651358c9d87af506b684ebf",
         "utrecht.button.border-radius": "faca58834f651cf692cd0b830dedf7e598d74a8e",
         "utrecht.button.border-width": "a18726fd586de4ef211ed90ccdccd9b47973413a",
         "utrecht.button.icon.size": "52ac4734607b55ce2d386b522cff1cbf9cac8330",
@@ -1573,11 +1708,17 @@
         "utrecht.button.padding-block-start": "4f65d3fd244beee292464d30258b9644bc5bd524",
         "utrecht.button.padding-inline-end": "7670944266ee3fa904681235939bb59f1d8c4fcc",
         "utrecht.button.padding-inline-start": "a07de94c744ce452eadefcf4f318de245e7004d6",
-        "utrecht.button.disabled.background-color": "7acd7f190979946b9543b46e1cda6a0794280f78",
-        "utrecht.button.disabled.border-color": "891a98fcf0bd108ef90e0645db23349696dbab10",
-        "utrecht.button.disabled.color": "d8d87243914fe3cedad132cc0d0bf13ed78f14f2",
+        "utrecht.button.disabled.background-color": "eef8a757cb109887456cc7bcc2a754082db7ea3a",
+        "utrecht.button.disabled.border-color": "14dfe7e77b9aba968f100f481ffeefd30058576d",
+        "utrecht.button.disabled.color": "cb6e9cc3012b6937cbbff60a140a9c636d57fa38",
         "utrecht.button.min-block-size": "33a0b71cb0d20abf9b2c0a0a9808b75a1e7d7b70",
-        "utrecht.button.min-inline-size": "6f242031b3d2a70b4e8954ddb972cab413d9dec3"
+        "utrecht.button.min-inline-size": "6f242031b3d2a70b4e8954ddb972cab413d9dec3",
+        "utrecht.button.hover.background-color": "dff162a13f175b673e5809a4b504bfa072c9b183",
+        "utrecht.button.hover.border-color": "aba36bd361c97224007d1b3d1a7a2b4091955c43",
+        "utrecht.button.hover.color": "941b3217126e2de49efa4c4c3a2e42977f490c79",
+        "utrecht.button.focus.background-color": "dc326a1abaa672bff678c9b76045ec26a53336ea",
+        "utrecht.button.focus.border-color": "50ef0a4111ae9608b58908c663f47dd16895056b",
+        "utrecht.button.focus.color": "3322b82a73e82f1ebeaef2f0dd89cdedcccfcb7a"
       },
       "group": "component"
     },
@@ -1585,7 +1726,12 @@
       "id": "60315acb9c82133759580124c5ba7498dc1b3ce4",
       "name": "Logius",
       "selectedTokenSets": {
-        "product/Logius": "enabled"
+        "product/Logius": "enabled",
+        "component/button/default": "disabled",
+        "component/button/size/small": "disabled",
+        "component/button/variant/primary-action": "disabled",
+        "component/button/size/default": "disabled",
+        "component/button/variant/secondary-action": "disabled"
       },
       "$figmaStyleReferences": {
         "body.s-400": "S:945b3429270c1a4418b1a976ab78a0d37a826e15,",
@@ -1898,7 +2044,12 @@
       "name": "MijnOverheid",
       "selectedTokenSets": {
         "product/MijnOverheid": "enabled",
-        "product/Logius": "enabled"
+        "product/Logius": "enabled",
+        "component/button/default": "disabled",
+        "component/button/size/small": "disabled",
+        "component/button/variant/primary-action": "disabled",
+        "component/button/size/default": "disabled",
+        "component/button/variant/secondary-action": "disabled"
       },
       "$figmaStyleReferences": {
         "common.warning.background": "S:6d53d59a1c72d20d5fcc7ba2baa3321ba4b2b331,",
@@ -2127,7 +2278,12 @@
       "id": "f5b6c8fb09c0a683c6037de2c2b4bb8c553ff9e8",
       "name": "DigiD",
       "selectedTokenSets": {
-        "product/DigiD": "enabled"
+        "product/DigiD": "enabled",
+        "component/button/default": "disabled",
+        "component/button/size/small": "disabled",
+        "component/button/variant/primary-action": "disabled",
+        "component/button/size/default": "disabled",
+        "component/button/variant/secondary-action": "disabled"
       },
       "$figmaStyleReferences": {
         "common.highlight.base": "S:f8f46a43b805f4723eadb8c5fb2b20b8f220376c,",
@@ -2441,7 +2597,12 @@
       "name": "light",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "mode/light": "enabled"
+        "mode/light": "enabled",
+        "component/button/default": "disabled",
+        "component/button/size/small": "disabled",
+        "component/button/variant/primary-action": "disabled",
+        "component/button/size/default": "disabled",
+        "component/button/variant/secondary-action": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:7:156",
       "$figmaModeId": "7:5",
@@ -2480,7 +2641,12 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "mode/dark": "enabled",
-        "mode/light": "enabled"
+        "mode/light": "enabled",
+        "component/button/default": "disabled",
+        "component/button/size/small": "disabled",
+        "component/button/variant/primary-action": "disabled",
+        "component/button/size/default": "disabled",
+        "component/button/variant/secondary-action": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:7:156",
       "$figmaModeId": "7:6",
@@ -2518,7 +2684,12 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "viewport/default": "enabled"
+        "viewport/default": "enabled",
+        "component/button/default": "disabled",
+        "component/button/size/small": "disabled",
+        "component/button/variant/primary-action": "disabled",
+        "component/button/size/default": "disabled",
+        "component/button/variant/secondary-action": "disabled"
       },
       "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:7:182",
@@ -2538,7 +2709,12 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "viewport/default": "enabled",
-        "viewport/xs": "enabled"
+        "viewport/xs": "enabled",
+        "component/button/default": "disabled",
+        "component/button/size/small": "disabled",
+        "component/button/variant/primary-action": "disabled",
+        "component/button/size/default": "disabled",
+        "component/button/variant/secondary-action": "disabled"
       },
       "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:7:182",
@@ -2563,7 +2739,11 @@
       "product/DigiD",
       "mode/light",
       "mode/dark",
-      "component/button"
+      "component/button/default",
+      "component/button/variant/primary-action",
+      "component/button/variant/secondary-action",
+      "component/button/size/default",
+      "component/button/size/small"
     ]
   }
 }
