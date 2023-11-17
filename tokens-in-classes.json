@@ -1408,15 +1408,15 @@
       "button": {
         "background-color": {
           "type": "color",
-          "value": "{logius.color.brand.default}"
+          "value": "{logius.color.none}"
         },
         "border-color": {
           "type": "color",
-          "value": "{logius.color.none}"
+          "value": "{logius.color.brand.default}"
         },
         "color": {
           "type": "color",
-          "value": "{logius.color.onEmphasis.foreground}"
+          "value": "{logius.color.brand.default}"
         },
         "disabled": {
           "background-color": {
@@ -1435,15 +1435,15 @@
         "hover": {
           "background-color": {
             "type": "color",
-            "value": "{logius.color.brand.hover}"
+            "value": "{logius.color.brand.subdued}"
           },
           "border-color": {
-            "value": "{logius.color.none}",
+            "value": "{logius.color.brand.hover}",
             "type": "color"
           },
           "color": {
             "type": "color",
-            "value": "{logius.color.onEmphasis.foreground}"
+            "value": "{logius.color.brand.hover}"
           }
         },
         "focus": {
@@ -1532,11 +1532,11 @@
           }
         },
         "padding-block-end": {
-          "value": "{logius.space.1-x}",
+          "value": "{logius.space.025-x}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{logius.space.1-x}",
+          "value": "{logius.space.025-x}",
           "type": "spacing"
         },
         "padding-inline-end": {
@@ -1549,7 +1549,7 @@
         },
         "min-block-size": {
           "type": "sizing",
-          "value": "{logius.size.m}"
+          "value": "{logius.size.s}"
         },
         "min-inline-size": {
           "type": "sizing",
@@ -1564,12 +1564,7 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "brand": "enabled",
-        "component/button/default": "disabled",
-        "component/button/size/small": "disabled",
-        "component/button/variant/primary-action": "disabled",
-        "component/button/size/default": "disabled",
-        "component/button/variant/secondary-action": "disabled"
+        "brand": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:7:2",
       "$figmaModeId": "7:0",
@@ -1670,11 +1665,7 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/default": "enabled",
-        "component/button/size/small": "disabled",
-        "component/button/variant/primary-action": "disabled",
-        "component/button/size/default": "disabled",
-        "component/button/variant/secondary-action": "disabled"
+        "component/button/default": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:7:97",
       "$figmaModeId": "7:1",
@@ -1726,12 +1717,7 @@
       "id": "60315acb9c82133759580124c5ba7498dc1b3ce4",
       "name": "Logius",
       "selectedTokenSets": {
-        "product/Logius": "enabled",
-        "component/button/default": "disabled",
-        "component/button/size/small": "disabled",
-        "component/button/variant/primary-action": "disabled",
-        "component/button/size/default": "disabled",
-        "component/button/variant/secondary-action": "disabled"
+        "product/Logius": "enabled"
       },
       "$figmaStyleReferences": {
         "body.s-400": "S:945b3429270c1a4418b1a976ab78a0d37a826e15,",
@@ -2044,12 +2030,7 @@
       "name": "MijnOverheid",
       "selectedTokenSets": {
         "product/MijnOverheid": "enabled",
-        "product/Logius": "enabled",
-        "component/button/default": "disabled",
-        "component/button/size/small": "disabled",
-        "component/button/variant/primary-action": "disabled",
-        "component/button/size/default": "disabled",
-        "component/button/variant/secondary-action": "disabled"
+        "product/Logius": "enabled"
       },
       "$figmaStyleReferences": {
         "common.warning.background": "S:6d53d59a1c72d20d5fcc7ba2baa3321ba4b2b331,",
@@ -2278,12 +2259,7 @@
       "id": "f5b6c8fb09c0a683c6037de2c2b4bb8c553ff9e8",
       "name": "DigiD",
       "selectedTokenSets": {
-        "product/DigiD": "enabled",
-        "component/button/default": "disabled",
-        "component/button/size/small": "disabled",
-        "component/button/variant/primary-action": "disabled",
-        "component/button/size/default": "disabled",
-        "component/button/variant/secondary-action": "disabled"
+        "product/DigiD": "enabled"
       },
       "$figmaStyleReferences": {
         "common.highlight.base": "S:f8f46a43b805f4723eadb8c5fb2b20b8f220376c,",
@@ -2597,12 +2573,7 @@
       "name": "light",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "mode/light": "enabled",
-        "component/button/default": "disabled",
-        "component/button/size/small": "disabled",
-        "component/button/variant/primary-action": "disabled",
-        "component/button/size/default": "disabled",
-        "component/button/variant/secondary-action": "disabled"
+        "mode/light": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:7:156",
       "$figmaModeId": "7:5",
@@ -2641,12 +2612,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "mode/dark": "enabled",
-        "mode/light": "enabled",
-        "component/button/default": "disabled",
-        "component/button/size/small": "disabled",
-        "component/button/variant/primary-action": "disabled",
-        "component/button/size/default": "disabled",
-        "component/button/variant/secondary-action": "disabled"
+        "mode/light": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:7:156",
       "$figmaModeId": "7:6",
@@ -2684,12 +2650,7 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "viewport/default": "enabled",
-        "component/button/default": "disabled",
-        "component/button/size/small": "disabled",
-        "component/button/variant/primary-action": "disabled",
-        "component/button/size/default": "disabled",
-        "component/button/variant/secondary-action": "disabled"
+        "viewport/default": "enabled"
       },
       "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:7:182",
@@ -2709,12 +2670,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "viewport/default": "enabled",
-        "viewport/xs": "enabled",
-        "component/button/default": "disabled",
-        "component/button/size/small": "disabled",
-        "component/button/variant/primary-action": "disabled",
-        "component/button/size/default": "disabled",
-        "component/button/variant/secondary-action": "disabled"
+        "viewport/xs": "enabled"
       },
       "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:7:182",
