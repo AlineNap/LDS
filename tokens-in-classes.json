@@ -2008,7 +2008,7 @@
         "product.button.color.tertiary.hover.foreground": "7654f10693817633a667dda924c1ee777cef3fcc",
         "product.button.color.tertiary.hover.background": "f8bfd6d9e3b6b6a853ac673ee85988dfcbd9bbb9"
       },
-      "group": "brand"
+      "group": "1. brand"
     },
     {
       "id": "3d944389c8bc7e0096e33bdd337454b155bbf3b4",
@@ -2238,7 +2238,7 @@
         "product.button.color.tertiary.hover.foreground": "7654f10693817633a667dda924c1ee777cef3fcc",
         "product.button.color.tertiary.hover.background": "f8bfd6d9e3b6b6a853ac673ee85988dfcbd9bbb9"
       },
-      "group": "brand"
+      "group": "1. brand"
     },
     {
       "id": "f5b6c8fb09c0a683c6037de2c2b4bb8c553ff9e8",
@@ -2551,7 +2551,7 @@
         "product.button.color.tertiary.hover.foreground": "7654f10693817633a667dda924c1ee777cef3fcc",
         "product.button.color.tertiary.hover.background": "f8bfd6d9e3b6b6a853ac673ee85988dfcbd9bbb9"
       },
-      "group": "brand"
+      "group": "1. brand"
     },
     {
       "id": "6bc5fe5338747a8377812225c705877a5e69aea8",
@@ -2589,7 +2589,7 @@
         "mode.button.color.secondary.foreground": "da370eb971f3a4fff5600e9ef8cd970194dc030d",
         "mode.button.color.secondary.border": "052e8539c6dbfab7c4525907aafbd3f94d7b5098"
       },
-      "group": "mode"
+      "group": "2. mode"
     },
     {
       "id": "b6dc798fba8b7d19c140d8d5a2d86c967eb55c9f",
@@ -2628,7 +2628,7 @@
         "logius.color.feedback.warning.default": "b4bf5858cfb382eb27e859430706e912b218a220",
         "logius.color.feedback.warning.subdued": "a84018b9599945fc8487c75eb8edd16d7776ec68"
       },
-      "group": "mode"
+      "group": "2. mode"
     },
     {
       "id": "09c282ed911b6c743631ad19a8a655084fc8e11c",
@@ -2637,7 +2637,7 @@
       "selectedTokenSets": {
         "viewport/default": "enabled"
       },
-      "group": "viewport",
+      "group": "3. viewport",
       "$figmaCollectionId": "VariableCollectionId:5:156",
       "$figmaModeId": "5:8",
       "$figmaVariableReferences": {
@@ -2657,7 +2657,7 @@
         "viewport/default": "enabled",
         "viewport/xs": "enabled"
       },
-      "group": "viewport",
+      "group": "3. viewport",
       "$figmaCollectionId": "VariableCollectionId:5:156",
       "$figmaModeId": "5:9",
       "$figmaVariableReferences": {
