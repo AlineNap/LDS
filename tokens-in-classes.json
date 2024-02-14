@@ -410,7 +410,7 @@
       }
     }
   },
-  "viewport/default": {
+  "viewport/xl": {
     "lux": {
       "font": {
         "body": {
@@ -2696,7 +2696,7 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "viewport/default": "enabled"
+        "viewport/xl": "enabled"
       },
       "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
@@ -2713,8 +2713,8 @@
       "name": "xs",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "viewport/default": "enabled",
-        "viewport/xs": "enabled"
+        "viewport/xs": "enabled",
+        "viewport/xl": "enabled"
       },
       "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
@@ -2859,7 +2859,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "core",
-      "viewport/default",
+      "viewport/xl",
       "viewport/xs",
       "product/Logius",
       "product/MijnOverheid",
