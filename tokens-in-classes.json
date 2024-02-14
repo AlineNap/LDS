@@ -702,7 +702,7 @@
             "type": "color"
           },
           "background-color": {
-            "value": "none",
+            "value": "{lux.color.none}",
             "type": "color"
           },
           "hover": {
@@ -990,7 +990,7 @@
             "type": "color"
           },
           "background-color": {
-            "value": "#",
+            "value": "{product.button.secondary.background-color}",
             "type": "color"
           }
         }
@@ -1164,6 +1164,13 @@
           },
           "border-color": {
             "value": "{lux.color.border.default}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {}
+            }
+          },
+          "background-color": {
+            "value": "{lux.color.none}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {}
@@ -1621,8 +1628,7 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "core": "enabled",
-        "product/NL doc/Rijksoverheid": "disabled"
+        "core": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:5:3",
       "$figmaModeId": "5:1",
@@ -1722,8 +1728,7 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/default": "enabled",
-        "product/NL doc/Rijksoverheid": "disabled"
+        "component/button/default": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:5:92",
       "$figmaModeId": "5:2",
@@ -1760,8 +1765,7 @@
       "id": "60315acb9c82133759580124c5ba7498dc1b3ce4",
       "name": "Logius",
       "selectedTokenSets": {
-        "product/Logius": "enabled",
-        "product/NL doc/Rijksoverheid": "disabled"
+        "product/Logius": "enabled"
       },
       "$figmaStyleReferences": {
         "body.s-400": "S:945b3429270c1a4418b1a976ab78a0d37a826e15,",
@@ -2074,8 +2078,7 @@
       "name": "MijnOverheid",
       "selectedTokenSets": {
         "product/MijnOverheid": "enabled",
-        "product/Logius": "enabled",
-        "product/NL doc/Rijksoverheid": "disabled"
+        "product/Logius": "enabled"
       },
       "$figmaStyleReferences": {
         "common.warning.background": "S:6d53d59a1c72d20d5fcc7ba2baa3321ba4b2b331,",
@@ -2304,8 +2307,7 @@
       "id": "f5b6c8fb09c0a683c6037de2c2b4bb8c553ff9e8",
       "name": "DigiD",
       "selectedTokenSets": {
-        "product/DigiD": "enabled",
-        "product/NL doc/Rijksoverheid": "disabled"
+        "product/DigiD": "enabled"
       },
       "$figmaStyleReferences": {
         "common.highlight.base": "S:f8f46a43b805f4723eadb8c5fb2b20b8f220376c,",
@@ -2619,8 +2621,7 @@
       "name": "light",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "mode/light": "enabled",
-        "product/NL doc/Rijksoverheid": "disabled"
+        "mode/light": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:17",
@@ -2659,8 +2660,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "mode/dark": "enabled",
-        "mode/light": "enabled",
-        "product/NL doc/Rijksoverheid": "disabled"
+        "mode/light": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:18",
@@ -2698,8 +2698,7 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "viewport/default": "enabled",
-        "product/NL doc/Rijksoverheid": "disabled"
+        "viewport/default": "enabled"
       },
       "group": "3. viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
@@ -2719,8 +2718,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "viewport/default": "enabled",
-        "viewport/xs": "enabled",
-        "product/NL doc/Rijksoverheid": "disabled"
+        "viewport/xs": "enabled"
       },
       "group": "3. viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
@@ -2739,8 +2737,7 @@
       "name": "primary",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/variant/primary": "enabled",
-        "product/NL doc/Rijksoverheid": "disabled"
+        "component/button/variant/primary": "enabled"
       },
       "group": "button/variant",
       "$figmaCollectionId": "VariableCollectionId:5:163",
@@ -2768,8 +2765,7 @@
       "name": "secondary",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/variant/secondary": "enabled",
-        "product/NL doc/Rijksoverheid": "disabled"
+        "component/button/variant/secondary": "enabled"
       },
       "group": "button/variant",
       "$figmaCollectionId": "VariableCollectionId:5:163",
@@ -2796,9 +2792,7 @@
       "id": "a9b43e2e41d9368954f33ea36182858725df86b1",
       "name": "default",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "product/NL doc/Rijksoverheid": "disabled"
-      },
+      "selectedTokenSets": {},
       "group": "button/size",
       "$figmaCollectionId": "VariableCollectionId:5:179",
       "$figmaModeId": "5:12",
@@ -2817,9 +2811,7 @@
       "id": "5820d3851b2d976871c6ef66abd4c4862cbc06c5",
       "name": "small",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "product/NL doc/Rijksoverheid": "disabled"
-      },
+      "selectedTokenSets": {},
       "group": "button/size",
       "$figmaCollectionId": "VariableCollectionId:5:179",
       "$figmaModeId": "5:13",
