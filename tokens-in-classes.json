@@ -3075,7 +3075,8 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "product/Logius": "enabled",
-        "product/NL doc/Ridderkerk": "enabled"
+        "product/NL doc/Ridderkerk": "enabled",
+        "product/NL doc/Rijksoverheid": "enabled"
       },
       "group": "product"
     },
@@ -3085,7 +3086,8 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "product/Logius": "enabled",
-        "product/NL doc/Waterschap Hollandse Delta": "enabled"
+        "product/NL doc/Waterschap Hollandse Delta": "enabled",
+        "product/NL doc/Rijksoverheid": "enabled"
       },
       "group": "product"
     }
