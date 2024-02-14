@@ -618,7 +618,7 @@
       "size": {
         "icon": {
           "wrapper-height": {
-            "value": "28px",
+            "value": "24px",
             "type": "sizing"
           }
         }
@@ -1307,20 +1307,6 @@
           "type": "color",
           "value": "{lux.color.foreground.onEmphasis}"
         },
-        "disabled": {
-          "background-color": {
-            "value": "{lux.color.background.subdued}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{lux.color.none}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{lux.color.foreground.subdued}",
-            "type": "color"
-          }
-        },
         "hover": {
           "background-color": {
             "type": "color",
@@ -1390,20 +1376,6 @@
           "type": "color",
           "value": "{lux.color.brand.default}"
         },
-        "disabled": {
-          "background-color": {
-            "value": "{lux.color.background.subdued}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{lux.color.none}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{lux.color.foreground.subdued}",
-            "type": "color"
-          }
-        },
         "hover": {
           "background-color": {
             "type": "color",
@@ -1464,20 +1436,6 @@
         "color": {
           "type": "color",
           "value": "{lux.color.brand.default}"
-        },
-        "disabled": {
-          "background-color": {
-            "value": "{lux.color.background.subdued}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{lux.color.none}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{lux.color.foreground.subdued}",
-            "type": "color"
-          }
         },
         "hover": {
           "background-color": {
@@ -1668,7 +1626,8 @@
         "lux.space.4-x": "b4e03924c669ff4cef00672b4ab4c57358abca66",
         "lux.space.5-x": "8f66b763f52c9ab8b75b24f6588e5c51492d7f78",
         "lux.space.6-x": "9eaef8872d83f6fba9aef334bec23520c40008aa",
-        "lux.space.7-x": "aebeb037996013b30822f4dcbf182af35632ed5b"
+        "lux.space.7-x": "aebeb037996013b30822f4dcbf182af35632ed5b",
+        "lux.border-radius.m": "a0f65881c1e20849a646bee279944ff985a57fe2"
       },
       "group": "always on"
     },
@@ -1682,28 +1641,19 @@
       "$figmaCollectionId": "VariableCollectionId:5:92",
       "$figmaModeId": "5:2",
       "$figmaVariableReferences": {
+        "lux.button.disabled.background-color": "27c633a996c2818a13a0f8ef12878f99a828101a",
+        "lux.button.disabled.border-color": "bfe278cb744462d5a8fee4d249e8d598a716ebc3",
+        "lux.button.disabled.color": "8cb463c5748a2f8c59ff588206e58d4aee594a8a",
+        "lux.button.border-radius": "b4fb4bb91e061bef8b41aa97ed0ef1a4b697337f",
+        "lux.button.border-width": "72ec17329fe494069db1a05de89a325cff8acddd",
         "lux.button.icon.size": "b791882f5546e89e0c8154c8db072f4c3e75da72",
-        "lux.button.min-block-size": "06fc183b275d39c3399131d066b5e67f6d96efe6",
-        "lux.button.min-inline-size": "69f0c0eb350f2b9b58bba53a15c723d44420d650",
         "lux.button.icon.margin-inline": "ecf52a6fe004fcd50ab0882a86720e75af7f71e9",
         "lux.button.padding-block-end": "e82018c00697fd1944e0f42781309ecdc3d4a9c5",
         "lux.button.padding-block-start": "521fc2b72fd9a91ef078e9a9a14a1132dee573b5",
         "lux.button.padding-inline-end": "a5a1ac604888ce2deb96a9170eed26774d512455",
         "lux.button.padding-inline-start": "3c2ce447c2e930d47119371b61aca0acd94af2b5",
-        "lux.button.disabled.background-color": "27c633a996c2818a13a0f8ef12878f99a828101a",
-        "lux.button.disabled.border-color": "bfe278cb744462d5a8fee4d249e8d598a716ebc3",
-        "lux.button.disabled.color": "8cb463c5748a2f8c59ff588206e58d4aee594a8a",
-        "lux.button.hover.background-color": "6abed51055ae57ce784683333fdd2391f19659d5",
-        "lux.button.hover.border-color": "caf1c07ce445b7311a9afb95b6c1e4bc46e898a1",
-        "lux.button.hover.color": "551f5e14413f6d1d56df49c12232040d8f8b2e67",
-        "lux.button.focus.background-color": "c3b915c7aaf0de92803002af4a470e33167278e8",
-        "lux.button.focus.border-color": "09e48e49192a5b0d93cd3fb8878c57aa25d51477",
-        "lux.button.focus.color": "56926c7aab55247edde5b6a55420f62f472e3b84",
-        "lux.button.active.background-color": "eb8a3d159be220dcc195d26cbe542224f4d217d3",
-        "lux.button.active.border-color": "52eb83432e7a7a1018e51148da5229772b7e3534",
-        "lux.button.active.color": "14d7dd275dfd3097ce124cdf0a1391b011caca4c",
-        "lux.button.border-radius": "b4fb4bb91e061bef8b41aa97ed0ef1a4b697337f",
-        "lux.button.border-width": "72ec17329fe494069db1a05de89a325cff8acddd"
+        "lux.button.min-block-size": "06fc183b275d39c3399131d066b5e67f6d96efe6",
+        "lux.button.min-inline-size": "69f0c0eb350f2b9b58bba53a15c723d44420d650"
       },
       "group": "component"
     },
@@ -2008,11 +1958,12 @@
         "lux.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
         "lux.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
         "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e",
-        "product.button.secondary.border-color": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
         "product.button.secondary.color": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
+        "product.button.secondary.border-color": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
+        "product.button.secondary.background-color": "6dded902532438d7bf399592daea31635a54440d",
         "product.button.secondary.hover.border-color": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
-        "product.button.secondary.hover.background-color": "546d717c3eaedf01264690d1d5779dcce3c2af14",
         "product.button.secondary.hover.color": "45f35291164fd09226f1c4ef780e8a6f32df38ff",
+        "product.button.secondary.hover.background-color": "546d717c3eaedf01264690d1d5779dcce3c2af14",
         "product.button.tertiary.color": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
         "product.button.tertiary.hover.color": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
         "product.button.tertiary.hover.background-color": "eab9d76059c73fdde9167fea7572f25774117cc8"
@@ -2238,11 +2189,12 @@
         "lux.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
         "lux.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
         "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e",
-        "product.button.secondary.border-color": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
         "product.button.secondary.color": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
+        "product.button.secondary.border-color": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
+        "product.button.secondary.background-color": "6dded902532438d7bf399592daea31635a54440d",
         "product.button.secondary.hover.border-color": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
-        "product.button.secondary.hover.background-color": "546d717c3eaedf01264690d1d5779dcce3c2af14",
         "product.button.secondary.hover.color": "45f35291164fd09226f1c4ef780e8a6f32df38ff",
+        "product.button.secondary.hover.background-color": "546d717c3eaedf01264690d1d5779dcce3c2af14",
         "product.button.tertiary.color": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
         "product.button.tertiary.hover.color": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
         "product.button.tertiary.hover.background-color": "eab9d76059c73fdde9167fea7572f25774117cc8"
@@ -2253,7 +2205,8 @@
       "id": "f5b6c8fb09c0a683c6037de2c2b4bb8c553ff9e8",
       "name": "DigiD",
       "selectedTokenSets": {
-        "product/DigiD": "enabled"
+        "product/DigiD": "enabled",
+        "product/Logius": "enabled"
       },
       "$figmaStyleReferences": {
         "common.highlight.base": "S:f8f46a43b805f4723eadb8c5fb2b20b8f220376c,",
@@ -2551,14 +2504,14 @@
         "lux.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
         "lux.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
         "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e",
-        "product.button.secondary.border-color": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
-        "product.button.secondary.color": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
-        "product.button.secondary.hover.border-color": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
-        "product.button.secondary.hover.background-color": "546d717c3eaedf01264690d1d5779dcce3c2af14",
-        "product.button.secondary.hover.color": "45f35291164fd09226f1c4ef780e8a6f32df38ff",
-        "product.button.tertiary.color": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
-        "product.button.tertiary.hover.color": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
-        "product.button.tertiary.hover.background-color": "eab9d76059c73fdde9167fea7572f25774117cc8"
+        "product.button.color.secondary.border-color": "907a6ccecc6da3455e31e4d2170c7dd68d1dcfba",
+        "product.button.color.secondary.color": "65f7b65ff6c0e004b17d938ff25c168dc57b565b",
+        "product.button.color.secondary.hover.border-color": "80f9745106494e6e106da933e194fc237e0befaf",
+        "product.button.color.secondary.hover.color": "4a3c32c5e3480a7482b72d2628123a690064bbb6",
+        "product.button.color.secondary.hover.background-color": "2006e5c0ebd22eafb562e0c33f7ac8f42371a4be",
+        "product.button.color.tertiary.color": "b68aa71c3d0ae5902365f1b02d8167f89e953594",
+        "product.button.color.tertiary.hover.color": "e66997771c09127643328996b6209463d8d1a1ed",
+        "product.button.color.tertiary.hover.background-color": "d733f1214922d2981bb93fe9e9f8a1738da43652"
       },
       "group": "product"
     },
@@ -2572,7 +2525,15 @@
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:17",
       "$figmaVariableReferences": {
+        "lux.color.foreground.default": "0e536ce1395ccbdb153a2bc4ea77d3e7347e8654",
+        "lux.color.background.default": "5666681dae9eedc23f6907ca8ae1186ec8550e9e",
+        "lux.color.border.default": "a63eb359819398bddda58f348a2356bd60165679",
         "lux.color.canvas": "a8ad30715ee9f4db4c87cfa2a16798e9406cc63c",
+        "lux.color.foreground.subdued": "7989c557fda35639c5de39fd4060e372d1f5fc3c",
+        "lux.color.background.subdued": "5daa76c2435f7f66c2a85ef06905045ae42a127a",
+        "lux.color.border.subdued": "39e7f1a08600f868c3e560f19b920fc8fee40ae9",
+        "lux.color.background.hover": "0a5febc70f135b0cc7346a0dcd1cf05d503d127e",
+        "lux.color.foreground.onEmphasis": "c6efbe962e372b71409015df15f7104524132d92",
         "lux.color.feedback.success.default": "4b8a7cfa2729733bd90a4da71f409126e99ea2b4",
         "lux.color.feedback.success.subdued": "88d9d6230dc55aaadac3207dddbfd99f87634b98",
         "lux.color.feedback.info.default": "4b0b19ef949e0211d6641f3ba6e96763b8568dbd",
@@ -2581,22 +2542,21 @@
         "lux.color.feedback.error.subdued": "f048eacb89b0beb47af0091cfe40c194ca25968c",
         "lux.color.feedback.warning.default": "3e593a95b89f7209f1038465d0d91cc36d151b8e",
         "lux.color.feedback.warning.subdued": "79f380949c707007c9e2fa4f561789451d704af6",
-        "lux.color.foreground.default": "0e536ce1395ccbdb153a2bc4ea77d3e7347e8654",
-        "lux.color.background.default": "5666681dae9eedc23f6907ca8ae1186ec8550e9e",
-        "lux.color.border.default": "a63eb359819398bddda58f348a2356bd60165679",
-        "lux.color.foreground.subdued": "7989c557fda35639c5de39fd4060e372d1f5fc3c",
-        "lux.color.background.subdued": "5daa76c2435f7f66c2a85ef06905045ae42a127a",
-        "lux.color.border.subdued": "39e7f1a08600f868c3e560f19b920fc8fee40ae9",
-        "lux.color.foreground.onEmphasis": "c6efbe962e372b71409015df15f7104524132d92",
-        "lux.color.background.hover": "0a5febc70f135b0cc7346a0dcd1cf05d503d127e",
-        "mode.button.secondary.color": "d5746bb8f35cf70d0b43c63f4875fda24365fef4",
-        "mode.button.secondary.border-color": "2c44cd359fb7e4943ca9e5bf4b4a759e46005c1c",
+        "mode.button.tertiary.hover.background-color": "ca64b57ffce6e8e4bee6e753afa298517af2ee72",
+        "mode.button.tertiary.hover.color": "c3e31ed3bc5b4ba506f02ced6da358fc6043ee78",
+        "mode.button.tertiary.color": "41f1b4293087e908504c96075d0f12d882f4c38b",
         "mode.button.secondary.hover.color": "f77f9ca9f09781fe1286f5d49360318f77614f3d",
         "mode.button.secondary.hover.background-color": "0d97d8b2cfbfd0f37023103621315fe68d1e9abb",
         "mode.button.secondary.hover.border-color": "d405b7ba1cece0cb2e96ba2853bdcf1c43e46795",
-        "mode.button.tertiary.color": "41f1b4293087e908504c96075d0f12d882f4c38b",
-        "mode.button.tertiary.hover.background-color": "ca64b57ffce6e8e4bee6e753afa298517af2ee72",
-        "mode.button.tertiary.hover.color": "c3e31ed3bc5b4ba506f02ced6da358fc6043ee78"
+        "mode.button.secondary.color": "d5746bb8f35cf70d0b43c63f4875fda24365fef4",
+        "mode.button.secondary.border-color": "2c44cd359fb7e4943ca9e5bf4b4a759e46005c1c",
+        "mode.login-method-button.active.background-color": "b24f6a6b41ae311d3b84b0b7b0c417d211615cc3",
+        "mode.button.secondary.background-color": "74277e7ab2eeabca9d87ebc4b3aa79e3696a9046",
+        "mode.login-method-button.icon.eidas.stars-color": "8b08b2b3e55efdd92959f0af35e518c14d8debfc",
+        "mode.login-method-button.icon.eidas.lock-color": "62fc2ae2cbed67dda2dc33bb6db9a5bb958bcfe1",
+        "mode.login-method-button.icon.eidas.lines-color": "2c0f8e96d8659a264c6a30c77d5cf1f26c6fa8e9",
+        "mode.login-method-button.icon.eidas.background-color": "e4deb2185e3ab84357c2260f535b2015ead97523",
+        "mode.login-method-button.icon.eherkenning.e-color": "daf2298e85d6d37667cee47606c60b0d7969feb5"
       },
       "group": "mode"
     },
@@ -2611,7 +2571,31 @@
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:18",
       "$figmaVariableReferences": {
+        "lux.color.foreground.,default": "3bf8eb1a28c9af18234ad3ded6203115c146e6dd",
+        "lux.color.background.default": "5666681dae9eedc23f6907ca8ae1186ec8550e9e",
+        "lux.color.border.default": "a63eb359819398bddda58f348a2356bd60165679",
         "lux.color.canvas": "a8ad30715ee9f4db4c87cfa2a16798e9406cc63c",
+        "lux.color.foreground.subdued": "7989c557fda35639c5de39fd4060e372d1f5fc3c",
+        "lux.color.background.subdued": "5daa76c2435f7f66c2a85ef06905045ae42a127a",
+        "lux.color.border.subdued": "39e7f1a08600f868c3e560f19b920fc8fee40ae9",
+        "lux.color.background.hover": "0a5febc70f135b0cc7346a0dcd1cf05d503d127e",
+        "lux.color.foreground.onEmphasis": "c6efbe962e372b71409015df15f7104524132d92",
+        "mode.button.tertiary.hover.background-color": "ca64b57ffce6e8e4bee6e753afa298517af2ee72",
+        "mode.button.tertiary.hover.color": "c3e31ed3bc5b4ba506f02ced6da358fc6043ee78",
+        "mode.button.tertiary.color": "41f1b4293087e908504c96075d0f12d882f4c38b",
+        "mode.button.secondary.hover.color": "f77f9ca9f09781fe1286f5d49360318f77614f3d",
+        "mode.button.secondary.hover.background-color": "0d97d8b2cfbfd0f37023103621315fe68d1e9abb",
+        "mode.button.secondary.hover.border-color": "d405b7ba1cece0cb2e96ba2853bdcf1c43e46795",
+        "mode.button.secondary.color": "d5746bb8f35cf70d0b43c63f4875fda24365fef4",
+        "mode.button.secondary.border-color": "2c44cd359fb7e4943ca9e5bf4b4a759e46005c1c",
+        "mode.button.secondary.background-color": "74277e7ab2eeabca9d87ebc4b3aa79e3696a9046",
+        "mode.login-method-button.active.background-color": "b24f6a6b41ae311d3b84b0b7b0c417d211615cc3",
+        "mode.login-method-button.icon.eidas.stars-color": "8b08b2b3e55efdd92959f0af35e518c14d8debfc",
+        "mode.login-method-button.icon.eidas.lock-color": "62fc2ae2cbed67dda2dc33bb6db9a5bb958bcfe1",
+        "mode.login-method-button.icon.eidas.lines-color": "2c0f8e96d8659a264c6a30c77d5cf1f26c6fa8e9",
+        "mode.login-method-button.icon.eidas.background-color": "e4deb2185e3ab84357c2260f535b2015ead97523",
+        "mode.login-method-button.icon.eherkenning.e-color": "daf2298e85d6d37667cee47606c60b0d7969feb5",
+        "lux.color.foreground.default": "0e536ce1395ccbdb153a2bc4ea77d3e7347e8654",
         "lux.color.feedback.success.default": "4b8a7cfa2729733bd90a4da71f409126e99ea2b4",
         "lux.color.feedback.success.subdued": "88d9d6230dc55aaadac3207dddbfd99f87634b98",
         "lux.color.feedback.info.default": "4b0b19ef949e0211d6641f3ba6e96763b8568dbd",
@@ -2619,23 +2603,7 @@
         "lux.color.feedback.error.default": "e0ff8cdc04c57274fa29a26f018ed6888be9cf7e",
         "lux.color.feedback.error.subdued": "f048eacb89b0beb47af0091cfe40c194ca25968c",
         "lux.color.feedback.warning.default": "3e593a95b89f7209f1038465d0d91cc36d151b8e",
-        "lux.color.feedback.warning.subdued": "79f380949c707007c9e2fa4f561789451d704af6",
-        "lux.color.foreground.default": "0e536ce1395ccbdb153a2bc4ea77d3e7347e8654",
-        "lux.color.background.default": "5666681dae9eedc23f6907ca8ae1186ec8550e9e",
-        "lux.color.border.default": "a63eb359819398bddda58f348a2356bd60165679",
-        "lux.color.foreground.subdued": "7989c557fda35639c5de39fd4060e372d1f5fc3c",
-        "lux.color.background.subdued": "5daa76c2435f7f66c2a85ef06905045ae42a127a",
-        "lux.color.border.subdued": "39e7f1a08600f868c3e560f19b920fc8fee40ae9",
-        "lux.color.foreground.onEmphasis": "c6efbe962e372b71409015df15f7104524132d92",
-        "lux.color.background.hover": "0a5febc70f135b0cc7346a0dcd1cf05d503d127e",
-        "mode.button.secondary.color": "d5746bb8f35cf70d0b43c63f4875fda24365fef4",
-        "mode.button.secondary.border-color": "2c44cd359fb7e4943ca9e5bf4b4a759e46005c1c",
-        "mode.button.secondary.hover.color": "f77f9ca9f09781fe1286f5d49360318f77614f3d",
-        "mode.button.secondary.hover.background-color": "0d97d8b2cfbfd0f37023103621315fe68d1e9abb",
-        "mode.button.secondary.hover.border-color": "d405b7ba1cece0cb2e96ba2853bdcf1c43e46795",
-        "mode.button.tertiary.color": "41f1b4293087e908504c96075d0f12d882f4c38b",
-        "mode.button.tertiary.hover.background-color": "ca64b57ffce6e8e4bee6e753afa298517af2ee72",
-        "mode.button.tertiary.hover.color": "c3e31ed3bc5b4ba506f02ced6da358fc6043ee78"
+        "lux.color.feedback.warning.subdued": "79f380949c707007c9e2fa4f561789451d704af6"
       },
       "group": "mode"
     },
@@ -2650,12 +2618,10 @@
       "$figmaCollectionId": "VariableCollectionId:6:228",
       "$figmaModeId": "6:19",
       "$figmaVariableReferences": {
-        "lux.size.2xs": "6653ffef10f89faebbf979b9a07d9d1a24386425",
-        "lux.size.xs": "6589572a40a6b7c805b85300c23a9c5ff45e4795",
-        "lux.size.s": "f19cadd667d695f4b0d6ff2978b16a232973cd13",
-        "lux.size.m": "00e82a8efe7e811c77c263b7a4a13892558063fb",
         "lux.icon.size.default": "967422af41b9242f8f134d86ed6602d78682b446",
-        "lux.icon.size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb"
+        "lux.icon.size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb",
+        "lux.size.icon.wrapper-height": "4f71d0a94d60940b448889b22665dd2b3e35e70f",
+        "lux.size.target": "b5235cc07a514fda63b62dcaf417248373989d92"
       }
     },
     {
@@ -2670,12 +2636,10 @@
       "$figmaCollectionId": "VariableCollectionId:6:228",
       "$figmaModeId": "6:20",
       "$figmaVariableReferences": {
-        "lux.size.2xs": "6653ffef10f89faebbf979b9a07d9d1a24386425",
-        "lux.size.xs": "6589572a40a6b7c805b85300c23a9c5ff45e4795",
-        "lux.size.s": "f19cadd667d695f4b0d6ff2978b16a232973cd13",
-        "lux.size.m": "00e82a8efe7e811c77c263b7a4a13892558063fb",
+        "lux.size.icon.wrapper-height": "4f71d0a94d60940b448889b22665dd2b3e35e70f",
         "lux.icon.size.default": "967422af41b9242f8f134d86ed6602d78682b446",
-        "lux.icon.size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb"
+        "lux.icon.size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb",
+        "lux.size.target": "b5235cc07a514fda63b62dcaf417248373989d92"
       }
     },
     {
@@ -2711,9 +2675,9 @@
       "name": "secondary",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/variant/secondary": "enabled"
+        "component/button/variant/secondary": "enabled",
+        "component/button/variant/primary": "enabled"
       },
-      "group": "button/variant",
       "$figmaCollectionId": "VariableCollectionId:5:163",
       "$figmaModeId": "5:11",
       "$figmaVariableReferences": {
@@ -2732,20 +2696,183 @@
         "lux.button.active.background-color": "7da3cfed940f5ac514304a106c39219d0fa8a0b9",
         "lux.button.active.border-color": "91e5b7110b7fec99bcc31f62dc3b7d713a691726",
         "lux.button.active.color": "014df02090486a30527b47df59bb19195d9aaf68"
-      }
+      },
+      "group": "button/variant"
     },
     {
       "id": "b2e1ec9e17bb496c34acd0200f8fb30af1a810ac",
       "name": "tertairy",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "core": "enabled",
-        "viewport/default": "enabled",
-        "product/Logius": "enabled",
-        "mode/light": "enabled",
-        "component/button/default": "enabled",
-        "component/button/variant/tertairy": "enabled"
+        "component/button/variant/tertairy": "enabled",
+        "component/button/variant/primary": "enabled",
+        "component/button/variant/secondary": "enabled"
       },
+      "$figmaVariableReferences": {
+        "lux.button.background-color": "6565f5856bb22b81dd502166f5b1cf195a007d97",
+        "lux.button.border-color": "502392baa5e582ca6f564fb8b322a7d20dab48db",
+        "lux.button.color": "e65f85ff3c76700d161b8719ba042e80dce6ff91",
+        "lux.button.disabled.background-color": "4e17efcd08744ff5c27e05bdbfebed681d46c234",
+        "lux.button.disabled.border-color": "c2bfbdecd74994607610de276904736bd4e523c9",
+        "lux.button.disabled.color": "aa5628e94d443c1a34ea0c39cfd979bd2ce077f3",
+        "lux.button.hover.background-color": "5e0954cbca8a6636b2bcd8e68c318b9493a06285",
+        "lux.button.hover.border-color": "c3978355a25c1531e3e297342d8cd0f709fec0a4",
+        "lux.button.hover.color": "e57f547242760f03ae4cd98794e77aafeb61217a",
+        "lux.button.focus.background-color": "d616b96a9768cdabf6f3d17b566c47234c952805",
+        "lux.button.focus.border-color": "e6bb9af9ef1c944f8f5879cd7898c0c0886f64af",
+        "lux.button.focus.color": "34240304c947a2fbe4441605f352b33e521fe5c6",
+        "lux.button.active.background-color": "7da3cfed940f5ac514304a106c39219d0fa8a0b9",
+        "lux.button.active.border-color": "91e5b7110b7fec99bcc31f62dc3b7d713a691726",
+        "lux.button.active.color": "014df02090486a30527b47df59bb19195d9aaf68",
+        "lux.button.border-radius": "035684520e76a8ba5fc4a636d11bbf5a2ee55b51",
+        "lux.button.border-width": "7b67579a481196f802200447d216ab8d5b66d148",
+        "lux.button.icon.size": "d60e3108e9e1a417e5d2e05e8f367709143a4d9d",
+        "lux.button.icon.margin-inline": "9091504f3fd52b07fe9d72d4e7aa2704c88005e0",
+        "lux.button.padding-block-end": "9886e0e26e9cca8eb9db3d24a1c62f564edccf97",
+        "lux.button.padding-block-start": "85563d7c6c49e6ff2a69d7ccab6da8ce42de76f2",
+        "lux.button.padding-inline-end": "dc8dbd6c7bbf24709b5bdecc2e8e3888682b1e6b",
+        "lux.button.padding-inline-start": "b194cafbd6a3794868ec4086f8b17aaadac9cf13",
+        "lux.button.min-block-size": "a922d19072cd9d2768248ed2b6ba72d535e2a240",
+        "lux.button.min-inline-size": "ad7f83c52ea4c652384ca6572e9779e6a29b2432",
+        "lux.color.foreground.default": "15ec86f4535fa3c62a68a88570679493e13736de",
+        "lux.color.background.default": "ac8c0bf7ff7c3739afe8521ec4c369158f2a77c5",
+        "lux.color.border.default": "4bea6963169ff1c80b4de0ea22b7ebc5a0dfc3e1",
+        "lux.color.canvas": "16cf488979976ccda921630851ac3ab51eb18b1f",
+        "lux.color.foreground.subdued": "930b92f437d03c8946cfb737527413e711f301d6",
+        "lux.color.background.subdued": "80d5d3ef4e4037b712eaa1062a1f20f524b7aeea",
+        "lux.color.border.subdued": "5c927c7063bb731bdeb7227f04ec266a64a67cef",
+        "lux.color.background.hover": "caf5e14fe1b17502a7eb99465196a01b1424e3b4",
+        "lux.color.foreground.onEmphasis": "680575ff3dcd992a2b4da17a30bd71668efbe00b",
+        "lux.color.feedback.success.default": "e88d00620e9928a6584783f5fe93497ddcb747d8",
+        "lux.color.feedback.success.subdued": "ffc67db64ae41cdafe551f2df320135f347d36da",
+        "lux.color.feedback.info.default": "c36669663508e3dacc1b075ee6692d0978b96914",
+        "lux.color.feedback.info.subdued": "6af31c306f7ea2ffce2f904c685d006335ddb13e",
+        "lux.color.feedback.error.default": "30a459578b8d1e29acc3c44d3b6ab2eb616e0d83",
+        "lux.color.feedback.error.subdued": "3c24a4ff9a9b270c79d8e40f21b29a84d9665d8f",
+        "lux.color.feedback.warning.default": "601671061b03e6a8e5d4148c66531486667573ac",
+        "lux.color.feedback.warning.subdued": "562e0ef0730f9c236079adfd4408fa9613a364f2",
+        "mode.button.tertiary.hover.background-color": "b1d0417256120326cfd77343757ef7aa121c45d9",
+        "mode.button.tertiary.hover.color": "bdbeb4ab7c71115b47201daeb2e7e5fb0330ac69",
+        "mode.button.tertiary.color": "264186edece9fe1d6df6b5a7269df28a692f221a",
+        "mode.button.secondary.hover.color": "136773f9ff7b7f969b9d57a59fb97b13ab261e60",
+        "mode.button.secondary.hover.background-color": "2437144522a5392447d6d4b1df2634b3df137f23",
+        "mode.button.secondary.hover.border-color": "76b21471e532468ffdddc3abe864705b72ffebb4",
+        "mode.button.secondary.color": "74c57c7a032ed82b829826d0866550f8a00ebe7c",
+        "mode.button.secondary.border-color": "83c9bbf748ce4c516e5ea93536fe41006d15c520",
+        "mode.login-method-button.active.background-color": "58aeccbaddd43165272a46648b586d1b0392385c",
+        "mode.button.secondary.background-color": "c368171d393965dfad4ad60ef98b5b0384152b11",
+        "mode.login-method-button.icon.eidas.stars-color": "993384d2dbeaf9e8916732d2efb5d307f2bed435",
+        "mode.login-method-button.icon.eidas.lock-color": "c52bcb7d8385133a2939f251baac3efe32be71f9",
+        "mode.login-method-button.icon.eidas.lines-color": "74d0c2795e3525107028326a16f4a32737286265",
+        "mode.login-method-button.icon.eidas.background-color": "46c38b80e9509885563742dfd3d5886394404faf",
+        "mode.login-method-button.icon.eherkenning.e-color": "6fc854c90591684d2021f81ad4901052ee214525",
+        "lux.color.brand.default": "e48ff186a25cdeebf1d4232fb3b2c346b28bce5e",
+        "lux.color.brand.subdued": "8aad2d6c4db5d54f46e4fd568bb1558e7eaf0b31",
+        "lux.color.brand.hover": "e1f86eb7b7c4c7917fc80c00204793f49fec44f1",
+        "product.button.secondary.color": "12c6e782bb0b2d6b0a7dfe0cbf53d63e51ee26f1",
+        "product.button.secondary.border-color": "c052b73e379536c72e8e00310f6e7a389fa5543b",
+        "product.button.secondary.background-color": "ecc2e13e43678d71d285e17716ddc00310706e0f",
+        "product.button.secondary.hover.border-color": "2ac4a3584974ccce5ce684f8e8bd89e4643998e2",
+        "product.button.secondary.hover.color": "29c0623a5af1f967425827a7160dface2abe96d7",
+        "product.button.secondary.hover.background-color": "63b746120cf0db2130bd92bc735b6eb445e1a451",
+        "product.button.tertiary.color": "e6a199a761324a26c7ec37138465ce811bbece5f",
+        "product.button.tertiary.hover.color": "042036af1476dce6164b97cdd29bd04ff0496997",
+        "product.button.tertiary.hover.background-color": "6f1e58c76f03534da67b28c47f0cd9b99902caff",
+        "lux.icon.size.default": "64b83a750b18dee5cf078360b7aba7e5a5a53452",
+        "lux.icon.size.large": "be68e7aeea342380400bc809ce9bd4fee5a0b71b",
+        "lux.size.icon.wrapper-height": "bc21c8df6f1bf2f37200eb47e1bd5e80bbcf19a0",
+        "lux.size.target": "7f35f008ec6612d493aa26d1b1ec691a255a71e9",
+        "lux.color.grijs.100": "9054a71cb45d0d3e1282bdff5f90d3096392881c",
+        "lux.color.grijs.200": "3118f7313f84659ca56c39b519abaa4124766750",
+        "lux.color.grijs.300": "665a743c0eb213e0d36af1192b65e3f30774815f",
+        "lux.color.grijs.400": "bd96d49fb504109aea3fa636bfafb4802af625df",
+        "lux.color.grijs.500": "b87f63bc9075e38becb92846fa32fbf702aa61de",
+        "lux.color.grijs.600": "9e1385ca0c7bd6231ef17109fe51bed8961c12f6",
+        "lux.color.grijs.700": "a3f7f841e84e9ed94f34b2c68f430ec52091941d",
+        "lux.color.grijs.800": "325a5671097786566cf4dc72ac81063201f93cd1",
+        "lux.color.grijs.900": "ec7ebc06ce004d657c0ec5d45ee01ccf625ad000",
+        "lux.color.zwart": "3798bd0e9e1faae642ed24ef4f54dc270b4abb4f",
+        "lux.color.wit": "76ca8bab9814201f9c2a8c798b584e0b2ce9c62c",
+        "lux.color.none": "9bb4ba61a33d2a18d0d00921d938f531447e4add",
+        "lux.color.lichtblauw.100": "8fd915c15057ef42352019ed59a5d444e6b239ff",
+        "lux.color.lichtblauw.200": "bed796bdd47af55e25414e331bea8c9eea977264",
+        "lux.color.lichtblauw.300": "cd2cdcd2a29f5b8d1f8b7d735bfe9c0630636eb5",
+        "lux.color.violet.100": "a8715f13740daedd710bd4d5fc86246e08297497",
+        "lux.color.violet.200": "400bfbb4cd55b01eb7833a9f0ef03784acc8ec02",
+        "lux.color.violet.300": "cd4464caab04728692710650e25a86ab2d5593d5",
+        "lux.color.violet.400": "7813c347b1b7082ca0044630d1dd1499812e81fe",
+        "lux.color.paars.100": "36773e414384dafcf71ba866af6b2e0801397bd2",
+        "lux.color.paars.200": "c53b78d1808b19be52de0073a857a6bd7ea96d6c",
+        "lux.color.paars.300": "1b509cb737cb56688e418f43da679a6fe2abae7a",
+        "lux.color.paars.400": "c5245b2aeb06ef8a7714a589ff45752de3c762d3",
+        "lux.color.hemelblauw.100": "604c6abb471f819b764f4ad19b7ba5be3490ff6f",
+        "lux.color.hemelblauw.200": "7414916c68d875c2f79b337dd351d9ed54176354",
+        "lux.color.hemelblauw.300": "86f14e29b2a621094a9aa0d912d05db3b3ecb6ca",
+        "lux.color.hemelblauw.400": "e14b1f9d5e4013928228ab96d21dfc21b14b0a78",
+        "lux.color.donkerblauw.100": "6e0d173527ad2add45c439710566b19f95465cae",
+        "lux.color.donkerblauw.200": "16a03041135cf0c503553de8b58a29ec53b8a68c",
+        "lux.color.donkerblauw.300": "7a4e897caa95574a745a431443cb33e4bbf7ee5e",
+        "lux.color.donkerblauw.400": "854d25db4df0bdafe0fd603017dfa4079ed301d6",
+        "lux.color.mintgroen.100": "c1ef025c4517abb01d83daf013b7ac177d4e1c73",
+        "lux.color.mintgroen.200": "db33b63c9a5ae4e0b2d4fec2c063da376c8eef0a",
+        "lux.color.mintgroen.300": "588d9552883edaf00de08879ba086197ace1d29e",
+        "lux.color.mosgroen.100": "b06f3234fce9c310f0c32c8a2315c04ae4ec7192",
+        "lux.color.mosgroen.200": "fa9fa5997ca4c73670e59ad30fef13f75fd2a2b6",
+        "lux.color.mosgroen.300": "5a6ff12a5d0b26f6758788f8156a6f3cb9b21674",
+        "lux.color.groen.100": "c9d28c82cc012f0990ca24e1ab1c96c9edc133d2",
+        "lux.color.groen.200": "672a6c841bfe6c699ae719acfc289b1c80a70b5a",
+        "lux.color.groen.300": "62a040fca8e8f251b7aeac716268837a59386337",
+        "lux.color.groen.400": "a7a53286b706469ff89b96c8eab56dfff6c5a809",
+        "lux.color.donkergroen.100": "8bc524c0310137f6984e5170197243724735a9f2",
+        "lux.color.donkergroen.200": "897524a8bc8f2e0d2533a96d0f6aeefa9ca12210",
+        "lux.color.donkergroen.300": "4590df0903eab5a93d7c3575aa546eb48762e5a3",
+        "lux.color.bruin.100": "539df8b0efd4e01ef3d64767a574995b906a5ece",
+        "lux.color.bruin.200": "560cfe0cdbebcea78c49b9d4f6ca2427fa1f02f2",
+        "lux.color.bruin.300": "5a9d17e39cec046b4743a0ef1107b17d604b72c8",
+        "lux.color.donkerbruin.100": "8e033a5bff1908468150e6386801e327ac0219be",
+        "lux.color.donkerbruin.200": "897a2dbe29559f78f3679a01d11c4d704270610a",
+        "lux.color.donkerbruin.300": "75bf28e1acd35987804b2b5ec7dc8df6a3ea655f",
+        "lux.color.geel.100": "54193f186bceabc2c3b2070828cc549033e57153",
+        "lux.color.geel.200": "371170cd8d670e6869f02e1f2dfdcdfaa7c68989",
+        "lux.color.geel.300": "fd06ee35c0daa2f7728179531a90d339c72b9c38",
+        "lux.color.donkergeel.100": "a4620a8b21ec08d29b8de00913cc4f99e3fa3fbd",
+        "lux.color.donkergeel.200": "90f3bf5d660f4ae5c3b85a2a24476b805c0b3a2c",
+        "lux.color.donkergeel.300": "3a676e00a336142ac51f07f001d76838e310e53f",
+        "lux.color.donkergeel.400": "1747c29664fedbd36442f2888857dc32e546d3ea",
+        "lux.color.oranje.100": "953a8a9846c24f3eb13912cb50d17752ecaa6e15",
+        "lux.color.oranje.200": "6f3d9b137261a7b33038abed85e864be2ae6c015",
+        "lux.color.oranje.300": "627d9af5050d578c4a1655ff22170660bd0fd7cc",
+        "lux.color.oranje.400": "1660b177a8a25b8008dc702248d66e00453dfd58",
+        "lux.color.rood.100": "ddf3943c17926db3c7904fe10596265d6abfc401",
+        "lux.color.rood.200": "8dc971a23902d9ac3537b298b91cd26a744230c2",
+        "lux.color.rood.300": "716269900bc5c3666e6e22e530891461a75d8b06",
+        "lux.color.rood.400": "0072b09e9fa5224a8cf401f7d04356b159576ae6",
+        "lux.color.roze.100": "11e3348623403f464ff9988d034d8cb0f2058079",
+        "lux.color.roze.200": "f592de5ceb68838e5ac28d22d90e5d4bdd32e0de",
+        "lux.color.roze.300": "23d4eba0a27843bc4431c0bc2334508342faddd2",
+        "lux.color.robijnrood.100": "2749513b50f6ce91021d33ec86b75ae93feb85d1",
+        "lux.color.robijnrood.200": "06ee2ac3ec8aa156f50f69debc61737425377f57",
+        "lux.color.robijnrood.300": "93b685dcb4bf852594663b814a82e09ad486d2a6",
+        "lux.border-radius.default": "0f9bc36055454ed9f97d9cb3ebbc8f8b597ed17f",
+        "lux.border-radius.none": "50c4d8f2bd5840abc94030bc94ed679877aacf47",
+        "lux.border-width.default": "c91f14e188ea9f173356de24beea0e4b9c2f5047",
+        "lux.border-width.m": "714d76638cbc7b1b6544e87e42840bc7eceb893a",
+        "lux.border-width.none": "7bbc3e1442d80234c01826ff1c4504202e003675",
+        "lux.space.0-x": "5957d07258b4d6ad3f4035863cc5fa2d91a4e7a5",
+        "lux.space.025-x": "ad91857403b28f1254e3c2264e2aeb4a564de3fc",
+        "lux.space.05-x": "2630297fb17f9dab883adc1e87615cc06712ecab",
+        "lux.space.1-x": "28f755db73d19f9e3e0b0dd442cf2fff63943983",
+        "lux.space.105-x": "60f33262b875cad0d588bd86e65740eaa4a6e9ae",
+        "lux.space.2-x": "f8e7530fbbbd27809ddaa17c19e21ce7f4f5c7a4",
+        "lux.space.3-x": "6571ff60c127cfceabc7391128f720390c74c253",
+        "lux.space.4-x": "2452ea476f1bd2578f1f61460b238d8fcc85d32e",
+        "lux.space.5-x": "81958a0c08278c349ae82d8b3c26f0cf77db66d4",
+        "lux.space.6-x": "ac4119ec71adfef3657f50980abf53fcc7b0181c",
+        "lux.space.7-x": "b4ab4f8e85a88a61434fedd84bb64cbe86bc5488",
+        "lux.border-radius.m": "fd16a28a75dc10795b6e1ca99a044e7a3d04ad1a"
+      },
+      "$figmaCollectionId": "VariableCollectionId:5:163",
+      "$figmaModeId": "28:0",
       "group": "button/variant"
     }
   ],
