@@ -1892,7 +1892,8 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/default": "enabled"
+        "component/button/default": "enabled",
+        "component/login-method-button": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:5:92",
       "$figmaModeId": "5:2",
