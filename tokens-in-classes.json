@@ -330,15 +330,15 @@
       },
       "border-radius": {
         "default": {
-          "value": "4",
-          "type": "borderRadius"
-        },
-        "circle": {
-          "value": "50%",
+          "value": "4px",
           "type": "borderRadius"
         },
         "none": {
           "value": "0",
+          "type": "borderRadius"
+        },
+        "m": {
+          "value": "2px",
           "type": "borderRadius"
         }
       },
@@ -346,52 +346,6 @@
         "default": {
           "value": "RijksoverheidSansWebText",
           "type": "fontFamilies"
-        }
-      },
-      "font-size": {
-        "s": {
-          "value": "16",
-          "type": "fontSizes"
-        },
-        "m": {
-          "value": "18",
-          "type": "fontSizes"
-        },
-        "l": {
-          "value": "22",
-          "type": "fontSizes"
-        },
-        "xl": {
-          "value": "26",
-          "type": "fontSizes"
-        },
-        "2xl": {
-          "value": "40",
-          "type": "fontSizes"
-        }
-      },
-      "font": {
-        "line-height": {
-          "s": {
-            "value": "24",
-            "type": "lineHeights"
-          },
-          "m": {
-            "value": "28",
-            "type": "lineHeights"
-          },
-          "l": {
-            "value": "32",
-            "type": "lineHeights"
-          },
-          "xl": {
-            "value": "36",
-            "type": "lineHeights"
-          },
-          "2xl": {
-            "value": "56",
-            "type": "lineHeights"
-          }
         }
       },
       "border-width": {
@@ -515,16 +469,6 @@
             "type": "typography"
           }
         },
-        "paragraph": {
-          "default": {
-            "value": "{lux.font.body.m-400}",
-            "type": "typography"
-          },
-          "lead": {
-            "value": "{lux.font.body.l-400}",
-            "type": "typography"
-          }
-        },
         "heading": {
           "level-4": {
             "700": {
@@ -597,179 +541,132 @@
               "type": "typography"
             }
           }
+        },
+        "line-height": {
+          "s": {
+            "value": "24px",
+            "type": "lineHeights"
+          },
+          "m": {
+            "value": "28px",
+            "type": "lineHeights"
+          },
+          "l": {
+            "value": "32px",
+            "type": "lineHeights"
+          },
+          "xl": {
+            "value": "36px",
+            "type": "lineHeights"
+          },
+          "2xl": {
+            "value": "56px",
+            "type": "lineHeights"
+          }
+        }
+      },
+      "icon": {
+        "size": {
+          "default": {
+            "value": "{lux.space.2-x}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{lux.space.3-x}",
+            "type": "sizing"
+          }
         }
       },
       "size": {
-        "2xs": {
-          "value": "{lux.space.2-x}",
-          "type": "sizing"
+        "icon": {
+          "wrapper-height": {
+            "value": "28px",
+            "type": "sizing"
+          }
         },
-        "xs": {
-          "value": "{lux.space.3-x}",
-          "type": "sizing"
-        },
-        "s": {
-          "value": "{lux.space.4-x}",
-          "type": "sizing"
-        },
-        "m": {
-          "value": "{lux.space.6-x}",
+        "target": {
+          "value": "48px",
           "type": "sizing"
         }
       },
-      "icon-size": {
-        "default": {
-          "value": "{lux.space.2-x}",
-          "type": "sizing"
+      "font-size": {
+        "s": {
+          "value": "16px",
+          "type": "fontSizes"
         },
-        "large": {
-          "value": "{lux.space.3-x}",
-          "type": "sizing"
+        "m": {
+          "value": "18px",
+          "type": "fontSizes"
+        },
+        "l": {
+          "value": "22px",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "26px",
+          "type": "fontSizes"
+        },
+        "2xl": {
+          "value": "40px",
+          "type": "fontSizes"
         }
       }
     }
   },
   "viewport/xs": {
     "lux": {
+      "size": {
+        "icon": {
+          "wrapper-height": {
+            "value": "28px",
+            "type": "sizing"
+          }
+        }
+      },
       "font": {
-        "body": {
-          "s-400": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{lux.font.line-height.s}",
-              "fontSize": "{lux.font-size.s}"
-            },
-            "type": "typography"
+        "line-height": {
+          "s": {
+            "value": "24px",
+            "type": "lineHeights"
           },
-          "s-700": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{lux.font.line-height.s}",
-              "fontSize": "{lux.font-size.s}"
-            },
-            "type": "typography"
+          "m": {
+            "value": "24px",
+            "type": "lineHeights"
           },
-          "m-400": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{lux.font.line-height.m}",
-              "fontSize": "{lux.font-size.m}"
-            },
-            "type": "typography"
+          "l": {
+            "value": "28px",
+            "type": "lineHeights"
           },
-          "m-700": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{lux.font.line-height.m}",
-              "fontSize": "{lux.font-size.m}"
-            },
-            "type": "typography"
+          "xl": {
+            "value": "32px",
+            "type": "lineHeights"
           },
-          "l-400": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{lux.font.line-height.l}",
-              "fontSize": "{lux.font-size.l}"
-            },
-            "type": "typography"
-          },
-          "l-700": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{lux.font.line-height.l}",
-              "fontSize": "{lux.font-size.l}"
-            },
-            "type": "typography"
+          "2xl": {
+            "value": "36px",
+            "type": "lineHeights"
           }
+        }
+      },
+      "font-size": {
+        "s": {
+          "value": "14px",
+          "type": "fontSizes"
         },
-        "paragraph": {
-          "default": {
-            "value": "{lux.font.body.m-400}",
-            "type": "typography"
-          },
-          "lead": {
-            "value": "{lux.font.body.l-400}",
-            "type": "typography"
-          }
+        "m": {
+          "value": "16px",
+          "type": "fontSizes"
         },
-        "heading": {
-          "level-4": {
-            "700": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Bold",
-                "lineHeight": "{lux.font.line-height.m}",
-                "fontSize": "{lux.font-size.m}"
-              },
-              "type": "typography"
-            }
-          },
-          "level-3": {
-            "400": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Regular",
-                "lineHeight": "{lux.font.line-height.l}",
-                "fontSize": "{lux.font-size.l}"
-              },
-              "type": "typography"
-            },
-            "700": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Bold",
-                "lineHeight": "{lux.font.line-height.l}",
-                "fontSize": "{lux.font-size.l}"
-              },
-              "type": "typography"
-            }
-          },
-          "level-2": {
-            "400": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Regular",
-                "lineHeight": "{lux.font.line-height.xl}",
-                "fontSize": "{lux.font-size.xl}"
-              },
-              "type": "typography"
-            },
-            "700": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Bold",
-                "lineHeight": "{lux.font.line-height.xl}",
-                "fontSize": "{lux.font-size.xl}"
-              },
-              "type": "typography"
-            }
-          },
-          "level-1": {
-            "400": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Regular",
-                "lineHeight": "{lux.font.line-height.2xl}",
-                "fontSize": "{lux.font-size.2xl}"
-              },
-              "type": "typography"
-            },
-            "700": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Bold",
-                "lineHeight": "{lux.font.line-height.2xl}",
-                "fontSize": "{lux.font-size.2xl}"
-              },
-              "type": "typography"
-            }
-          }
+        "l": {
+          "value": "20px",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "24px",
+          "type": "fontSizes"
+        },
+        "2xl": {
+          "value": "36px",
+          "type": "fontSizes"
         }
       }
     }
@@ -795,45 +692,47 @@
     },
     "product": {
       "button": {
-        "color": {
-          "secondary": {
-            "border": {
-              "value": "{lux.color.brand.default}",
-              "type": "color"
-            },
-            "foreground": {
-              "value": "{lux.color.brand.default}",
-              "type": "color"
-            },
-            "hover": {
-              "border": {
-                "value": "{lux.color.brand.hover}",
-                "type": "color"
-              },
-              "foreground": {
-                "value": "{lux.color.brand.hover}",
-                "type": "color"
-              },
-              "background": {
-                "value": "{lux.color.brand.subdued}",
-                "type": "color"
-              }
-            }
+        "secondary": {
+          "color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color"
           },
-          "tertiary": {
-            "foreground": {
-              "value": "{lux.color.brand.default}",
+          "border-color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color"
+          },
+          "background-color": {
+            "value": "none",
+            "type": "color"
+          },
+          "hover": {
+            "border-color": {
+              "value": "{lux.color.brand.hover}",
               "type": "color"
             },
-            "hover": {
-              "foreground": {
-                "value": "{lux.color.brand.hover}",
-                "type": "color"
-              },
-              "background": {
-                "value": "{lux.color.brand.subdued}",
-                "type": "color"
-              }
+            "color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color"
+            },
+            "background-color": {
+              "value": "{lux.color.brand.subdued}",
+              "type": "color"
+            }
+          }
+        },
+        "tertiary": {
+          "color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color"
+          },
+          "hover": {
+            "color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color"
+            },
+            "background-color": {
+              "value": "{lux.color.brand.subdued}",
+              "type": "color"
             }
           }
         }
@@ -883,40 +782,40 @@
       "button": {
         "color": {
           "secondary": {
-            "border": {
+            "border-color": {
               "value": "{lux.color.border.default}",
               "type": "color"
             },
-            "foreground": {
+            "color": {
               "value": "{lux.color.foreground.default}",
               "type": "color"
             },
             "hover": {
-              "border": {
+              "border-color": {
                 "value": "{mode.button.secondary.border-color}",
                 "type": "color"
               },
-              "foreground": {
+              "color": {
                 "value": "{lux.color.foreground.default}",
                 "type": "color"
               },
-              "background": {
+              "background-color": {
                 "value": "{lux.color.background.hover}",
                 "type": "color"
               }
             }
           },
           "tertiary": {
-            "foreground": {
+            "color": {
               "value": "{lux.color.foreground.default}",
               "type": "color"
             },
             "hover": {
-              "foreground": {
+              "color": {
                 "value": "{lux.color.foreground.default}",
                 "type": "color"
               },
-              "background": {
+              "background-color": {
                 "value": "{lux.color.background.hover}",
                 "type": "color"
               }
@@ -926,7 +825,7 @@
       }
     }
   },
-  "product/NL doc": {
+  "product/NL doc/Rijksoverheid": {
     "lux": {
       "color": {
         "brand": {
@@ -943,51 +842,11 @@
             "type": "color"
           }
         }
-      }
-    },
-    "product": {
-      "button": {
-        "color": {
-          "secondary": {
-            "border": {
-              "value": "{lux.color.border.default}",
-              "type": "color"
-            },
-            "foreground": {
-              "value": "{lux.color.foreground.default}",
-              "type": "color"
-            },
-            "hover": {
-              "border": {
-                "value": "{mode.button.secondary.border-color}",
-                "type": "color"
-              },
-              "foreground": {
-                "value": "{lux.color.foreground.default}",
-                "type": "color"
-              },
-              "background": {
-                "value": "{lux.color.background.hover}",
-                "type": "color"
-              }
-            }
-          },
-          "tertiary": {
-            "foreground": {
-              "value": "{lux.color.foreground.default}",
-              "type": "color"
-            },
-            "hover": {
-              "foreground": {
-                "value": "{lux.color.foreground.default}",
-                "type": "color"
-              },
-              "background": {
-                "value": "{lux.color.background.hover}",
-                "type": "color"
-              }
-            }
-          }
+      },
+      "border-radius": {
+        "default": {
+          "value": "0",
+          "type": "borderRadius"
         }
       }
     }
@@ -1094,40 +953,40 @@
         "tertiary": {
           "hover": {
             "background-color": {
-              "value": "{product.button.color.tertiary.hover.background}",
+              "value": "{product.button.tertiary.hover.background-color}",
               "type": "color"
             },
             "color": {
-              "value": "{product.button.color.tertiary.hover.foreground}",
+              "value": "{product.button.tertiary.hover.color}",
               "type": "color"
             }
           },
           "color": {
-            "value": "{product.button.color.tertiary.foreground}",
+            "value": "{product.button.tertiary.color}",
             "type": "color"
           }
         },
         "secondary": {
           "hover": {
             "color": {
-              "value": "{product.button.color.secondary.hover.foreground}",
+              "value": "{product.button.secondary.hover.color}",
               "type": "color"
             },
             "background-color": {
-              "value": "{product.button.color.secondary.hover.background}",
+              "value": "{product.button.secondary.hover.background-color}",
               "type": "color"
             },
             "border-color": {
-              "value": "{product.button.color.secondary.hover.border}",
+              "value": "{product.button.secondary.hover.border-color}",
               "type": "color"
             }
           },
           "color": {
-            "value": "{product.button.color.secondary.foreground}",
+            "value": "{product.button.secondary.color}",
             "type": "color"
           },
           "border-color": {
-            "value": "{product.button.color.secondary.border}",
+            "value": "{product.button.secondary.border-color}",
             "type": "color"
           },
           "background-color": {
@@ -1176,105 +1035,143 @@
     "lux": {
       "color": {
         "foreground": {
-          "value": "{lux.color.grijs.100}",
-          "type": "color"
+          ",default": {
+            "value": "{lux.color.grijs.100}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {}
+            }
+          },
+          "subdued": {
+            "value": "{lux.color.grijs.400}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {}
+            }
+          },
+          "onEmphasis": {
+            "value": "{lux.color.wit}",
+            "type": "color",
+            "description": "Text on stong backgrounds. Eg text on the brand color or the footer text",
+            "$extensions": {
+              "studio.tokens": {}
+            }
+          }
         },
         "background": {
-          "value": "{lux.color.grijs.700}",
-          "type": "color"
+          "default": {
+            "value": "{lux.color.grijs.700}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {}
+            }
+          },
+          "subdued": {
+            "value": "{lux.color.grijs.800}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {}
+            }
+          },
+          "hover": {
+            "value": "{lux.color.grijs.600}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {}
+            }
+          }
         },
         "border": {
-          "value": "{lux.color.grijs.500}",
-          "type": "color"
+          "default": {
+            "value": "{lux.color.grijs.500}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {}
+            }
+          },
+          "subdued": {
+            "value": "{lux.color.grijs.600}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {}
+            }
+          }
         },
         "canvas": {
           "value": "{lux.color.zwart}",
           "type": "color",
           "description": "component-token"
-        },
-        "subdued": {
-          "foreground": {
-            "value": "{lux.color.grijs.400}",
-            "type": "color"
-          },
-          "background": {
-            "value": "{lux.color.grijs.800}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{lux.color.grijs.600}",
-            "type": "color"
-          }
-        },
-        "hover": {
-          "background": {
-            "value": "{lux.color.grijs.600}",
-            "type": "color"
-          }
-        },
-        "onEmphasis": {
-          "foreground": {
-            "value": "{lux.color.wit}",
-            "type": "color",
-            "description": "Text on stong backgrounds. Eg text on the brand color or the footer text"
-          }
         }
       }
     },
     "mode": {
       "button": {
-        "color": {
-          "tertiary": {
-            "hover": {
-              "background": {
-                "value": "{lux.color.background.hover}",
-                "type": "color"
-              },
-              "foreground": {
-                "value": "{mode.button.tertiary.color}",
-                "type": "color"
+        "tertiary": {
+          "hover": {
+            "background-color": {
+              "value": "{lux.color.background.hover}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {}
               }
             },
-            "foreground": {
-              "value": "{lux.color.foreground.default}",
-              "type": "color"
+            "color": {
+              "value": "{mode.button.tertiary.color}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {}
+              }
             }
           },
-          "secondary": {
-            "hover": {
-              "foreground": {
-                "value": "{mode.button.secondary.color}",
-                "type": "color"
-              },
-              "background": {
-                "value": "{lux.color.background.hover}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{mode.button.secondary.border-color}",
-                "type": "color"
+          "color": {
+            "value": "{lux.color.foreground.default}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {}
+            }
+          }
+        },
+        "secondary": {
+          "hover": {
+            "color": {
+              "value": "{mode.button.secondary.color}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {}
               }
             },
-            "foreground": {
-              "value": "{lux.color.foreground.default}",
-              "type": "color"
+            "background-color": {
+              "value": "{lux.color.background.hover}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {}
+              }
             },
-            "border": {
-              "value": "{lux.color.border.default}",
-              "type": "color"
+            "border-color": {
+              "value": "{mode.button.secondary.border-color}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {}
+              }
+            }
+          },
+          "color": {
+            "value": "{lux.color.foreground.default}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {}
+            }
+          },
+          "border-color": {
+            "value": "{lux.color.border.default}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {}
             }
           }
         }
       },
       "login-method-button": {
-        "active": {
-          "background-color-copy": {
-            "value": "{lux.color.grijs.500}",
-            "type": "color"
-          }
-        }
-      },
-      "login-method-button-copy": {
         "active": {
           "background-color": {
             "value": "{lux.color.grijs.500}",
@@ -1379,7 +1276,7 @@
         "icon": {
           "size": {
             "type": "sizing",
-            "value": "{lux.icon-size.default}"
+            "value": "{lux.icon.size.default}"
           },
           "margin-inline": {
             "value": "{lux.space.1-x}",
@@ -1420,7 +1317,7 @@
         },
         "min-block-size": {
           "type": "sizing",
-          "value": "{lux.size.m}"
+          "value": "{lux.size.target}"
         },
         "min-inline-size": {
           "type": "sizing",
@@ -1724,7 +1621,8 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "core": "enabled"
+        "core": "enabled",
+        "product/NL doc/Rijksoverheid": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:5:3",
       "$figmaModeId": "5:1",
@@ -1801,7 +1699,6 @@
         "lux.color.robijnrood.200": "7b256605ebe5e1fbe8ff7790ebbdaf7c5cef057e",
         "lux.color.robijnrood.300": "5c8f13ab66d457805a92d6d3cb4ac80b71c33e5e",
         "lux.border-radius.default": "e5f48a7bb769282df2e86cecbdec6e263df8f54b",
-        "lux.border-radius.circle": "f8be0104b772f41b69ed279660b1028ddb6924ad",
         "lux.border-radius.none": "5ea7da8227c7455308fe758addfc626539e42665",
         "lux.border-width.default": "fc6454004337a191b15f17d018fc0d5e44630aac",
         "lux.border-width.m": "0d49553fe4cfba87ca187caecdfde28f25041973",
@@ -1825,7 +1722,8 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/default": "enabled"
+        "component/button/default": "enabled",
+        "product/NL doc/Rijksoverheid": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:5:92",
       "$figmaModeId": "5:2",
@@ -1862,7 +1760,8 @@
       "id": "60315acb9c82133759580124c5ba7498dc1b3ce4",
       "name": "Logius",
       "selectedTokenSets": {
-        "product/Logius": "enabled"
+        "product/Logius": "enabled",
+        "product/NL doc/Rijksoverheid": "disabled"
       },
       "$figmaStyleReferences": {
         "body.s-400": "S:945b3429270c1a4418b1a976ab78a0d37a826e15,",
@@ -2156,17 +2055,17 @@
       "$figmaCollectionId": "VariableCollectionId:6:190",
       "$figmaModeId": "6:14",
       "$figmaVariableReferences": {
-        "product.button.color.secondary.border": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
-        "product.button.color.secondary.foreground": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
-        "product.button.color.secondary.hover.border": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
-        "product.button.color.secondary.hover.foreground": "45f35291164fd09226f1c4ef780e8a6f32df38ff",
-        "product.button.color.secondary.hover.background": "546d717c3eaedf01264690d1d5779dcce3c2af14",
-        "product.button.color.tertiary.foreground": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
-        "product.button.color.tertiary.hover.foreground": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
-        "product.button.color.tertiary.hover.background": "eab9d76059c73fdde9167fea7572f25774117cc8",
         "lux.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
         "lux.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
-        "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e"
+        "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e",
+        "product.button.secondary.border-color": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
+        "product.button.secondary.color": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
+        "product.button.secondary.hover.border-color": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
+        "product.button.secondary.hover.background-color": "546d717c3eaedf01264690d1d5779dcce3c2af14",
+        "product.button.secondary.hover.color": "45f35291164fd09226f1c4ef780e8a6f32df38ff",
+        "product.button.tertiary.color": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
+        "product.button.tertiary.hover.color": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
+        "product.button.tertiary.hover.background-color": "eab9d76059c73fdde9167fea7572f25774117cc8"
       },
       "group": "1. brand"
     },
@@ -2175,7 +2074,8 @@
       "name": "MijnOverheid",
       "selectedTokenSets": {
         "product/MijnOverheid": "enabled",
-        "product/Logius": "enabled"
+        "product/Logius": "enabled",
+        "product/NL doc/Rijksoverheid": "disabled"
       },
       "$figmaStyleReferences": {
         "common.warning.background": "S:6d53d59a1c72d20d5fcc7ba2baa3321ba4b2b331,",
@@ -2386,17 +2286,17 @@
       "$figmaCollectionId": "VariableCollectionId:6:190",
       "$figmaModeId": "6:15",
       "$figmaVariableReferences": {
-        "product.button.color.secondary.border": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
-        "product.button.color.secondary.foreground": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
-        "product.button.color.secondary.hover.border": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
-        "product.button.color.secondary.hover.foreground": "45f35291164fd09226f1c4ef780e8a6f32df38ff",
-        "product.button.color.secondary.hover.background": "546d717c3eaedf01264690d1d5779dcce3c2af14",
-        "product.button.color.tertiary.foreground": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
-        "product.button.color.tertiary.hover.foreground": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
-        "product.button.color.tertiary.hover.background": "eab9d76059c73fdde9167fea7572f25774117cc8",
         "lux.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
         "lux.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
-        "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e"
+        "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e",
+        "product.button.secondary.border-color": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
+        "product.button.secondary.color": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
+        "product.button.secondary.hover.border-color": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
+        "product.button.secondary.hover.background-color": "546d717c3eaedf01264690d1d5779dcce3c2af14",
+        "product.button.secondary.hover.color": "45f35291164fd09226f1c4ef780e8a6f32df38ff",
+        "product.button.tertiary.color": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
+        "product.button.tertiary.hover.color": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
+        "product.button.tertiary.hover.background-color": "eab9d76059c73fdde9167fea7572f25774117cc8"
       },
       "group": "1. brand"
     },
@@ -2404,7 +2304,8 @@
       "id": "f5b6c8fb09c0a683c6037de2c2b4bb8c553ff9e8",
       "name": "DigiD",
       "selectedTokenSets": {
-        "product/DigiD": "enabled"
+        "product/DigiD": "enabled",
+        "product/NL doc/Rijksoverheid": "disabled"
       },
       "$figmaStyleReferences": {
         "common.highlight.base": "S:f8f46a43b805f4723eadb8c5fb2b20b8f220376c,",
@@ -2699,17 +2600,17 @@
       "$figmaCollectionId": "VariableCollectionId:6:190",
       "$figmaModeId": "6:16",
       "$figmaVariableReferences": {
-        "product.button.color.secondary.border": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
-        "product.button.color.secondary.foreground": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
-        "product.button.color.secondary.hover.border": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
-        "product.button.color.secondary.hover.foreground": "45f35291164fd09226f1c4ef780e8a6f32df38ff",
-        "product.button.color.secondary.hover.background": "546d717c3eaedf01264690d1d5779dcce3c2af14",
-        "product.button.color.tertiary.foreground": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
-        "product.button.color.tertiary.hover.foreground": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
-        "product.button.color.tertiary.hover.background": "eab9d76059c73fdde9167fea7572f25774117cc8",
         "lux.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
         "lux.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
-        "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e"
+        "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e",
+        "product.button.secondary.border-color": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
+        "product.button.secondary.color": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
+        "product.button.secondary.hover.border-color": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
+        "product.button.secondary.hover.background-color": "546d717c3eaedf01264690d1d5779dcce3c2af14",
+        "product.button.secondary.hover.color": "45f35291164fd09226f1c4ef780e8a6f32df38ff",
+        "product.button.tertiary.color": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
+        "product.button.tertiary.hover.color": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
+        "product.button.tertiary.hover.background-color": "eab9d76059c73fdde9167fea7572f25774117cc8"
       },
       "group": "1. brand"
     },
@@ -2718,7 +2619,8 @@
       "name": "light",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "mode/light": "enabled"
+        "mode/light": "enabled",
+        "product/NL doc/Rijksoverheid": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:17",
@@ -2757,7 +2659,8 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "mode/dark": "enabled",
-        "mode/light": "enabled"
+        "mode/light": "enabled",
+        "product/NL doc/Rijksoverheid": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:18",
@@ -2795,7 +2698,8 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "viewport/default": "enabled"
+        "viewport/default": "enabled",
+        "product/NL doc/Rijksoverheid": "disabled"
       },
       "group": "3. viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
@@ -2805,8 +2709,8 @@
         "lux.size.xs": "6589572a40a6b7c805b85300c23a9c5ff45e4795",
         "lux.size.s": "f19cadd667d695f4b0d6ff2978b16a232973cd13",
         "lux.size.m": "00e82a8efe7e811c77c263b7a4a13892558063fb",
-        "lux.icon-size.default": "967422af41b9242f8f134d86ed6602d78682b446",
-        "lux.icon-size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb"
+        "lux.icon.size.default": "967422af41b9242f8f134d86ed6602d78682b446",
+        "lux.icon.size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb"
       }
     },
     {
@@ -2815,7 +2719,8 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "viewport/default": "enabled",
-        "viewport/xs": "enabled"
+        "viewport/xs": "enabled",
+        "product/NL doc/Rijksoverheid": "disabled"
       },
       "group": "3. viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
@@ -2825,8 +2730,8 @@
         "lux.size.xs": "6589572a40a6b7c805b85300c23a9c5ff45e4795",
         "lux.size.s": "f19cadd667d695f4b0d6ff2978b16a232973cd13",
         "lux.size.m": "00e82a8efe7e811c77c263b7a4a13892558063fb",
-        "lux.icon-size.default": "967422af41b9242f8f134d86ed6602d78682b446",
-        "lux.icon-size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb"
+        "lux.icon.size.default": "967422af41b9242f8f134d86ed6602d78682b446",
+        "lux.icon.size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb"
       }
     },
     {
@@ -2834,7 +2739,8 @@
       "name": "primary",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/variant/primary": "enabled"
+        "component/button/variant/primary": "enabled",
+        "product/NL doc/Rijksoverheid": "disabled"
       },
       "group": "button/variant",
       "$figmaCollectionId": "VariableCollectionId:5:163",
@@ -2862,7 +2768,8 @@
       "name": "secondary",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/variant/secondary": "enabled"
+        "component/button/variant/secondary": "enabled",
+        "product/NL doc/Rijksoverheid": "disabled"
       },
       "group": "button/variant",
       "$figmaCollectionId": "VariableCollectionId:5:163",
@@ -2889,7 +2796,9 @@
       "id": "a9b43e2e41d9368954f33ea36182858725df86b1",
       "name": "default",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {},
+      "selectedTokenSets": {
+        "product/NL doc/Rijksoverheid": "disabled"
+      },
       "group": "button/size",
       "$figmaCollectionId": "VariableCollectionId:5:179",
       "$figmaModeId": "5:12",
@@ -2908,7 +2817,9 @@
       "id": "5820d3851b2d976871c6ef66abd4c4862cbc06c5",
       "name": "small",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {},
+      "selectedTokenSets": {
+        "product/NL doc/Rijksoverheid": "disabled"
+      },
       "group": "button/size",
       "$figmaCollectionId": "VariableCollectionId:5:179",
       "$figmaModeId": "5:13",
@@ -2932,7 +2843,7 @@
       "product/Logius",
       "product/MijnOverheid",
       "product/DigiD",
-      "product/NL doc",
+      "product/NL doc/Rijksoverheid",
       "mode/light",
       "mode/dark",
       "component/button/default",
