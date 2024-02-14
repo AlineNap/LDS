@@ -688,6 +688,18 @@
             "type": "color"
           }
         }
+      },
+      "focus": {
+        "outline-width": {
+          "value": "{lux.border-width.m}",
+          "type": "borderWidth"
+        }
+      },
+      "border-radius": {
+        "default": {
+          "value": "4",
+          "type": "borderRadius"
+        }
       }
     },
     "product": {
@@ -856,6 +868,12 @@
         "default": {
           "value": "0",
           "type": "borderRadius"
+        }
+      },
+      "focus": {
+        "outline-width": {
+          "value": "{lux.border-width.default}",
+          "type": "borderWidth"
         }
       }
     }
