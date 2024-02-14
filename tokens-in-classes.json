@@ -1,6 +1,6 @@
 {
-  "brand": {
-    "logius": {
+  "core": {
+    "lux": {
       "color": {
         "grijs": {
           "100": {
@@ -408,30 +408,17 @@
           "type": "borderWidth"
         }
       },
-      "shadow": {
-        "default": {
-          "value": {
-            "x": "0",
-            "y": "4",
-            "blur": "4",
-            "spread": "0",
-            "color": "#00000025",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
-      },
       "space": {
         "0-x": {
-          "value": "{logius.space.1-x}*0",
+          "value": "{lux.space.1-x}*0",
           "type": "dimension"
         },
         "025-x": {
-          "value": "{logius.space.1-x}*0.25",
+          "value": "{lux.space.1-x}*0.25",
           "type": "dimension"
         },
         "05-x": {
-          "value": "{logius.space.1-x}*0.5",
+          "value": "{lux.space.1-x}*0.5",
           "type": "dimension"
         },
         "1-x": {
@@ -439,366 +426,368 @@
           "type": "dimension"
         },
         "105-x": {
-          "value": "{logius.space.1-x}*1.5",
+          "value": "{lux.space.1-x}*1.5",
           "type": "dimension"
         },
         "2-x": {
-          "value": "{logius.space.1-x}*2",
+          "value": "{lux.space.1-x}*2",
           "type": "dimension"
         },
         "3-x": {
-          "value": "{logius.space.1-x}*3",
+          "value": "{lux.space.1-x}*3",
           "type": "dimension"
         },
         "4-x": {
-          "value": "{logius.space.1-x}*4",
+          "value": "{lux.space.1-x}*4",
           "type": "dimension"
         },
         "5-x": {
-          "value": "{logius.space.1-x}*5",
+          "value": "{lux.space.1-x}*5",
           "type": "dimension"
         },
         "6-x": {
-          "value": "{logius.space.1-x}*6",
+          "value": "{lux.space.1-x}*6",
           "type": "dimension"
         },
         "7-x": {
-          "value": "{logius.space.1-x}*7",
+          "value": "{lux.space.1-x}*7",
           "type": "dimension"
         }
       }
     }
   },
   "viewport/default": {
-    "font": {
-      "body": {
-        "s-400": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Regular",
-            "lineHeight": "{logius.font.line-height.s}",
-            "fontSize": "{logius.font-size.s}"
+    "lux": {
+      "font": {
+        "body": {
+          "s-400": {
+            "value": {
+              "fontFamily": "{lux.font-family.default}",
+              "fontWeight": "Regular",
+              "lineHeight": "{lux.font.line-height.s}",
+              "fontSize": "{lux.font-size.s}"
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "s-700": {
+            "value": {
+              "fontFamily": "{lux.font-family.default}",
+              "fontWeight": "Bold",
+              "lineHeight": "{lux.font.line-height.s}",
+              "fontSize": "{lux.font-size.s}"
+            },
+            "type": "typography"
+          },
+          "m-400": {
+            "value": {
+              "fontFamily": "{lux.font-family.default}",
+              "fontWeight": "Regular",
+              "lineHeight": "{lux.font.line-height.m}",
+              "fontSize": "{lux.font-size.m}"
+            },
+            "type": "typography"
+          },
+          "m-700": {
+            "value": {
+              "fontFamily": "{lux.font-family.default}",
+              "fontWeight": "Bold",
+              "lineHeight": "{lux.font.line-height.m}",
+              "fontSize": "{lux.font-size.m}"
+            },
+            "type": "typography"
+          },
+          "l-400": {
+            "value": {
+              "fontFamily": "{lux.font-family.default}",
+              "fontWeight": "Regular",
+              "lineHeight": "{lux.font.line-height.l}",
+              "fontSize": "{lux.font-size.l}"
+            },
+            "type": "typography"
+          },
+          "l-700": {
+            "value": {
+              "fontFamily": "{lux.font-family.default}",
+              "fontWeight": "Bold",
+              "lineHeight": "{lux.font.line-height.l}",
+              "fontSize": "{lux.font-size.l}"
+            },
+            "type": "typography"
+          }
         },
-        "s-700": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Bold",
-            "lineHeight": "{logius.font.line-height.s}",
-            "fontSize": "{logius.font-size.s}"
+        "paragraph": {
+          "default": {
+            "value": "{lux.font.body.m-400}",
+            "type": "typography"
           },
-          "type": "typography"
+          "lead": {
+            "value": "{lux.font.body.l-400}",
+            "type": "typography"
+          }
         },
-        "m-400": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Regular",
-            "lineHeight": "{logius.font.line-height.m}",
-            "fontSize": "{logius.font-size.m}"
+        "heading": {
+          "level-4": {
+            "700": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Bold",
+                "lineHeight": "{lux.font.line-height.m}",
+                "fontSize": "{lux.font-size.m}"
+              },
+              "type": "typography"
+            }
           },
-          "type": "typography"
-        },
-        "m-700": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Bold",
-            "lineHeight": "{logius.font.line-height.m}",
-            "fontSize": "{logius.font-size.m}"
+          "level-3": {
+            "400": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Regular",
+                "lineHeight": "{lux.font.line-height.l}",
+                "fontSize": "{lux.font-size.l}"
+              },
+              "type": "typography"
+            },
+            "700": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Bold",
+                "lineHeight": "{lux.font.line-height.l}",
+                "fontSize": "{lux.font-size.l}"
+              },
+              "type": "typography"
+            }
           },
-          "type": "typography"
-        },
-        "l-400": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Regular",
-            "lineHeight": "{logius.font.line-height.l}",
-            "fontSize": "{logius.font-size.l}"
+          "level-2": {
+            "400": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Regular",
+                "lineHeight": "{lux.font.line-height.xl}",
+                "fontSize": "{lux.font-size.xl}"
+              },
+              "type": "typography"
+            },
+            "700": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Bold",
+                "lineHeight": "{lux.font.line-height.xl}",
+                "fontSize": "{lux.font-size.xl}"
+              },
+              "type": "typography"
+            }
           },
-          "type": "typography"
-        },
-        "l-700": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Bold",
-            "lineHeight": "{logius.font.line-height.l}",
-            "fontSize": "{logius.font-size.l}"
-          },
-          "type": "typography"
+          "level-1": {
+            "400": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Regular",
+                "lineHeight": "{lux.font.line-height.2xl}",
+                "fontSize": "{lux.font-size.2xl}"
+              },
+              "type": "typography"
+            },
+            "700": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Bold",
+                "lineHeight": "{lux.font.line-height.2xl}",
+                "fontSize": "{lux.font-size.2xl}"
+              },
+              "type": "typography"
+            }
+          }
         }
       },
-      "paragraph": {
-        "default": {
-          "value": "{font.body.m-400}",
-          "type": "typography"
-        },
-        "lead": {
-          "value": "{font.body.l-400}",
-          "type": "typography"
-        }
-      },
-      "heading": {
-        "level-4": {
-          "700": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{logius.font.line-height.m}",
-              "fontSize": "{logius.font-size.m}"
-            },
-            "type": "typography"
-          }
-        },
-        "level-3": {
-          "400": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{logius.font.line-height.l}",
-              "fontSize": "{logius.font-size.l}"
-            },
-            "type": "typography"
-          },
-          "700": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{logius.font.line-height.l}",
-              "fontSize": "{logius.font-size.l}"
-            },
-            "type": "typography"
-          }
-        },
-        "level-2": {
-          "400": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{logius.font.line-height.xl}",
-              "fontSize": "{logius.font-size.xl}"
-            },
-            "type": "typography"
-          },
-          "700": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{logius.font.line-height.xl}",
-              "fontSize": "{logius.font-size.xl}"
-            },
-            "type": "typography"
-          }
-        },
-        "level-1": {
-          "400": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{logius.font.line-height.2xl}",
-              "fontSize": "{logius.font-size.2xl}"
-            },
-            "type": "typography"
-          },
-          "700": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{logius.font.line-height.2xl}",
-              "fontSize": "{logius.font-size.2xl}"
-            },
-            "type": "typography"
-          }
-        }
-      }
-    },
-    "logius": {
       "size": {
         "2xs": {
-          "value": "{logius.space.2-x}",
+          "value": "{lux.space.2-x}",
           "type": "sizing"
         },
         "xs": {
-          "value": "{logius.space.3-x}",
+          "value": "{lux.space.3-x}",
           "type": "sizing"
         },
         "s": {
-          "value": "{logius.space.4-x}",
+          "value": "{lux.space.4-x}",
           "type": "sizing"
         },
         "m": {
-          "value": "{logius.space.6-x}",
+          "value": "{lux.space.6-x}",
           "type": "sizing"
         }
       },
       "icon-size": {
         "default": {
-          "value": "{logius.space.2-x}",
+          "value": "{lux.space.2-x}",
           "type": "sizing"
         },
         "large": {
-          "value": "{logius.space.3-x}",
+          "value": "{lux.space.3-x}",
           "type": "sizing"
         }
       }
     }
   },
   "viewport/xs": {
-    "font": {
-      "body": {
-        "s-400": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Regular",
-            "lineHeight": "{logius.font.line-height.s}",
-            "fontSize": "{logius.font-size.s}"
-          },
-          "type": "typography"
-        },
-        "s-700": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Bold",
-            "lineHeight": "{logius.font.line-height.s}",
-            "fontSize": "{logius.font-size.s}"
-          },
-          "type": "typography"
-        },
-        "m-400": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Regular",
-            "lineHeight": "{logius.font.line-height.m}",
-            "fontSize": "{logius.font-size.m}"
-          },
-          "type": "typography"
-        },
-        "m-700": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Bold",
-            "lineHeight": "{logius.font.line-height.m}",
-            "fontSize": "{logius.font-size.m}"
-          },
-          "type": "typography"
-        },
-        "l-400": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Regular",
-            "lineHeight": "{logius.font.line-height.l}",
-            "fontSize": "{logius.font-size.l}"
-          },
-          "type": "typography"
-        },
-        "l-700": {
-          "value": {
-            "fontFamily": "{logius.font-family.default}",
-            "fontWeight": "Bold",
-            "lineHeight": "{logius.font.line-height.l}",
-            "fontSize": "{logius.font-size.l}"
-          },
-          "type": "typography"
-        }
-      },
-      "paragraph": {
-        "default": {
-          "value": "{font.body.m-400}",
-          "type": "typography"
-        },
-        "lead": {
-          "value": "{font.body.l-400}",
-          "type": "typography"
-        }
-      },
-      "heading": {
-        "level-4": {
-          "700": {
+    "lux": {
+      "font": {
+        "body": {
+          "s-400": {
             "value": {
-              "fontFamily": "{logius.font-family.default}",
+              "fontFamily": "{lux.font-family.default}",
+              "fontWeight": "Regular",
+              "lineHeight": "{lux.font.line-height.s}",
+              "fontSize": "{lux.font-size.s}"
+            },
+            "type": "typography"
+          },
+          "s-700": {
+            "value": {
+              "fontFamily": "{lux.font-family.default}",
               "fontWeight": "Bold",
-              "lineHeight": "{logius.font.line-height.m}",
-              "fontSize": "{logius.font-size.m}"
+              "lineHeight": "{lux.font.line-height.s}",
+              "fontSize": "{lux.font-size.s}"
+            },
+            "type": "typography"
+          },
+          "m-400": {
+            "value": {
+              "fontFamily": "{lux.font-family.default}",
+              "fontWeight": "Regular",
+              "lineHeight": "{lux.font.line-height.m}",
+              "fontSize": "{lux.font-size.m}"
+            },
+            "type": "typography"
+          },
+          "m-700": {
+            "value": {
+              "fontFamily": "{lux.font-family.default}",
+              "fontWeight": "Bold",
+              "lineHeight": "{lux.font.line-height.m}",
+              "fontSize": "{lux.font-size.m}"
+            },
+            "type": "typography"
+          },
+          "l-400": {
+            "value": {
+              "fontFamily": "{lux.font-family.default}",
+              "fontWeight": "Regular",
+              "lineHeight": "{lux.font.line-height.l}",
+              "fontSize": "{lux.font-size.l}"
+            },
+            "type": "typography"
+          },
+          "l-700": {
+            "value": {
+              "fontFamily": "{lux.font-family.default}",
+              "fontWeight": "Bold",
+              "lineHeight": "{lux.font.line-height.l}",
+              "fontSize": "{lux.font-size.l}"
             },
             "type": "typography"
           }
         },
-        "level-3": {
-          "400": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{logius.font.line-height.l}",
-              "fontSize": "{logius.font-size.l}"
-            },
+        "paragraph": {
+          "default": {
+            "value": "{lux.font.body.m-400}",
             "type": "typography"
           },
-          "700": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{logius.font.line-height.l}",
-              "fontSize": "{logius.font-size.l}"
-            },
+          "lead": {
+            "value": "{lux.font.body.l-400}",
             "type": "typography"
           }
         },
-        "level-2": {
-          "400": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{logius.font.line-height.xl}",
-              "fontSize": "{logius.font-size.xl}"
-            },
-            "type": "typography"
+        "heading": {
+          "level-4": {
+            "700": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Bold",
+                "lineHeight": "{lux.font.line-height.m}",
+                "fontSize": "{lux.font-size.m}"
+              },
+              "type": "typography"
+            }
           },
-          "700": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{logius.font.line-height.xl}",
-              "fontSize": "{logius.font-size.xl}"
+          "level-3": {
+            "400": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Regular",
+                "lineHeight": "{lux.font.line-height.l}",
+                "fontSize": "{lux.font-size.l}"
+              },
+              "type": "typography"
             },
-            "type": "typography"
-          }
-        },
-        "level-1": {
-          "400": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{logius.font.line-height.2xl}",
-              "fontSize": "{logius.font-size.2xl}"
-            },
-            "type": "typography"
+            "700": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Bold",
+                "lineHeight": "{lux.font.line-height.l}",
+                "fontSize": "{lux.font-size.l}"
+              },
+              "type": "typography"
+            }
           },
-          "700": {
-            "value": {
-              "fontFamily": "{logius.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{logius.font.line-height.2xl}",
-              "fontSize": "{logius.font-size.2xl}"
+          "level-2": {
+            "400": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Regular",
+                "lineHeight": "{lux.font.line-height.xl}",
+                "fontSize": "{lux.font-size.xl}"
+              },
+              "type": "typography"
             },
-            "type": "typography"
+            "700": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Bold",
+                "lineHeight": "{lux.font.line-height.xl}",
+                "fontSize": "{lux.font-size.xl}"
+              },
+              "type": "typography"
+            }
+          },
+          "level-1": {
+            "400": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Regular",
+                "lineHeight": "{lux.font.line-height.2xl}",
+                "fontSize": "{lux.font-size.2xl}"
+              },
+              "type": "typography"
+            },
+            "700": {
+              "value": {
+                "fontFamily": "{lux.font-family.default}",
+                "fontWeight": "Bold",
+                "lineHeight": "{lux.font.line-height.2xl}",
+                "fontSize": "{lux.font-size.2xl}"
+              },
+              "type": "typography"
+            }
           }
         }
       }
     }
   },
   "product/Logius": {
-    "logius": {
+    "lux": {
       "color": {
         "brand": {
           "default": {
-            "value": "{logius.color.groen.300}",
+            "value": "{lux.color.groen.300}",
             "type": "color"
           },
           "subdued": {
-            "value": "{logius.color.groen.100}",
+            "value": "{lux.color.groen.100}",
             "type": "color"
           },
           "hover": {
-            "value": "{logius.color.groen.400}",
+            "value": "{lux.color.groen.400}",
             "type": "color"
           }
         }
@@ -809,40 +798,40 @@
         "color": {
           "secondary": {
             "border": {
-              "value": "{logius.color.brand.default}",
+              "value": "{lux.color.brand.default}",
               "type": "color"
             },
             "foreground": {
-              "value": "{logius.color.brand.default}",
+              "value": "{lux.color.brand.default}",
               "type": "color"
             },
             "hover": {
               "border": {
-                "value": "{logius.color.brand.hover}",
+                "value": "{lux.color.brand.hover}",
                 "type": "color"
               },
               "foreground": {
-                "value": "{logius.color.brand.hover}",
+                "value": "{lux.color.brand.hover}",
                 "type": "color"
               },
               "background": {
-                "value": "{logius.color.brand.subdued}",
+                "value": "{lux.color.brand.subdued}",
                 "type": "color"
               }
             }
           },
           "tertiary": {
             "foreground": {
-              "value": "{logius.color.brand.default}",
+              "value": "{lux.color.brand.default}",
               "type": "color"
             },
             "hover": {
               "foreground": {
-                "value": "{logius.color.brand.hover}",
+                "value": "{lux.color.brand.hover}",
                 "type": "color"
               },
               "background": {
-                "value": "{logius.color.brand.subdued}",
+                "value": "{lux.color.brand.subdued}",
                 "type": "color"
               }
             }
@@ -852,19 +841,19 @@
     }
   },
   "product/MijnOverheid": {
-    "logius": {
+    "lux": {
       "color": {
         "brand": {
           "default": {
-            "value": "{logius.color.hemelblauw.300}",
+            "value": "{lux.color.hemelblauw.300}",
             "type": "color"
           },
           "subdued": {
-            "value": "{logius.color.donkerblauw.100}",
+            "value": "{lux.color.donkerblauw.100}",
             "type": "color"
           },
           "hover": {
-            "value": "{logius.color.hemelblauw.400}",
+            "value": "{lux.color.hemelblauw.400}",
             "type": "color"
           }
         }
@@ -872,19 +861,19 @@
     }
   },
   "product/DigiD": {
-    "logius": {
+    "lux": {
       "color": {
         "brand": {
           "default": {
-            "value": "{logius.color.oranje.300}",
+            "value": "{lux.color.oranje.300}",
             "type": "color"
           },
           "subdued": {
-            "value": "{logius.color.oranje.100}",
+            "value": "{lux.color.oranje.100}",
             "type": "color"
           },
           "hover": {
-            "value": "{logius.color.oranje.400}",
+            "value": "{lux.color.oranje.400}",
             "type": "color"
           }
         }
@@ -895,11 +884,11 @@
         "color": {
           "secondary": {
             "border": {
-              "value": "{logius.color.border}",
+              "value": "{lux.color.border}",
               "type": "color"
             },
             "foreground": {
-              "value": "{logius.color.foreground}",
+              "value": "{lux.color.foreground}",
               "type": "color"
             },
             "hover": {
@@ -908,27 +897,93 @@
                 "type": "color"
               },
               "foreground": {
-                "value": "{logius.color.foreground}",
+                "value": "{lux.color.foreground}",
                 "type": "color"
               },
               "background": {
-                "value": "{logius.color.hover.background}",
+                "value": "{lux.color.hover.background}",
                 "type": "color"
               }
             }
           },
           "tertiary": {
             "foreground": {
-              "value": "{logius.color.foreground}",
+              "value": "{lux.color.foreground}",
               "type": "color"
             },
             "hover": {
               "foreground": {
-                "value": "{logius.color.foreground}",
+                "value": "{lux.color.foreground}",
                 "type": "color"
               },
               "background": {
-                "value": "{logius.color.hover.background}",
+                "value": "{lux.color.hover.background}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "product/NL doc": {
+    "lux": {
+      "color": {
+        "brand": {
+          "default": {
+            "value": "{lux.color.oranje.300}",
+            "type": "color"
+          },
+          "subdued": {
+            "value": "{lux.color.oranje.100}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{lux.color.oranje.400}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "product": {
+      "button": {
+        "color": {
+          "secondary": {
+            "border": {
+              "value": "{lux.color.border}",
+              "type": "color"
+            },
+            "foreground": {
+              "value": "{lux.color.foreground}",
+              "type": "color"
+            },
+            "hover": {
+              "border": {
+                "value": "{mode.button.color.secondary.border}",
+                "type": "color"
+              },
+              "foreground": {
+                "value": "{lux.color.foreground}",
+                "type": "color"
+              },
+              "background": {
+                "value": "{lux.color.hover.background}",
+                "type": "color"
+              }
+            }
+          },
+          "tertiary": {
+            "foreground": {
+              "value": "{lux.color.foreground}",
+              "type": "color"
+            },
+            "hover": {
+              "foreground": {
+                "value": "{lux.color.foreground}",
+                "type": "color"
+              },
+              "background": {
+                "value": "{lux.color.hover.background}",
                 "type": "color"
               }
             }
@@ -938,54 +993,54 @@
     }
   },
   "mode/light": {
-    "logius": {
+    "lux": {
       "color": {
         "foreground": {
-          "value": "{logius.color.grijs.700}",
+          "value": "{lux.color.grijs.700}",
           "type": "color",
           "description": "Primary text, icons and strong borders"
         },
         "background": {
-          "value": "{logius.color.wit}",
+          "value": "{lux.color.wit}",
           "type": "color",
           "description": "Background"
         },
         "border": {
-          "value": "{logius.color.grijs.500}",
+          "value": "{lux.color.grijs.500}",
           "type": "color"
         },
         "canvas": {
-          "value": "{logius.color.grijs.200}",
+          "value": "{lux.color.grijs.200}",
           "type": "color",
           "description": "The background of the webpage"
         },
         "subdued": {
           "foreground": {
-            "value": "{logius.color.grijs.500}",
+            "value": "{lux.color.grijs.500}",
             "type": "color",
             "description": "Subdued text and icons"
           },
           "background": {
-            "value": "{logius.color.grijs.200}",
+            "value": "{lux.color.grijs.200}",
             "type": "color",
             "description": "Subdued background"
           },
           "border": {
-            "value": "{logius.color.grijs.400}",
+            "value": "{lux.color.grijs.400}",
             "type": "color",
             "description": "Subdued border"
           }
         },
         "hover": {
           "background": {
-            "value": "{logius.color.grijs.300}",
+            "value": "{lux.color.grijs.300}",
             "type": "color",
             "description": "Default hover background color"
           }
         },
         "onEmphasis": {
           "foreground": {
-            "value": "{logius.color.wit}",
+            "value": "{lux.color.wit}",
             "type": "color",
             "description": "Text on stong backgrounds. Eg text on the brand color or the footer text"
           }
@@ -993,41 +1048,41 @@
         "feedback": {
           "success": {
             "default": {
-              "value": "{logius.color.groen.300}",
+              "value": "{lux.color.groen.300}",
               "type": "color"
             },
             "subdued": {
-              "value": "{logius.color.groen.100}",
+              "value": "{lux.color.groen.100}",
               "type": "color"
             }
           },
           "info": {
             "default": {
-              "value": "{logius.color.hemelblauw.300}",
+              "value": "{lux.color.hemelblauw.300}",
               "type": "color"
             },
             "subdued": {
-              "value": "{logius.color.hemelblauw.100}",
+              "value": "{lux.color.hemelblauw.100}",
               "type": "color"
             }
           },
           "error": {
             "default": {
-              "value": "{logius.color.rood.300}",
+              "value": "{lux.color.rood.300}",
               "type": "color"
             },
             "subdued": {
-              "value": "{logius.color.rood.100}",
+              "value": "{lux.color.rood.100}",
               "type": "color"
             }
           },
           "warning": {
             "default": {
-              "value": "{logius.color.donkergeel.300}",
+              "value": "{lux.color.donkergeel.300}",
               "type": "color"
             },
             "subdued": {
-              "value": "{logius.color.donkergeel.100}",
+              "value": "{lux.color.donkergeel.100}",
               "type": "color"
             }
           }
@@ -1078,52 +1133,60 @@
             }
           }
         }
+      },
+      "login-method-button": {
+        "active": {
+          "background-color": {
+            "value": "{lux.color.grijs.400}",
+            "type": "color"
+          }
+        }
       }
     }
   },
   "mode/dark": {
-    "logius": {
+    "lux": {
       "color": {
         "foreground": {
-          "value": "{logius.color.grijs.100}",
+          "value": "{lux.color.grijs.100}",
           "type": "color"
         },
         "background": {
-          "value": "{logius.color.grijs.700}",
+          "value": "{lux.color.grijs.700}",
           "type": "color"
         },
         "border": {
-          "value": "{logius.color.grijs.500}",
+          "value": "{lux.color.grijs.500}",
           "type": "color"
         },
         "canvas": {
-          "value": "{logius.color.zwart}",
+          "value": "{lux.color.zwart}",
           "type": "color",
           "description": "component-token"
         },
         "subdued": {
           "foreground": {
-            "value": "{logius.color.grijs.400}",
+            "value": "{lux.color.grijs.400}",
             "type": "color"
           },
           "background": {
-            "value": "{logius.color.grijs.800}",
+            "value": "{lux.color.grijs.800}",
             "type": "color"
           },
           "border": {
-            "value": "{logius.color.grijs.600}",
+            "value": "{lux.color.grijs.600}",
             "type": "color"
           }
         },
         "hover": {
           "background": {
-            "value": "{logius.color.grijs.600}",
+            "value": "{lux.color.grijs.600}",
             "type": "color"
           }
         },
         "onEmphasis": {
           "foreground": {
-            "value": "{logius.color.wit}",
+            "value": "{lux.color.wit}",
             "type": "color",
             "description": "Text on stong backgrounds. Eg text on the brand color or the footer text"
           }
@@ -1136,7 +1199,7 @@
           "tertiary": {
             "hover": {
               "background": {
-                "value": "{logius.color.hover.background}",
+                "value": "{lux.color.hover.background}",
                 "type": "color"
               },
               "foreground": {
@@ -1145,7 +1208,7 @@
               }
             },
             "foreground": {
-              "value": "{logius.color.foreground}",
+              "value": "{lux.color.foreground}",
               "type": "color"
             }
           },
@@ -1156,7 +1219,7 @@
                 "type": "color"
               },
               "background": {
-                "value": "{logius.color.hover.background}",
+                "value": "{lux.color.hover.background}",
                 "type": "color"
               },
               "border": {
@@ -1165,13 +1228,21 @@
               }
             },
             "foreground": {
-              "value": "{logius.color.foreground}",
+              "value": "{lux.color.foreground}",
               "type": "color"
             },
             "border": {
-              "value": "{logius.color.border}",
+              "value": "{lux.color.border}",
               "type": "color"
             }
+          }
+        }
+      },
+      "login-method-button": {
+        "active": {
+          "background-color-copy": {
+            "value": "{lux.color.grijs.500}",
+            "type": "color"
           }
         }
       }
@@ -1182,130 +1253,112 @@
       "button": {
         "background-color": {
           "type": "color",
-          "value": "{logius.color.brand.default}"
+          "value": "{lux.color.brand.default}"
         },
         "border-color": {
           "type": "color",
-          "value": "{logius.color.none}"
+          "value": "{lux.color.none}"
         },
         "color": {
           "type": "color",
-          "value": "{logius.color.onEmphasis.foreground}"
+          "value": "{lux.color.onEmphasis.foreground}"
         },
         "disabled": {
           "background-color": {
-            "value": "{logius.color.subdued.background}",
+            "value": "{lux.color.subdued.background}",
             "type": "color"
           },
           "border-color": {
-            "value": "{logius.color.none}",
+            "value": "{lux.color.none}",
             "type": "color"
           },
           "color": {
-            "value": "{logius.color.subdued.foreground}",
+            "value": "{lux.color.subdued.foreground}",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
             "type": "color",
-            "value": "{logius.color.brand.hover}"
+            "value": "{lux.color.brand.hover}"
           },
           "border-color": {
-            "value": "{logius.color.none}",
+            "value": "{lux.color.none}",
             "type": "color"
           },
           "color": {
             "type": "color",
-            "value": "{logius.color.onEmphasis.foreground}"
-          }
-        },
-        "primary-action": {
-          "font-weight": {
-            "value": "{utrecht.button.font-weight}",
-            "type": "fontWeights"
+            "value": "{lux.color.onEmphasis.foreground}"
           }
         },
         "focus": {
           "background-color": {
             "type": "color",
             "$comment-FIXME-value": "{utrecht.focus.background-color}",
-            "value": "{logius.color.brand.default}"
+            "value": "{lux.color.brand.default}"
           },
           "border-color": {
             "type": "color",
-            "value": "{logius.color.none}"
+            "value": "{lux.color.none}"
           },
           "color": {
             "type": "color",
-            "value": "{logius.color.onEmphasis.foreground}"
-          }
-        },
-        "secondary-action": {
-          "font-weight": {
-            "value": "{utrecht.button.font-weight}",
-            "type": "fontWeights"
+            "value": "{lux.color.onEmphasis.foreground}"
           }
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{logius.border-radius.default}"
+          "value": "{lux.border-radius.default}"
         },
         "border-width": {
           "type": "borderWidth",
-          "value": "{logius.border-width.default}"
+          "value": "{lux.border-width.default}"
         },
         "icon": {
           "size": {
             "type": "sizing",
-            "value": "{logius.icon-size.default}"
+            "value": "{lux.icon-size.default}"
           },
           "margin-inline": {
-            "value": "{logius.space.1-x}",
+            "value": "{lux.space.1-x}",
             "type": "spacing"
           }
         },
         "font-family": {
-          "value": "{logius.font-family.default}",
+          "value": "{lux.font-family.default}",
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{logius.font-size.m}",
+          "value": "{lux.font-size.m}",
           "type": "fontSizes"
         },
         "font-weight": {
           "value": "Bold",
           "type": "fontWeights"
         },
-        "subtle": {
-          "font-weight": {
-            "value": "{utrecht.button.font-weight}",
-            "type": "fontWeights"
-          }
-        },
         "line-height": {
-          "value": "{logius.font.line-height.l}",
+          "value": "{lux.font.line-height.l}",
           "type": "lineHeights"
         },
         "padding-block-end": {
-          "value": "{logius.space.1-x}",
+          "value": "{lux.space.1-x}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{logius.space.1-x}",
+          "value": "{lux.space.1-x}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{logius.space.2-x}",
+          "value": "{lux.space.2-x}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{logius.space.2-x}",
+          "value": "{lux.space.2-x}",
           "type": "spacing"
         },
         "min-block-size": {
           "type": "sizing",
-          "value": "{logius.size.m}"
+          "value": "{lux.size.m}"
         },
         "min-inline-size": {
           "type": "sizing",
@@ -1313,15 +1366,15 @@
         },
         "active": {
           "background-color": {
-            "value": "{logius.color.subdued.background}",
+            "value": "{lux.color.subdued.background}",
             "type": "color"
           },
           "border-color": {
-            "value": "{logius.color.none}",
+            "value": "{lux.color.none}",
             "type": "color"
           },
           "color": {
-            "value": "{logius.color.subdued.foreground}",
+            "value": "{lux.color.subdued.foreground}",
             "type": "color"
           }
         }
@@ -1333,72 +1386,76 @@
       "button": {
         "background-color": {
           "type": "color",
-          "value": "{logius.color.brand.default}"
+          "value": "{lux.color.brand.default}"
         },
         "border-color": {
           "type": "color",
-          "value": "{logius.color.none}"
+          "value": "{lux.color.none}"
         },
         "color": {
           "type": "color",
-          "value": "{logius.color.onEmphasis.foreground}"
+          "value": "{lux.color.onEmphasis.foreground}"
         },
         "disabled": {
           "background-color": {
-            "value": "{logius.color.subdued.background}",
+            "value": "{lux.color.subdued.background}",
             "type": "color"
           },
           "border-color": {
-            "value": "{logius.color.none}",
+            "value": "{lux.color.none}",
             "type": "color"
           },
           "color": {
-            "value": "{logius.color.subdued.foreground}",
+            "value": "{lux.color.subdued.foreground}",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
             "type": "color",
-            "value": "{logius.color.brand.hover}"
+            "value": "{lux.color.brand.hover}"
           },
           "border-color": {
-            "value": "{logius.color.none}",
+            "value": "{lux.color.none}",
             "type": "color"
           },
           "color": {
             "type": "color",
-            "value": "{logius.color.onEmphasis.foreground}"
+            "value": "{lux.color.onEmphasis.foreground}"
           }
         },
         "focus": {
           "background-color": {
             "type": "color",
             "$comment-FIXME-value": "{utrecht.focus.background-color}",
-            "value": "{logius.color.brand.default}"
+            "value": "{lux.color.brand.default}"
           },
           "border-color": {
             "type": "color",
-            "value": "{logius.color.none}"
+            "value": "{lux.color.none}"
           },
           "color": {
             "type": "color",
-            "value": "{logius.color.onEmphasis.foreground}"
+            "value": "{lux.color.onEmphasis.foreground}"
           }
         },
         "active": {
           "background-color": {
-            "value": "{logius.color.subdued.background}",
+            "value": "{lux.color.subdued.background}",
             "type": "color"
           },
           "border-color": {
-            "value": "{logius.color.none}",
+            "value": "{lux.color.none}",
             "type": "color"
           },
           "color": {
-            "value": "{logius.color.subdued.foreground}",
+            "value": "{lux.color.subdued.foreground}",
             "type": "color"
           }
+        },
+        "font-size": {
+          "value": "{lux.font-size.m}",
+          "type": "fontSizes"
         }
       }
     }
@@ -1408,152 +1465,193 @@
       "button": {
         "background-color": {
           "type": "color",
-          "value": "{logius.color.none}"
+          "value": "{lux.color.none}"
         },
         "border-color": {
           "type": "color",
-          "value": "{logius.color.brand.default}"
+          "value": "{lux.color.brand.default}"
         },
         "color": {
           "type": "color",
-          "value": "{logius.color.brand.default}"
+          "value": "{lux.color.brand.default}"
         },
         "disabled": {
           "background-color": {
-            "value": "{logius.color.subdued.background}",
+            "value": "{lux.color.subdued.background}",
             "type": "color"
           },
           "border-color": {
-            "value": "{logius.color.none}",
+            "value": "{lux.color.none}",
             "type": "color"
           },
           "color": {
-            "value": "{logius.color.subdued.foreground}",
+            "value": "{lux.color.subdued.foreground}",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
             "type": "color",
-            "value": "{logius.color.brand.subdued}"
+            "value": "{lux.color.brand.subdued}"
           },
           "border-color": {
-            "value": "{logius.color.brand.hover}",
+            "value": "{lux.color.brand.hover}",
             "type": "color"
           },
           "color": {
             "type": "color",
-            "value": "{logius.color.brand.hover}"
+            "value": "{lux.color.brand.hover}"
           }
         },
         "focus": {
           "background-color": {
             "type": "color",
             "$comment-FIXME-value": "{utrecht.focus.background-color}",
-            "value": "{logius.color.brand.default}"
+            "value": "{lux.color.brand.default}"
           },
           "border-color": {
             "type": "color",
-            "value": "{logius.color.none}"
+            "value": "{lux.color.none}"
           },
           "color": {
             "type": "color",
-            "value": "{logius.color.onEmphasis.foreground}"
+            "value": "{lux.color.onEmphasis.foreground}"
           }
         },
         "active": {
           "background-color": {
-            "value": "{logius.color.subdued.background}",
+            "value": "{lux.color.subdued.background}",
             "type": "color"
           },
           "border-color": {
-            "value": "{logius.color.none}",
+            "value": "{lux.color.none}",
             "type": "color"
           },
           "color": {
-            "value": "{logius.color.subdued.foreground}",
+            "value": "{lux.color.subdued.foreground}",
             "type": "color"
           }
         }
       }
     }
   },
-  "component/button/size/default": {
+  "component/button/variant/tertairy": {
     "utrecht": {
       "button": {
-        "icon": {
-          "size": {
-            "type": "sizing",
-            "value": "{logius.icon-size.default}"
+        "background-color": {
+          "type": "color",
+          "value": "{lux.color.none}"
+        },
+        "border-color": {
+          "type": "color",
+          "value": "{lux.color.brand.default}"
+        },
+        "color": {
+          "type": "color",
+          "value": "{lux.color.brand.default}"
+        },
+        "disabled": {
+          "background-color": {
+            "value": "{lux.color.subdued.background}",
+            "type": "color"
           },
-          "margin-inline": {
-            "value": "{logius.space.1-x}",
-            "type": "spacing"
+          "border-color": {
+            "value": "{lux.color.none}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{lux.color.subdued.foreground}",
+            "type": "color"
           }
         },
-        "padding-block-end": {
-          "value": "{logius.space.1-x}",
-          "type": "spacing"
+        "hover": {
+          "background-color": {
+            "type": "color",
+            "value": "{lux.color.brand.subdued}"
+          },
+          "border-color": {
+            "value": "{lux.color.brand.hover}",
+            "type": "color"
+          },
+          "color": {
+            "type": "color",
+            "value": "{lux.color.brand.hover}"
+          }
         },
-        "padding-block-start": {
-          "value": "{logius.space.1-x}",
-          "type": "spacing"
+        "focus": {
+          "background-color": {
+            "type": "color",
+            "$comment-FIXME-value": "{utrecht.focus.background-color}",
+            "value": "{lux.color.brand.default}"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "{lux.color.none}"
+          },
+          "color": {
+            "type": "color",
+            "value": "{lux.color.onEmphasis.foreground}"
+          }
         },
-        "padding-inline-end": {
-          "value": "{logius.space.2-x}",
-          "type": "spacing"
-        },
-        "padding-inline-start": {
-          "value": "{logius.space.2-x}",
-          "type": "spacing"
-        },
-        "min-block-size": {
-          "type": "sizing",
-          "value": "{logius.size.m}"
-        },
-        "min-inline-size": {
-          "type": "sizing",
-          "value": "0"
+        "active": {
+          "background-color": {
+            "value": "{lux.color.subdued.background}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{lux.color.none}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{lux.color.subdued.foreground}",
+            "type": "color"
+          }
         }
       }
     }
   },
-  "component/button/size/small": {
-    "utrecht": {
-      "button": {
-        "icon": {
-          "size": {
-            "type": "sizing",
-            "value": "{logius.icon-size.default}"
+  "component/login-method-button": {
+    "lux": {
+      "login-method-button": {
+        "color": {
+          "value": "{lux.color.foreground}",
+          "type": "color"
+        },
+        "background": {
+          "value": "{lux.color.background}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "{lux.color.border}",
+          "type": "color"
+        },
+        "hover": {
+          "color": {
+            "value": "{lux.color.foreground}",
+            "type": "color"
           },
-          "margin-inline": {
-            "value": "{logius.space.1-x}",
-            "type": "spacing"
+          "background": {
+            "value": "{lux.color.hover.background}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{lux.color.border}",
+            "type": "color"
           }
         },
-        "padding-block-end": {
-          "value": "{logius.space.025-x}",
-          "type": "spacing"
-        },
-        "padding-block-start": {
-          "value": "{logius.space.025-x}",
-          "type": "spacing"
-        },
-        "padding-inline-end": {
-          "value": "{logius.space.2-x}",
-          "type": "spacing"
-        },
-        "padding-inline-start": {
-          "value": "{logius.space.2-x}",
-          "type": "spacing"
-        },
-        "min-block-size": {
-          "type": "sizing",
-          "value": "{logius.size.s}"
-        },
-        "min-inline-size": {
-          "type": "sizing",
-          "value": "0"
+        "active": {
+          "color": {
+            "value": "{lux.color.foreground}",
+            "type": "color"
+          },
+          "background": {
+            "value": "{mode.login-method-button.active.background-color}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{lux.color.border}",
+            "type": "color"
+          }
         }
       }
     }
@@ -1564,101 +1662,99 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "brand": "enabled",
-        "component/button/variant/primary": "disabled",
-        "component/button/variant/secondary": "disabled"
+        "core": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:5:3",
       "$figmaModeId": "5:1",
       "$figmaVariableReferences": {
-        "logius.color.grijs.100": "d2688ca4cae19023ee131e5dcfe20337dfff00b4",
-        "logius.color.grijs.200": "8c1a8227b2f334a6486de9c6425928e36d885398",
-        "logius.color.grijs.300": "78c4218ee8d2ca266a55f601278da9d64dc27621",
-        "logius.color.grijs.400": "206a7788a7c2f0d6653bb4c93183a98c7dd633c5",
-        "logius.color.grijs.500": "db7799be9c33ad71e30fee0e24a7258ff6ae713f",
-        "logius.color.grijs.600": "679005ee100b58ecc672a580d5e41086e1c3bf9d",
-        "logius.color.grijs.700": "c279bbe1dde0a09888e31cbae9c15e15ab5cfb9f",
-        "logius.color.grijs.800": "c97d08be3a96e8a102867c4bd40cebe82b4628bb",
-        "logius.color.grijs.900": "0b4b60156fa965a3d9b4c17c44992844c58673ef",
-        "logius.color.zwart": "e4de5ad8e37e8fa04221bf9a13aed71de0260fd8",
-        "logius.color.wit": "8e6fe1b9cf89d7d22eaf2aedc7dab36172b17ff5",
-        "logius.color.none": "72d4597ef280d707c2578ea39cdc18928c99bbe6",
-        "logius.color.lichtblauw.100": "9a9ded758d2105786a829566c4f0d810adf4a724",
-        "logius.color.lichtblauw.200": "01acd4cff66de1267b2a348c731eb3a9052ecddf",
-        "logius.color.lichtblauw.300": "6c07dd776f29a34918dd1b1cd1eade05636b4199",
-        "logius.color.violet.100": "b318af1b62bf33ef0c919f8fabdfbd703c49a32d",
-        "logius.color.violet.200": "bef15201e6e8ab5430a65ca95a906a369f82a945",
-        "logius.color.violet.300": "d62a8ba32bbed786c02dbb28520f1a36a21a13be",
-        "logius.color.violet.400": "cf178335a2ef8ab7e81160d98e89004c67115f93",
-        "logius.color.paars.100": "7a822c62bfd7f166b9a27e7345f39751d77f32f1",
-        "logius.color.paars.200": "9d119a87ad620b25125aea395e4377a87a615dad",
-        "logius.color.paars.300": "c9eaf5a9995798feee7f0da47dddd73bbc691301",
-        "logius.color.paars.400": "5382ad5687c406a0928b924a2532b87e4c33a43c",
-        "logius.color.hemelblauw.100": "d8a52ed15ddfc34ed20ea728a30c6c6dd60d34a3",
-        "logius.color.hemelblauw.200": "88220288a2d475d8320e837f7c01f35397587b38",
-        "logius.color.hemelblauw.300": "689033db9e4e1bf79ca6a1663c486235c1818f34",
-        "logius.color.hemelblauw.400": "2e294ea1159a8090e769cd590df5b4f9e54c2c23",
-        "logius.color.donkerblauw.100": "69d6204d0923e7e6f44141602199807aee3d97c8",
-        "logius.color.donkerblauw.200": "820013416239c1cb8cfb41189e843025a0a95ce3",
-        "logius.color.donkerblauw.300": "c0e8478d9aa5c19079c3237f423d77de0c856a01",
-        "logius.color.donkerblauw.400": "8446262fa385eefdc2b03f9be348b11a5bd09507",
-        "logius.color.mintgroen.100": "7c69f7d25b8305e21fabca28a3c5900924748f36",
-        "logius.color.mintgroen.200": "017911c93b606c9668ac85cee85fcfb024aa3fd3",
-        "logius.color.mintgroen.300": "07178eca9a8064bb4f545da147a7628f1ee96cb4",
-        "logius.color.mosgroen.100": "a3136448ad1aa4dd26c55ab9988fa1b48706b79d",
-        "logius.color.mosgroen.200": "ad7747ffe4ef05065005537ba040acd6f2284b83",
-        "logius.color.mosgroen.300": "79da716332c35778741a25c314d7e54c34298236",
-        "logius.color.groen.100": "8a3e80eaa5a0f1fb1f36d84e1f72c7b05552d138",
-        "logius.color.groen.200": "ac722aa8fd1ac20e419e9b53d63d463dbaf9e5fe",
-        "logius.color.groen.300": "596df0499bb86348f93f5ad2939847e1bc730c5a",
-        "logius.color.groen.400": "72ab98f0544247fe010227257230115318f1b936",
-        "logius.color.donkergroen.100": "a3f112aeaf1bd9c6e45485a13bca7d328344f7ec",
-        "logius.color.donkergroen.200": "899d7e22881a4ee5303fd1b568fb1567f6feff2d",
-        "logius.color.donkergroen.300": "131b5144b65e8b5e8e28d61f78abc8f95b3f7caa",
-        "logius.color.bruin.100": "ffb76fbc42f73739476fc44ca2a6a1ecfa44c621",
-        "logius.color.bruin.200": "a6d3c83466975b0426ebbc1f4640fd760a4d4806",
-        "logius.color.bruin.300": "94727474dfb0e2578dd23246039a5fda0e4b68f3",
-        "logius.color.donkerbruin.100": "e8038df2c4a8903fd9ace8e3456a477922ac01af",
-        "logius.color.donkerbruin.200": "f6d5fa867183d2825459fb228f9dc427d465b39a",
-        "logius.color.donkerbruin.300": "491411384eb7be8abd856afc658d179bb854a65a",
-        "logius.color.geel.100": "6ff57ad43449dc273147ed50e69cb0f44c3506d9",
-        "logius.color.geel.200": "a243bada297844dbab37845dd02efb53159213fc",
-        "logius.color.geel.300": "d26421d015bf22b7791cb81d1957ed5ae68366f7",
-        "logius.color.donkergeel.100": "c6f249825365cb613271a19147833af5326bcd4d",
-        "logius.color.donkergeel.200": "75e86e7f78a91b07c8d6b25ded018a0d1f94d474",
-        "logius.color.donkergeel.300": "dbe9e3c48b7cf9e76db21cca7353f19c40851f97",
-        "logius.color.donkergeel.400": "6747e968ec1fe09cecbab052bbfa9ecdf251bc5e",
-        "logius.color.oranje.100": "cbcfbed6610439996a6adafb1fff58b95ab781ac",
-        "logius.color.oranje.200": "64b50b6b5a16151f933e0ad5c02162676a50887b",
-        "logius.color.oranje.300": "ee406490ec9e60ec38ab5718f705ae9d1529e4ee",
-        "logius.color.oranje.400": "966ced9339c25314db5cce5d62331c3699402b62",
-        "logius.color.rood.100": "fa4a234f8817efd0551332f2a25f218069460408",
-        "logius.color.rood.200": "7f70962cac928073d4c8c451ae1f1be31bb207a2",
-        "logius.color.rood.300": "c1e96958bb718406a9e8c8e6189feafaa7688fe4",
-        "logius.color.rood.400": "e05e06a8f35356dc92aaed0daf56db580f13dd7a",
-        "logius.color.roze.100": "f2e51f44b3a9a070d892c36ad70d80bcbe3a0654",
-        "logius.color.roze.200": "87272d32cbd4a44bf7ec68631e1ceda2c6349226",
-        "logius.color.roze.300": "97b34a7a88024d121efb5b0d286ff669ff7a5aba",
-        "logius.color.robijnrood.100": "72e1dd6a92ef1431c15872cc2d7bfbe26dd22ccd",
-        "logius.color.robijnrood.200": "7b256605ebe5e1fbe8ff7790ebbdaf7c5cef057e",
-        "logius.color.robijnrood.300": "5c8f13ab66d457805a92d6d3cb4ac80b71c33e5e",
-        "logius.border-radius.default": "e5f48a7bb769282df2e86cecbdec6e263df8f54b",
-        "logius.border-radius.circle": "f8be0104b772f41b69ed279660b1028ddb6924ad",
-        "logius.border-radius.none": "5ea7da8227c7455308fe758addfc626539e42665",
-        "logius.border-width.default": "fc6454004337a191b15f17d018fc0d5e44630aac",
-        "logius.border-width.m": "0d49553fe4cfba87ca187caecdfde28f25041973",
-        "logius.border-width.none": "75e38c87b49f98b0bc18c62b28585f630defa1cc",
-        "logius.space.0-x": "82983c6a93bfe63835178c28475d505fa5007bc0",
-        "logius.space.025-x": "b2c7c17e7039e381e4089849a879772fd38e3cd9",
-        "logius.space.05-x": "d072de7c6d2d8f008b734e0419acf0160bcfe720",
-        "logius.space.1-x": "bc1278a77aae895e98eb8b980d253ef2cf3b7ca3",
-        "logius.space.105-x": "591708067f6bb34528b011f028bc7b5866fa70d7",
-        "logius.space.2-x": "7ed69bd3dc716635c55effc7df385eefd74c6386",
-        "logius.space.3-x": "ff50b5fea4891d7e6d2ada2c69334a392cc12ebe",
-        "logius.space.4-x": "b4e03924c669ff4cef00672b4ab4c57358abca66",
-        "logius.space.5-x": "8f66b763f52c9ab8b75b24f6588e5c51492d7f78",
-        "logius.space.6-x": "9eaef8872d83f6fba9aef334bec23520c40008aa",
-        "logius.space.7-x": "aebeb037996013b30822f4dcbf182af35632ed5b"
+        "lux.color.grijs.100": "d2688ca4cae19023ee131e5dcfe20337dfff00b4",
+        "lux.color.grijs.200": "8c1a8227b2f334a6486de9c6425928e36d885398",
+        "lux.color.grijs.300": "78c4218ee8d2ca266a55f601278da9d64dc27621",
+        "lux.color.grijs.400": "206a7788a7c2f0d6653bb4c93183a98c7dd633c5",
+        "lux.color.grijs.500": "db7799be9c33ad71e30fee0e24a7258ff6ae713f",
+        "lux.color.grijs.600": "679005ee100b58ecc672a580d5e41086e1c3bf9d",
+        "lux.color.grijs.700": "c279bbe1dde0a09888e31cbae9c15e15ab5cfb9f",
+        "lux.color.grijs.800": "c97d08be3a96e8a102867c4bd40cebe82b4628bb",
+        "lux.color.grijs.900": "0b4b60156fa965a3d9b4c17c44992844c58673ef",
+        "lux.color.zwart": "e4de5ad8e37e8fa04221bf9a13aed71de0260fd8",
+        "lux.color.wit": "8e6fe1b9cf89d7d22eaf2aedc7dab36172b17ff5",
+        "lux.color.none": "72d4597ef280d707c2578ea39cdc18928c99bbe6",
+        "lux.color.lichtblauw.100": "9a9ded758d2105786a829566c4f0d810adf4a724",
+        "lux.color.lichtblauw.200": "01acd4cff66de1267b2a348c731eb3a9052ecddf",
+        "lux.color.lichtblauw.300": "6c07dd776f29a34918dd1b1cd1eade05636b4199",
+        "lux.color.violet.100": "b318af1b62bf33ef0c919f8fabdfbd703c49a32d",
+        "lux.color.violet.200": "bef15201e6e8ab5430a65ca95a906a369f82a945",
+        "lux.color.violet.300": "d62a8ba32bbed786c02dbb28520f1a36a21a13be",
+        "lux.color.violet.400": "cf178335a2ef8ab7e81160d98e89004c67115f93",
+        "lux.color.paars.100": "7a822c62bfd7f166b9a27e7345f39751d77f32f1",
+        "lux.color.paars.200": "9d119a87ad620b25125aea395e4377a87a615dad",
+        "lux.color.paars.300": "c9eaf5a9995798feee7f0da47dddd73bbc691301",
+        "lux.color.paars.400": "5382ad5687c406a0928b924a2532b87e4c33a43c",
+        "lux.color.hemelblauw.100": "d8a52ed15ddfc34ed20ea728a30c6c6dd60d34a3",
+        "lux.color.hemelblauw.200": "88220288a2d475d8320e837f7c01f35397587b38",
+        "lux.color.hemelblauw.300": "689033db9e4e1bf79ca6a1663c486235c1818f34",
+        "lux.color.hemelblauw.400": "2e294ea1159a8090e769cd590df5b4f9e54c2c23",
+        "lux.color.donkerblauw.100": "69d6204d0923e7e6f44141602199807aee3d97c8",
+        "lux.color.donkerblauw.200": "820013416239c1cb8cfb41189e843025a0a95ce3",
+        "lux.color.donkerblauw.300": "c0e8478d9aa5c19079c3237f423d77de0c856a01",
+        "lux.color.donkerblauw.400": "8446262fa385eefdc2b03f9be348b11a5bd09507",
+        "lux.color.mintgroen.100": "7c69f7d25b8305e21fabca28a3c5900924748f36",
+        "lux.color.mintgroen.200": "017911c93b606c9668ac85cee85fcfb024aa3fd3",
+        "lux.color.mintgroen.300": "07178eca9a8064bb4f545da147a7628f1ee96cb4",
+        "lux.color.mosgroen.100": "a3136448ad1aa4dd26c55ab9988fa1b48706b79d",
+        "lux.color.mosgroen.200": "ad7747ffe4ef05065005537ba040acd6f2284b83",
+        "lux.color.mosgroen.300": "79da716332c35778741a25c314d7e54c34298236",
+        "lux.color.groen.100": "8a3e80eaa5a0f1fb1f36d84e1f72c7b05552d138",
+        "lux.color.groen.200": "ac722aa8fd1ac20e419e9b53d63d463dbaf9e5fe",
+        "lux.color.groen.300": "596df0499bb86348f93f5ad2939847e1bc730c5a",
+        "lux.color.groen.400": "72ab98f0544247fe010227257230115318f1b936",
+        "lux.color.donkergroen.100": "a3f112aeaf1bd9c6e45485a13bca7d328344f7ec",
+        "lux.color.donkergroen.200": "899d7e22881a4ee5303fd1b568fb1567f6feff2d",
+        "lux.color.donkergroen.300": "131b5144b65e8b5e8e28d61f78abc8f95b3f7caa",
+        "lux.color.bruin.100": "ffb76fbc42f73739476fc44ca2a6a1ecfa44c621",
+        "lux.color.bruin.200": "a6d3c83466975b0426ebbc1f4640fd760a4d4806",
+        "lux.color.bruin.300": "94727474dfb0e2578dd23246039a5fda0e4b68f3",
+        "lux.color.donkerbruin.100": "e8038df2c4a8903fd9ace8e3456a477922ac01af",
+        "lux.color.donkerbruin.200": "f6d5fa867183d2825459fb228f9dc427d465b39a",
+        "lux.color.donkerbruin.300": "491411384eb7be8abd856afc658d179bb854a65a",
+        "lux.color.geel.100": "6ff57ad43449dc273147ed50e69cb0f44c3506d9",
+        "lux.color.geel.200": "a243bada297844dbab37845dd02efb53159213fc",
+        "lux.color.geel.300": "d26421d015bf22b7791cb81d1957ed5ae68366f7",
+        "lux.color.donkergeel.100": "c6f249825365cb613271a19147833af5326bcd4d",
+        "lux.color.donkergeel.200": "75e86e7f78a91b07c8d6b25ded018a0d1f94d474",
+        "lux.color.donkergeel.300": "dbe9e3c48b7cf9e76db21cca7353f19c40851f97",
+        "lux.color.donkergeel.400": "6747e968ec1fe09cecbab052bbfa9ecdf251bc5e",
+        "lux.color.oranje.100": "cbcfbed6610439996a6adafb1fff58b95ab781ac",
+        "lux.color.oranje.200": "64b50b6b5a16151f933e0ad5c02162676a50887b",
+        "lux.color.oranje.300": "ee406490ec9e60ec38ab5718f705ae9d1529e4ee",
+        "lux.color.oranje.400": "966ced9339c25314db5cce5d62331c3699402b62",
+        "lux.color.rood.100": "fa4a234f8817efd0551332f2a25f218069460408",
+        "lux.color.rood.200": "7f70962cac928073d4c8c451ae1f1be31bb207a2",
+        "lux.color.rood.300": "c1e96958bb718406a9e8c8e6189feafaa7688fe4",
+        "lux.color.rood.400": "e05e06a8f35356dc92aaed0daf56db580f13dd7a",
+        "lux.color.roze.100": "f2e51f44b3a9a070d892c36ad70d80bcbe3a0654",
+        "lux.color.roze.200": "87272d32cbd4a44bf7ec68631e1ceda2c6349226",
+        "lux.color.roze.300": "97b34a7a88024d121efb5b0d286ff669ff7a5aba",
+        "lux.color.robijnrood.100": "72e1dd6a92ef1431c15872cc2d7bfbe26dd22ccd",
+        "lux.color.robijnrood.200": "7b256605ebe5e1fbe8ff7790ebbdaf7c5cef057e",
+        "lux.color.robijnrood.300": "5c8f13ab66d457805a92d6d3cb4ac80b71c33e5e",
+        "lux.border-radius.default": "e5f48a7bb769282df2e86cecbdec6e263df8f54b",
+        "lux.border-radius.circle": "f8be0104b772f41b69ed279660b1028ddb6924ad",
+        "lux.border-radius.none": "5ea7da8227c7455308fe758addfc626539e42665",
+        "lux.border-width.default": "fc6454004337a191b15f17d018fc0d5e44630aac",
+        "lux.border-width.m": "0d49553fe4cfba87ca187caecdfde28f25041973",
+        "lux.border-width.none": "75e38c87b49f98b0bc18c62b28585f630defa1cc",
+        "lux.space.0-x": "82983c6a93bfe63835178c28475d505fa5007bc0",
+        "lux.space.025-x": "b2c7c17e7039e381e4089849a879772fd38e3cd9",
+        "lux.space.05-x": "d072de7c6d2d8f008b734e0419acf0160bcfe720",
+        "lux.space.1-x": "bc1278a77aae895e98eb8b980d253ef2cf3b7ca3",
+        "lux.space.105-x": "591708067f6bb34528b011f028bc7b5866fa70d7",
+        "lux.space.2-x": "7ed69bd3dc716635c55effc7df385eefd74c6386",
+        "lux.space.3-x": "ff50b5fea4891d7e6d2ada2c69334a392cc12ebe",
+        "lux.space.4-x": "b4e03924c669ff4cef00672b4ab4c57358abca66",
+        "lux.space.5-x": "8f66b763f52c9ab8b75b24f6588e5c51492d7f78",
+        "lux.space.6-x": "9eaef8872d83f6fba9aef334bec23520c40008aa",
+        "lux.space.7-x": "aebeb037996013b30822f4dcbf182af35632ed5b"
       },
       "group": "always on"
     },
@@ -1667,9 +1763,7 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/default": "enabled",
-        "component/button/variant/primary": "disabled",
-        "component/button/variant/secondary": "disabled"
+        "component/button/default": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:5:92",
       "$figmaModeId": "5:2",
@@ -1706,9 +1800,7 @@
       "id": "60315acb9c82133759580124c5ba7498dc1b3ce4",
       "name": "Logius",
       "selectedTokenSets": {
-        "product/Logius": "enabled",
-        "component/button/variant/primary": "disabled",
-        "component/button/variant/secondary": "disabled"
+        "product/Logius": "enabled"
       },
       "$figmaStyleReferences": {
         "body.s-400": "S:945b3429270c1a4418b1a976ab78a0d37a826e15,",
@@ -1992,19 +2084,16 @@
         "color.donkerblauw.400": "S:5fb2e73be6bb12aeddbaf8fea3bf45393555afd8,",
         "shadow.default": "S:066be6a2f054efebd1942300c0b97ec568a3b83f,",
         "color.groen.400": "S:3f0afb77e4c24e13fb23e8536c1f3f89fef3ec1a,",
-        "logius.color.canvas": "S:b16b91a4799b4dbfc5c4caed8a15e8059a234be6,",
-        "logius.color.border": "S:2d7f942d2e78a2ede7ab72ecb468ccf9fbd8ecd5,",
-        "logius.color.subdued.border": "S:cbda57b216422ccf4d56906a96fda458763bf2be,",
-        "logius.color.brand.hover": "S:380d89872404047e6b2f54bae7bb57a7713a7dc4,",
-        "logius.color.brand.default": "S:959005590ad60ed08b799860fe5ce9056875e112,",
-        "logius.color.brand.subdued": "S:39b320645f4d4129756f48b07ec583d969a0c6f8,"
+        "lux.color.brand.hover": "S:380d89872404047e6b2f54bae7bb57a7713a7dc4,",
+        "lux.color.brand.default": "S:959005590ad60ed08b799860fe5ce9056875e112,",
+        "lux.color.brand.subdued": "S:39b320645f4d4129756f48b07ec583d969a0c6f8,",
+        "lux.color.canvas": "S:b16b91a4799b4dbfc5c4caed8a15e8059a234be6,",
+        "lux.color.border": "S:2d7f942d2e78a2ede7ab72ecb468ccf9fbd8ecd5,",
+        "lux.color.subdued.border": "S:cbda57b216422ccf4d56906a96fda458763bf2be,"
       },
       "$figmaCollectionId": "VariableCollectionId:6:190",
       "$figmaModeId": "6:14",
       "$figmaVariableReferences": {
-        "logius.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
-        "logius.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
-        "logius.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e",
         "product.button.color.secondary.border": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
         "product.button.color.secondary.foreground": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
         "product.button.color.secondary.hover.border": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
@@ -2012,7 +2101,10 @@
         "product.button.color.secondary.hover.background": "546d717c3eaedf01264690d1d5779dcce3c2af14",
         "product.button.color.tertiary.foreground": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
         "product.button.color.tertiary.hover.foreground": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
-        "product.button.color.tertiary.hover.background": "eab9d76059c73fdde9167fea7572f25774117cc8"
+        "product.button.color.tertiary.hover.background": "eab9d76059c73fdde9167fea7572f25774117cc8",
+        "lux.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
+        "lux.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
+        "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e"
       },
       "group": "1. brand"
     },
@@ -2021,9 +2113,7 @@
       "name": "MijnOverheid",
       "selectedTokenSets": {
         "product/MijnOverheid": "enabled",
-        "product/Logius": "enabled",
-        "component/button/variant/primary": "disabled",
-        "component/button/variant/secondary": "disabled"
+        "product/Logius": "enabled"
       },
       "$figmaStyleReferences": {
         "common.warning.background": "S:6d53d59a1c72d20d5fcc7ba2baa3321ba4b2b331,",
@@ -2218,25 +2308,22 @@
         "color.zwart": "S:d18033e68094314cfed84d2195f64afa450b6848,",
         "color.wit": "S:dcf86f8a40c000036f91da6da126e4c5505b24ce,",
         "color.groen.400": "S:ee3f774bb69166137529b82a8c3197284a34aaa8,",
-        "logius.color.border": "S:6c3fa8837625ce3d9e3e6dbf94a037ffcf4df497,",
-        "logius.color.canvas": "S:980caa60911d3bcab050f04e874dc3246b3e8747,",
-        "logius.color.subdued.border": "S:608e87c6536174d35461756b200eaf5663c21761,",
-        "logius.color.foreground": "S:3cadb2d95187de4eb78dddba3dfa3a8f2fb90cfa,",
-        "logius.color.background": "S:28256078a97bfb432a0c39da534e0ddddb1ab07a,",
-        "logius.color.subdued.foreground": "S:2da7bf96f7c159410447b896e085144918ca53cb,",
-        "logius.color.subdued.background": "S:45487b836ffd448826016f6fb1fd5894a732f2f8,",
-        "logius.color.hover.background": "S:4fa33810f036e737fb54bd6efc0dc68d2039e515,",
-        "logius.color.onEmphasis.foreground": "S:04b8ddc8a94730194d0363ff6d0b6c2b642e6f9f,",
-        "logius.color.brand.default": "S:a77b001959f59f620f94516d5c3770bef58e1d54,",
-        "logius.color.brand.hover": "S:58709975fb7b74a9e66a27de34ded2f35b20d9ec,",
-        "logius.color.brand.subdued": "S:709b56b8ae6a4242efef2abfd43cfef3be777596,"
+        "lux.color.brand.default": "S:a77b001959f59f620f94516d5c3770bef58e1d54,",
+        "lux.color.brand.hover": "S:58709975fb7b74a9e66a27de34ded2f35b20d9ec,",
+        "lux.color.brand.subdued": "S:709b56b8ae6a4242efef2abfd43cfef3be777596,",
+        "lux.color.border": "S:6c3fa8837625ce3d9e3e6dbf94a037ffcf4df497,",
+        "lux.color.canvas": "S:980caa60911d3bcab050f04e874dc3246b3e8747,",
+        "lux.color.subdued.border": "S:608e87c6536174d35461756b200eaf5663c21761,",
+        "lux.color.foreground": "S:3cadb2d95187de4eb78dddba3dfa3a8f2fb90cfa,",
+        "lux.color.background": "S:28256078a97bfb432a0c39da534e0ddddb1ab07a,",
+        "lux.color.subdued.foreground": "S:2da7bf96f7c159410447b896e085144918ca53cb,",
+        "lux.color.subdued.background": "S:45487b836ffd448826016f6fb1fd5894a732f2f8,",
+        "lux.color.hover.background": "S:4fa33810f036e737fb54bd6efc0dc68d2039e515,",
+        "lux.color.onEmphasis.foreground": "S:04b8ddc8a94730194d0363ff6d0b6c2b642e6f9f,"
       },
       "$figmaCollectionId": "VariableCollectionId:6:190",
       "$figmaModeId": "6:15",
       "$figmaVariableReferences": {
-        "logius.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
-        "logius.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
-        "logius.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e",
         "product.button.color.secondary.border": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
         "product.button.color.secondary.foreground": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
         "product.button.color.secondary.hover.border": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
@@ -2244,7 +2331,10 @@
         "product.button.color.secondary.hover.background": "546d717c3eaedf01264690d1d5779dcce3c2af14",
         "product.button.color.tertiary.foreground": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
         "product.button.color.tertiary.hover.foreground": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
-        "product.button.color.tertiary.hover.background": "eab9d76059c73fdde9167fea7572f25774117cc8"
+        "product.button.color.tertiary.hover.background": "eab9d76059c73fdde9167fea7572f25774117cc8",
+        "lux.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
+        "lux.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
+        "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e"
       },
       "group": "1. brand"
     },
@@ -2252,9 +2342,7 @@
       "id": "f5b6c8fb09c0a683c6037de2c2b4bb8c553ff9e8",
       "name": "DigiD",
       "selectedTokenSets": {
-        "product/DigiD": "enabled",
-        "component/button/variant/primary": "disabled",
-        "component/button/variant/secondary": "disabled"
+        "product/DigiD": "enabled"
       },
       "$figmaStyleReferences": {
         "common.highlight.base": "S:f8f46a43b805f4723eadb8c5fb2b20b8f220376c,",
@@ -2533,25 +2621,22 @@
         "shadow.default": "S:b1ee029c3888b302213171921d746f03bc052d42,",
         "header.color.background": "S:150968cc5b00df92d379bce76f7f203f5953a210,",
         "header.color.foreground": "S:24a26a0a0cfe4d66a9d61b903b83674231ff4be9,",
-        "logius.color.foreground": "S:0a6b6c87cfb5655dc3960e85895097c8645d7d74,",
-        "logius.color.background": "S:bc5ec6872121070a7794bf578d097625bb552982,",
-        "logius.color.border": "S:db48abdd04ab20a03a7c67b84b6f295a9c5f70e2,",
-        "logius.color.canvas": "S:151c4957325cabf762e43fc7155c38872f771c51,",
-        "logius.color.subdued.foreground": "S:ba2d62746cfb079f215bc132c25af399bdbbf23a,",
-        "logius.color.subdued.background": "S:19c7134b970054aadb085de85e25ec443180a4b4,",
-        "logius.color.subdued.border": "S:d6f623cb919ec1d88f52f72d37806f877dce29f4,",
-        "logius.color.hover.background": "S:02a2a476ddd8286503d07006de52e369c5720a8f,",
-        "logius.color.onEmphasis.foreground": "S:5abff0d37380d9204c0761bf8f7b41a55ae17c0f,",
-        "logius.color.brand.default": "S:3b2f9faeec461c138b8bd3b4bb7ebfe41b1c4391,",
-        "logius.color.brand.subdued": "S:40f4e6e221a8154e82e0cafa2593afc2ac55f38a,",
-        "logius.color.brand.hover": "S:6a37efaaa024002b8a8322273d941c4ac52546f8,"
+        "lux.color.brand.default": "S:3b2f9faeec461c138b8bd3b4bb7ebfe41b1c4391,",
+        "lux.color.brand.subdued": "S:40f4e6e221a8154e82e0cafa2593afc2ac55f38a,",
+        "lux.color.brand.hover": "S:6a37efaaa024002b8a8322273d941c4ac52546f8,",
+        "lux.color.foreground": "S:0a6b6c87cfb5655dc3960e85895097c8645d7d74,",
+        "lux.color.background": "S:bc5ec6872121070a7794bf578d097625bb552982,",
+        "lux.color.border": "S:db48abdd04ab20a03a7c67b84b6f295a9c5f70e2,",
+        "lux.color.canvas": "S:151c4957325cabf762e43fc7155c38872f771c51,",
+        "lux.color.subdued.foreground": "S:ba2d62746cfb079f215bc132c25af399bdbbf23a,",
+        "lux.color.subdued.background": "S:19c7134b970054aadb085de85e25ec443180a4b4,",
+        "lux.color.subdued.border": "S:d6f623cb919ec1d88f52f72d37806f877dce29f4,",
+        "lux.color.hover.background": "S:02a2a476ddd8286503d07006de52e369c5720a8f,",
+        "lux.color.onEmphasis.foreground": "S:5abff0d37380d9204c0761bf8f7b41a55ae17c0f,"
       },
       "$figmaCollectionId": "VariableCollectionId:6:190",
       "$figmaModeId": "6:16",
       "$figmaVariableReferences": {
-        "logius.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
-        "logius.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
-        "logius.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e",
         "product.button.color.secondary.border": "bf36eff68a779f94ea70b11e0b3dbf146bd6e7be",
         "product.button.color.secondary.foreground": "27cf2d6f0804434ddca3fc0e7b8ada1ff6b3ecd1",
         "product.button.color.secondary.hover.border": "4f5fb0c710fe06c453f3afa176266d9ce1395f7b",
@@ -2559,7 +2644,10 @@
         "product.button.color.secondary.hover.background": "546d717c3eaedf01264690d1d5779dcce3c2af14",
         "product.button.color.tertiary.foreground": "4c0fe81bff68d465bd0130422be2b6ed5b9323b0",
         "product.button.color.tertiary.hover.foreground": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
-        "product.button.color.tertiary.hover.background": "eab9d76059c73fdde9167fea7572f25774117cc8"
+        "product.button.color.tertiary.hover.background": "eab9d76059c73fdde9167fea7572f25774117cc8",
+        "lux.color.brand.default": "01c9d6470ee29fe1972ca47ab1190b1fd8e8e0d8",
+        "lux.color.brand.subdued": "931740a44f934f2cbcd2bb51066ae6337a6397b1",
+        "lux.color.brand.hover": "98c4323d1d70460000c3b7c94df8129ccc7abb4e"
       },
       "group": "1. brand"
     },
@@ -2568,30 +2656,11 @@
       "name": "light",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "mode/light": "enabled",
-        "component/button/variant/primary": "disabled",
-        "component/button/variant/secondary": "disabled"
+        "mode/light": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:17",
       "$figmaVariableReferences": {
-        "logius.color.foreground": "0e536ce1395ccbdb153a2bc4ea77d3e7347e8654",
-        "logius.color.background": "5666681dae9eedc23f6907ca8ae1186ec8550e9e",
-        "logius.color.border": "a63eb359819398bddda58f348a2356bd60165679",
-        "logius.color.canvas": "a8ad30715ee9f4db4c87cfa2a16798e9406cc63c",
-        "logius.color.subdued.foreground": "7989c557fda35639c5de39fd4060e372d1f5fc3c",
-        "logius.color.subdued.background": "5daa76c2435f7f66c2a85ef06905045ae42a127a",
-        "logius.color.subdued.border": "39e7f1a08600f868c3e560f19b920fc8fee40ae9",
-        "logius.color.hover.background": "0a5febc70f135b0cc7346a0dcd1cf05d503d127e",
-        "logius.color.onEmphasis.foreground": "c6efbe962e372b71409015df15f7104524132d92",
-        "logius.color.feedback.success.default": "4b8a7cfa2729733bd90a4da71f409126e99ea2b4",
-        "logius.color.feedback.success.subdued": "88d9d6230dc55aaadac3207dddbfd99f87634b98",
-        "logius.color.feedback.info.default": "4b0b19ef949e0211d6641f3ba6e96763b8568dbd",
-        "logius.color.feedback.info.subdued": "09b501925e024475fcded0860f77d8e31d9ba2da",
-        "logius.color.feedback.error.default": "e0ff8cdc04c57274fa29a26f018ed6888be9cf7e",
-        "logius.color.feedback.error.subdued": "f048eacb89b0beb47af0091cfe40c194ca25968c",
-        "logius.color.feedback.warning.default": "3e593a95b89f7209f1038465d0d91cc36d151b8e",
-        "logius.color.feedback.warning.subdued": "79f380949c707007c9e2fa4f561789451d704af6",
         "mode.button.color.tertiary.hover.background": "ca64b57ffce6e8e4bee6e753afa298517af2ee72",
         "mode.button.color.tertiary.hover.foreground": "c3e31ed3bc5b4ba506f02ced6da358fc6043ee78",
         "mode.button.color.tertiary.foreground": "41f1b4293087e908504c96075d0f12d882f4c38b",
@@ -2599,7 +2668,24 @@
         "mode.button.color.secondary.hover.background": "0d97d8b2cfbfd0f37023103621315fe68d1e9abb",
         "mode.button.color.secondary.hover.border": "d405b7ba1cece0cb2e96ba2853bdcf1c43e46795",
         "mode.button.color.secondary.foreground": "d5746bb8f35cf70d0b43c63f4875fda24365fef4",
-        "mode.button.color.secondary.border": "2c44cd359fb7e4943ca9e5bf4b4a759e46005c1c"
+        "mode.button.color.secondary.border": "2c44cd359fb7e4943ca9e5bf4b4a759e46005c1c",
+        "lux.color.foreground": "0e536ce1395ccbdb153a2bc4ea77d3e7347e8654",
+        "lux.color.background": "5666681dae9eedc23f6907ca8ae1186ec8550e9e",
+        "lux.color.border": "a63eb359819398bddda58f348a2356bd60165679",
+        "lux.color.canvas": "a8ad30715ee9f4db4c87cfa2a16798e9406cc63c",
+        "lux.color.subdued.foreground": "7989c557fda35639c5de39fd4060e372d1f5fc3c",
+        "lux.color.subdued.background": "5daa76c2435f7f66c2a85ef06905045ae42a127a",
+        "lux.color.subdued.border": "39e7f1a08600f868c3e560f19b920fc8fee40ae9",
+        "lux.color.hover.background": "0a5febc70f135b0cc7346a0dcd1cf05d503d127e",
+        "lux.color.onEmphasis.foreground": "c6efbe962e372b71409015df15f7104524132d92",
+        "lux.color.feedback.success.default": "4b8a7cfa2729733bd90a4da71f409126e99ea2b4",
+        "lux.color.feedback.success.subdued": "88d9d6230dc55aaadac3207dddbfd99f87634b98",
+        "lux.color.feedback.info.default": "4b0b19ef949e0211d6641f3ba6e96763b8568dbd",
+        "lux.color.feedback.info.subdued": "09b501925e024475fcded0860f77d8e31d9ba2da",
+        "lux.color.feedback.error.default": "e0ff8cdc04c57274fa29a26f018ed6888be9cf7e",
+        "lux.color.feedback.error.subdued": "f048eacb89b0beb47af0091cfe40c194ca25968c",
+        "lux.color.feedback.warning.default": "3e593a95b89f7209f1038465d0d91cc36d151b8e",
+        "lux.color.feedback.warning.subdued": "79f380949c707007c9e2fa4f561789451d704af6"
       },
       "group": "2. mode"
     },
@@ -2609,22 +2695,11 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "mode/dark": "enabled",
-        "mode/light": "enabled",
-        "component/button/variant/primary": "disabled",
-        "component/button/variant/secondary": "disabled"
+        "mode/light": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:18",
       "$figmaVariableReferences": {
-        "logius.color.foreground": "0e536ce1395ccbdb153a2bc4ea77d3e7347e8654",
-        "logius.color.background": "5666681dae9eedc23f6907ca8ae1186ec8550e9e",
-        "logius.color.border": "a63eb359819398bddda58f348a2356bd60165679",
-        "logius.color.canvas": "a8ad30715ee9f4db4c87cfa2a16798e9406cc63c",
-        "logius.color.subdued.foreground": "7989c557fda35639c5de39fd4060e372d1f5fc3c",
-        "logius.color.subdued.background": "5daa76c2435f7f66c2a85ef06905045ae42a127a",
-        "logius.color.subdued.border": "39e7f1a08600f868c3e560f19b920fc8fee40ae9",
-        "logius.color.hover.background": "0a5febc70f135b0cc7346a0dcd1cf05d503d127e",
-        "logius.color.onEmphasis.foreground": "c6efbe962e372b71409015df15f7104524132d92",
         "mode.button.color.tertiary.hover.background": "ca64b57ffce6e8e4bee6e753afa298517af2ee72",
         "mode.button.color.tertiary.hover.foreground": "c3e31ed3bc5b4ba506f02ced6da358fc6043ee78",
         "mode.button.color.tertiary.foreground": "41f1b4293087e908504c96075d0f12d882f4c38b",
@@ -2633,14 +2708,23 @@
         "mode.button.color.secondary.hover.border": "d405b7ba1cece0cb2e96ba2853bdcf1c43e46795",
         "mode.button.color.secondary.foreground": "d5746bb8f35cf70d0b43c63f4875fda24365fef4",
         "mode.button.color.secondary.border": "2c44cd359fb7e4943ca9e5bf4b4a759e46005c1c",
-        "logius.color.feedback.success.default": "4b8a7cfa2729733bd90a4da71f409126e99ea2b4",
-        "logius.color.feedback.success.subdued": "88d9d6230dc55aaadac3207dddbfd99f87634b98",
-        "logius.color.feedback.info.default": "4b0b19ef949e0211d6641f3ba6e96763b8568dbd",
-        "logius.color.feedback.info.subdued": "09b501925e024475fcded0860f77d8e31d9ba2da",
-        "logius.color.feedback.error.default": "e0ff8cdc04c57274fa29a26f018ed6888be9cf7e",
-        "logius.color.feedback.error.subdued": "f048eacb89b0beb47af0091cfe40c194ca25968c",
-        "logius.color.feedback.warning.default": "3e593a95b89f7209f1038465d0d91cc36d151b8e",
-        "logius.color.feedback.warning.subdued": "79f380949c707007c9e2fa4f561789451d704af6"
+        "lux.color.foreground": "0e536ce1395ccbdb153a2bc4ea77d3e7347e8654",
+        "lux.color.background": "5666681dae9eedc23f6907ca8ae1186ec8550e9e",
+        "lux.color.border": "a63eb359819398bddda58f348a2356bd60165679",
+        "lux.color.canvas": "a8ad30715ee9f4db4c87cfa2a16798e9406cc63c",
+        "lux.color.subdued.foreground": "7989c557fda35639c5de39fd4060e372d1f5fc3c",
+        "lux.color.subdued.background": "5daa76c2435f7f66c2a85ef06905045ae42a127a",
+        "lux.color.subdued.border": "39e7f1a08600f868c3e560f19b920fc8fee40ae9",
+        "lux.color.hover.background": "0a5febc70f135b0cc7346a0dcd1cf05d503d127e",
+        "lux.color.onEmphasis.foreground": "c6efbe962e372b71409015df15f7104524132d92",
+        "lux.color.feedback.success.default": "4b8a7cfa2729733bd90a4da71f409126e99ea2b4",
+        "lux.color.feedback.success.subdued": "88d9d6230dc55aaadac3207dddbfd99f87634b98",
+        "lux.color.feedback.info.default": "4b0b19ef949e0211d6641f3ba6e96763b8568dbd",
+        "lux.color.feedback.info.subdued": "09b501925e024475fcded0860f77d8e31d9ba2da",
+        "lux.color.feedback.error.default": "e0ff8cdc04c57274fa29a26f018ed6888be9cf7e",
+        "lux.color.feedback.error.subdued": "f048eacb89b0beb47af0091cfe40c194ca25968c",
+        "lux.color.feedback.warning.default": "3e593a95b89f7209f1038465d0d91cc36d151b8e",
+        "lux.color.feedback.warning.subdued": "79f380949c707007c9e2fa4f561789451d704af6"
       },
       "group": "2. mode"
     },
@@ -2649,20 +2733,18 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "viewport/default": "enabled",
-        "component/button/variant/primary": "disabled",
-        "component/button/variant/secondary": "disabled"
+        "viewport/default": "enabled"
       },
       "group": "3. viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
       "$figmaModeId": "6:19",
       "$figmaVariableReferences": {
-        "logius.size.2xs": "6653ffef10f89faebbf979b9a07d9d1a24386425",
-        "logius.size.xs": "6589572a40a6b7c805b85300c23a9c5ff45e4795",
-        "logius.size.s": "f19cadd667d695f4b0d6ff2978b16a232973cd13",
-        "logius.size.m": "00e82a8efe7e811c77c263b7a4a13892558063fb",
-        "logius.icon-size.default": "967422af41b9242f8f134d86ed6602d78682b446",
-        "logius.icon-size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb"
+        "lux.size.2xs": "6653ffef10f89faebbf979b9a07d9d1a24386425",
+        "lux.size.xs": "6589572a40a6b7c805b85300c23a9c5ff45e4795",
+        "lux.size.s": "f19cadd667d695f4b0d6ff2978b16a232973cd13",
+        "lux.size.m": "00e82a8efe7e811c77c263b7a4a13892558063fb",
+        "lux.icon-size.default": "967422af41b9242f8f134d86ed6602d78682b446",
+        "lux.icon-size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb"
       }
     },
     {
@@ -2671,20 +2753,18 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "viewport/default": "enabled",
-        "viewport/xs": "enabled",
-        "component/button/variant/primary": "disabled",
-        "component/button/variant/secondary": "disabled"
+        "viewport/xs": "enabled"
       },
       "group": "3. viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
       "$figmaModeId": "6:20",
       "$figmaVariableReferences": {
-        "logius.size.2xs": "6653ffef10f89faebbf979b9a07d9d1a24386425",
-        "logius.size.xs": "6589572a40a6b7c805b85300c23a9c5ff45e4795",
-        "logius.size.s": "f19cadd667d695f4b0d6ff2978b16a232973cd13",
-        "logius.size.m": "00e82a8efe7e811c77c263b7a4a13892558063fb",
-        "logius.icon-size.default": "967422af41b9242f8f134d86ed6602d78682b446",
-        "logius.icon-size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb"
+        "lux.size.2xs": "6653ffef10f89faebbf979b9a07d9d1a24386425",
+        "lux.size.xs": "6589572a40a6b7c805b85300c23a9c5ff45e4795",
+        "lux.size.s": "f19cadd667d695f4b0d6ff2978b16a232973cd13",
+        "lux.size.m": "00e82a8efe7e811c77c263b7a4a13892558063fb",
+        "lux.icon-size.default": "967422af41b9242f8f134d86ed6602d78682b446",
+        "lux.icon-size.large": "b2dfebadf93f8aa4b2172cfe310ea69662932aeb"
       }
     },
     {
@@ -2692,8 +2772,7 @@
       "name": "primary",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/variant/primary": "enabled",
-        "component/button/variant/secondary": "disabled"
+        "component/button/variant/primary": "enabled"
       },
       "group": "button/variant",
       "$figmaCollectionId": "VariableCollectionId:5:163",
@@ -2721,7 +2800,6 @@
       "name": "secondary",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/variant/primary": "disabled",
         "component/button/variant/secondary": "enabled"
       },
       "group": "button/variant",
@@ -2749,11 +2827,7 @@
       "id": "a9b43e2e41d9368954f33ea36182858725df86b1",
       "name": "default",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "component/button/size/default": "enabled",
-        "component/button/variant/primary": "disabled",
-        "component/button/variant/secondary": "disabled"
-      },
+      "selectedTokenSets": {},
       "group": "button/size",
       "$figmaCollectionId": "VariableCollectionId:5:179",
       "$figmaModeId": "5:12",
@@ -2772,11 +2846,7 @@
       "id": "5820d3851b2d976871c6ef66abd4c4862cbc06c5",
       "name": "small",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "component/button/size/small": "enabled",
-        "component/button/variant/primary": "disabled",
-        "component/button/variant/secondary": "disabled"
-      },
+      "selectedTokenSets": {},
       "group": "button/size",
       "$figmaCollectionId": "VariableCollectionId:5:179",
       "$figmaModeId": "5:13",
@@ -2794,19 +2864,20 @@
   ],
   "$metadata": {
     "tokenSetOrder": [
-      "brand",
+      "core",
       "viewport/default",
       "viewport/xs",
       "product/Logius",
       "product/MijnOverheid",
       "product/DigiD",
+      "product/NL doc",
       "mode/light",
       "mode/dark",
       "component/button/default",
       "component/button/variant/primary",
       "component/button/variant/secondary",
-      "component/button/size/default",
-      "component/button/size/small"
+      "component/button/variant/tertairy",
+      "component/login-method-button"
     ]
   }
 }
