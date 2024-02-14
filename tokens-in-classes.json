@@ -1342,24 +1342,9 @@
             "value": "{lux.color.foreground.onEmphasis}"
           }
         },
-        "focus": {
-          "background-color": {
-            "type": "color",
-            "$comment-FIXME-value": "{utrecht.focus.background-color}",
-            "value": "{lux.color.brand.default}"
-          },
-          "border-color": {
-            "type": "color",
-            "value": "{lux.color.none}"
-          },
-          "color": {
-            "type": "color",
-            "value": "{lux.color.foreground.onEmphasis}"
-          }
-        },
         "active": {
           "background-color": {
-            "value": "{lux.color.background.subdued}",
+            "value": "{lux.color.brand.default}",
             "type": "color"
           },
           "border-color": {
@@ -1367,7 +1352,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{lux.color.foreground.subdued}",
+            "value": "{lux.color.foreground.onEmphasis}",
             "type": "color"
           }
         },
@@ -1387,7 +1372,7 @@
         },
         "border-color": {
           "type": "color",
-          "value": "{lux.color.brand.default}"
+          "value": "{mode.button.secondary.border-color}"
         },
         "color": {
           "type": "color",
@@ -1407,32 +1392,17 @@
             "value": "{lux.color.brand.hover}"
           }
         },
-        "focus": {
-          "background-color": {
-            "type": "color",
-            "$comment-FIXME-value": "{utrecht.focus.background-color}",
-            "value": "{lux.color.brand.default}"
-          },
-          "border-color": {
-            "type": "color",
-            "value": "{lux.color.none}"
-          },
-          "color": {
-            "type": "color",
-            "value": "{lux.color.foreground.onEmphasis}"
-          }
-        },
         "active": {
           "background-color": {
-            "value": "{lux.color.background.subdued}",
-            "type": "color"
-          },
-          "border-color": {
             "value": "{lux.color.none}",
             "type": "color"
           },
+          "border-color": {
+            "value": "{mode.button.secondary.border-color}",
+            "type": "color"
+          },
           "color": {
-            "value": "{lux.color.foreground.subdued}",
+            "value": "{mode.button.secondary.color}",
             "type": "color"
           }
         }
@@ -1448,44 +1418,29 @@
         },
         "border-color": {
           "type": "color",
-          "value": "{lux.color.brand.default}"
+          "value": "{lux.color.none}"
         },
         "color": {
           "type": "color",
-          "value": "{lux.color.brand.default}"
+          "value": "{mode.button.tertiary.color}"
         },
         "hover": {
           "background-color": {
             "type": "color",
-            "value": "{lux.color.brand.subdued}"
+            "value": "{mode.button.tertiary.hover.background-color}"
           },
           "border-color": {
-            "value": "{lux.color.brand.hover}",
+            "value": "{lux.color.none}",
             "type": "color"
           },
           "color": {
             "type": "color",
-            "value": "{lux.color.brand.hover}"
-          }
-        },
-        "focus": {
-          "background-color": {
-            "type": "color",
-            "$comment-FIXME-value": "{utrecht.focus.background-color}",
-            "value": "{lux.color.brand.default}"
-          },
-          "border-color": {
-            "type": "color",
-            "value": "{lux.color.none}"
-          },
-          "color": {
-            "type": "color",
-            "value": "{lux.color.foreground.onEmphasis}"
+            "value": "{mode.button.tertiary.hover.color}"
           }
         },
         "active": {
           "background-color": {
-            "value": "{lux.color.background.subdued}",
+            "value": "{lux.color.none}",
             "type": "color"
           },
           "border-color": {
@@ -1493,7 +1448,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{lux.color.foreground.subdued}",
+            "value": "{mode.button.tertiary.color}",
             "type": "color"
           }
         }
@@ -1636,10 +1591,7 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "core": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "core": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:5:3",
       "$figmaModeId": "5:1",
@@ -1733,17 +1685,14 @@
         "lux.space.7-x": "aebeb037996013b30822f4dcbf182af35632ed5b",
         "lux.border-radius.m": "a0f65881c1e20849a646bee279944ff985a57fe2"
       },
-      "group": "always on"
+      "group": "core"
     },
     {
       "id": "a18504aa909f8765d81bb59f792bb291031f11a7",
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/default": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "component/button/default": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:5:92",
       "$figmaModeId": "5:2",
@@ -1754,13 +1703,13 @@
         "lux.button.border-radius": "b4fb4bb91e061bef8b41aa97ed0ef1a4b697337f",
         "lux.button.border-width": "72ec17329fe494069db1a05de89a325cff8acddd",
         "lux.button.icon.size": "b791882f5546e89e0c8154c8db072f4c3e75da72",
+        "lux.button.margin-inline": "ecf52a6fe004fcd50ab0882a86720e75af7f71e9",
         "lux.button.padding-block-end": "e82018c00697fd1944e0f42781309ecdc3d4a9c5",
         "lux.button.padding-block-start": "521fc2b72fd9a91ef078e9a9a14a1132dee573b5",
         "lux.button.padding-inline-end": "a5a1ac604888ce2deb96a9170eed26774d512455",
         "lux.button.padding-inline-start": "3c2ce447c2e930d47119371b61aca0acd94af2b5",
         "lux.button.min-block-size": "06fc183b275d39c3399131d066b5e67f6d96efe6",
-        "lux.button.min-inline-size": "69f0c0eb350f2b9b58bba53a15c723d44420d650",
-        "lux.button.margin-inline": "ecf52a6fe004fcd50ab0882a86720e75af7f71e9"
+        "lux.button.min-inline-size": "69f0c0eb350f2b9b58bba53a15c723d44420d650"
       },
       "group": "component"
     },
@@ -1768,10 +1717,7 @@
       "id": "60315acb9c82133759580124c5ba7498dc1b3ce4",
       "name": "Logius",
       "selectedTokenSets": {
-        "product/Logius": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "product/Logius": "enabled"
       },
       "$figmaStyleReferences": {
         "body.s-400": "S:945b3429270c1a4418b1a976ab78a0d37a826e15,",
@@ -2085,10 +2031,7 @@
       "name": "MijnOverheid",
       "selectedTokenSets": {
         "product/MijnOverheid": "enabled",
-        "product/Logius": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "product/Logius": "enabled"
       },
       "$figmaStyleReferences": {
         "common.warning.background": "S:6d53d59a1c72d20d5fcc7ba2baa3321ba4b2b331,",
@@ -2319,10 +2262,7 @@
       "name": "DigiD",
       "selectedTokenSets": {
         "product/DigiD": "enabled",
-        "product/Logius": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "product/Logius": "enabled"
       },
       "$figmaStyleReferences": {
         "common.highlight.base": "S:f8f46a43b805f4723eadb8c5fb2b20b8f220376c,",
@@ -2645,10 +2585,7 @@
       "name": "light",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "mode/light": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "mode/light": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:17",
@@ -2695,10 +2632,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "mode/dark": "enabled",
-        "mode/light": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "mode/light": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:18",
@@ -2744,10 +2678,7 @@
       "name": "default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "viewport/default": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "viewport/default": "enabled"
       },
       "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
@@ -2765,10 +2696,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "viewport/default": "enabled",
-        "viewport/xs": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "viewport/xs": "enabled"
       },
       "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
@@ -2785,10 +2713,7 @@
       "name": "primary",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "component/button/variant/primary": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "component/button/variant/primary": "enabled"
       },
       "group": "button/variant",
       "$figmaCollectionId": "VariableCollectionId:5:163",
@@ -2814,10 +2739,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "component/button/variant/secondary": "enabled",
-        "component/button/variant/primary": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "component/button/variant/primary": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:5:163",
       "$figmaModeId": "5:11",
@@ -2844,10 +2766,7 @@
       "selectedTokenSets": {
         "component/button/variant/tertairy": "enabled",
         "component/button/variant/primary": "enabled",
-        "component/button/variant/secondary": "enabled",
-        "component/button/icon/none": "disabled",
-        "component/button/icon/start": "disabled",
-        "component/button/icon/end": "disabled"
+        "component/button/variant/secondary": "enabled"
       },
       "$figmaVariableReferences": {
         "lux.button.background-color": "6565f5856bb22b81dd502166f5b1cf195a007d97",
@@ -2874,7 +2793,15 @@
       "selectedTokenSets": {
         "component/button/icon/none": "enabled"
       },
-      "group": "button/icon"
+      "group": "button/icon",
+      "$figmaCollectionId": "VariableCollectionId:28:254",
+      "$figmaModeId": "28:1",
+      "$figmaVariableReferences": {
+        "lux.button.padding-inline-start": "667d4e15a95fa8b794cb7c6e24b52821dbff9e7c",
+        "lux.button.padding-inline-end": "9cb254750919cdd4459edea965b025e73acf00f6",
+        "figma.button.show-icon.start": "c426e4d0d12ee6d94acc031b4553895ce781dfe1",
+        "figma.button.show-icon.end": "30e65f8f1f39a18d8b6ec9cc603e3d2fb5b62980"
+      }
     },
     {
       "id": "fbc06f4cfb4fec3993f2ad9ddc3c89d47248f546",
@@ -2883,7 +2810,15 @@
       "selectedTokenSets": {
         "component/button/icon/start": "enabled"
       },
-      "group": "button/icon"
+      "group": "button/icon",
+      "$figmaCollectionId": "VariableCollectionId:28:254",
+      "$figmaModeId": "28:2",
+      "$figmaVariableReferences": {
+        "lux.button.padding-inline-start": "667d4e15a95fa8b794cb7c6e24b52821dbff9e7c",
+        "lux.button.padding-inline-end": "9cb254750919cdd4459edea965b025e73acf00f6",
+        "figma.button.show-icon.start": "c426e4d0d12ee6d94acc031b4553895ce781dfe1",
+        "figma.button.show-icon.end": "30e65f8f1f39a18d8b6ec9cc603e3d2fb5b62980"
+      }
     },
     {
       "id": "836354f73044b76ce1358a2f0dfc59bb4f48248e",
@@ -2892,7 +2827,15 @@
       "selectedTokenSets": {
         "component/button/icon/end": "enabled"
       },
-      "group": "button/icon"
+      "group": "button/icon",
+      "$figmaCollectionId": "VariableCollectionId:28:254",
+      "$figmaModeId": "28:3",
+      "$figmaVariableReferences": {
+        "lux.button.padding-inline-start": "667d4e15a95fa8b794cb7c6e24b52821dbff9e7c",
+        "lux.button.padding-inline-end": "9cb254750919cdd4459edea965b025e73acf00f6",
+        "figma.button.show-icon.start": "c426e4d0d12ee6d94acc031b4553895ce781dfe1",
+        "figma.button.show-icon.end": "30e65f8f1f39a18d8b6ec9cc603e3d2fb5b62980"
+      }
     }
   ],
   "$metadata": {
