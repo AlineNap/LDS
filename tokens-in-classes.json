@@ -2071,7 +2071,7 @@
         "product.button.tertiary.hover.color": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
         "product.button.tertiary.hover.background-color": "eab9d76059c73fdde9167fea7572f25774117cc8"
       },
-      "group": "1. brand"
+      "group": "product"
     },
     {
       "id": "3d944389c8bc7e0096e33bdd337454b155bbf3b4",
@@ -2301,7 +2301,7 @@
         "product.button.tertiary.hover.color": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
         "product.button.tertiary.hover.background-color": "eab9d76059c73fdde9167fea7572f25774117cc8"
       },
-      "group": "1. brand"
+      "group": "product"
     },
     {
       "id": "f5b6c8fb09c0a683c6037de2c2b4bb8c553ff9e8",
@@ -2614,7 +2614,7 @@
         "product.button.tertiary.hover.color": "c36c0fdd03da1a46919b9b0bd1d01c838e953e91",
         "product.button.tertiary.hover.background-color": "eab9d76059c73fdde9167fea7572f25774117cc8"
       },
-      "group": "1. brand"
+      "group": "product"
     },
     {
       "id": "6bc5fe5338747a8377812225c705877a5e69aea8",
@@ -2652,7 +2652,7 @@
         "mode.button.tertiary.hover.background-color": "ca64b57ffce6e8e4bee6e753afa298517af2ee72",
         "mode.button.tertiary.hover.color": "c3e31ed3bc5b4ba506f02ced6da358fc6043ee78"
       },
-      "group": "2. mode"
+      "group": "mode"
     },
     {
       "id": "b6dc798fba8b7d19c140d8d5a2d86c967eb55c9f",
@@ -2691,7 +2691,7 @@
         "mode.button.tertiary.hover.background-color": "ca64b57ffce6e8e4bee6e753afa298517af2ee72",
         "mode.button.tertiary.hover.color": "c3e31ed3bc5b4ba506f02ced6da358fc6043ee78"
       },
-      "group": "2. mode"
+      "group": "mode"
     },
     {
       "id": "09c282ed911b6c743631ad19a8a655084fc8e11c",
@@ -2700,7 +2700,7 @@
       "selectedTokenSets": {
         "viewport/default": "enabled"
       },
-      "group": "3. viewport",
+      "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
       "$figmaModeId": "6:19",
       "$figmaVariableReferences": {
@@ -2720,7 +2720,7 @@
         "viewport/default": "enabled",
         "viewport/xs": "enabled"
       },
-      "group": "3. viewport",
+      "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:6:228",
       "$figmaModeId": "6:20",
       "$figmaVariableReferences": {
@@ -2789,42 +2789,18 @@
       }
     },
     {
-      "id": "a9b43e2e41d9368954f33ea36182858725df86b1",
-      "name": "default",
+      "id": "b2e1ec9e17bb496c34acd0200f8fb30af1a810ac",
+      "name": "tertairy",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {},
-      "group": "button/size",
-      "$figmaCollectionId": "VariableCollectionId:5:179",
-      "$figmaModeId": "5:12",
-      "$figmaVariableReferences": {
-        "utrecht.button.icon.size": "2626cc5926ce0e132e828e9b3fe1e9d9ba8a72d9",
-        "utrecht.button.icon.margin-inline": "72379ee09090bdba8528420fc2931d9d2989329b",
-        "utrecht.button.padding-block-end": "a3ba72eec8c1b82ec7a02cffe3c0ceeca20d6516",
-        "utrecht.button.padding-block-start": "d89dee45505b70e30333a9c3c75c4061918f039d",
-        "utrecht.button.padding-inline-end": "461023f58c603e6939126a4936b21638f40dbe17",
-        "utrecht.button.padding-inline-start": "c0e129b6148fc9de45e6d23d7ab68e9adada44b5",
-        "utrecht.button.min-block-size": "1899c828c041b61abea4e8ef850c2aa3c48ed35f",
-        "utrecht.button.min-inline-size": "ece19db8fbef9c8acb5c241d235beb22cc431f81"
-      }
-    },
-    {
-      "id": "5820d3851b2d976871c6ef66abd4c4862cbc06c5",
-      "name": "small",
-      "$figmaStyleReferences": {},
-      "selectedTokenSets": {},
-      "group": "button/size",
-      "$figmaCollectionId": "VariableCollectionId:5:179",
-      "$figmaModeId": "5:13",
-      "$figmaVariableReferences": {
-        "utrecht.button.icon.size": "2626cc5926ce0e132e828e9b3fe1e9d9ba8a72d9",
-        "utrecht.button.icon.margin-inline": "72379ee09090bdba8528420fc2931d9d2989329b",
-        "utrecht.button.padding-block-end": "a3ba72eec8c1b82ec7a02cffe3c0ceeca20d6516",
-        "utrecht.button.padding-block-start": "d89dee45505b70e30333a9c3c75c4061918f039d",
-        "utrecht.button.padding-inline-end": "461023f58c603e6939126a4936b21638f40dbe17",
-        "utrecht.button.padding-inline-start": "c0e129b6148fc9de45e6d23d7ab68e9adada44b5",
-        "utrecht.button.min-block-size": "1899c828c041b61abea4e8ef850c2aa3c48ed35f",
-        "utrecht.button.min-inline-size": "ece19db8fbef9c8acb5c241d235beb22cc431f81"
-      }
+      "selectedTokenSets": {
+        "core": "enabled",
+        "viewport/default": "enabled",
+        "product/Logius": "enabled",
+        "mode/light": "enabled",
+        "component/button/default": "enabled",
+        "component/button/variant/tertairy": "enabled"
+      },
+      "group": "button/variant"
     }
   ],
   "$metadata": {
