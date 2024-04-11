@@ -5,749 +5,975 @@
         "grijs": {
           "100": {
             "value": "#fbfbfb",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#f3f3f3",
             "type": "color",
+            "parent": "core/default",
             "description": "Light mode only"
           },
           "300": {
             "value": "#e6e6e6",
             "type": "color",
+            "parent": "core/default",
             "description": "Light mode only"
           },
           "400": {
             "value": "#a7a7a7",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "500": {
             "value": "#696969",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "600": {
             "value": "#383838",
             "type": "color",
-            "description": "dark mode only\n"
+            "parent": "core/default",
+            "description": "dark mode only"
           },
           "700": {
             "value": "#282828",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "800": {
             "value": "#1d1d1d",
             "type": "color",
-            "description": "dark mode only\n"
+            "parent": "core/default",
+            "description": "dark mode only"
           },
           "900": {
             "value": "#171717",
             "type": "color",
-            "description": "dark mode only\n"
+            "parent": "core/default",
+            "description": "dark mode only"
           }
         },
         "zwart": {
           "value": "#000000",
-          "type": "color"
+          "type": "color",
+          "parent": "core/default",
+          "description": ""
         },
         "wit": {
           "value": "#ffffff",
-          "type": "color"
+          "type": "color",
+          "parent": "core/default",
+          "description": ""
         },
         "none": {
-          "value": "transparant",
-          "type": "color"
+          "value": "#ffffff",
+          "type": "color",
+          "parent": "core/default",
+          "description": ""
         },
         "lichtblauw": {
           "100": {
             "value": "#eef7fb",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#ddeff8",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#8fcae7",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "violet": {
           "100": {
             "value": "#f2d9e7",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#e5b3d0",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#a90061",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "400": {
             "value": "#52002f",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "paars": {
           "100": {
             "value": "#e3dce7",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#c6b9cf",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#42145f",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "400": {
-            "value": "#3B1255",
-            "type": "color"
+            "value": "#3b1255",
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "hemelblauw": {
           "100": {
             "value": "#d9ebf7",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#b3d7ee",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#007bc7",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "400": {
-            "value": "#00436C",
-            "type": "color"
+            "value": "#00436c",
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "donkerblauw": {
           "100": {
             "value": "#d9e8f0",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#b3d2e1",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#01689b",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "400": {
-            "value": "#013F5E",
-            "type": "color"
+            "value": "#013f5e",
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "mintgroen": {
           "100": {
             "value": "#eaf8f4",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#d6f2e9",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#76d2b6",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "mosgroen": {
           "100": {
             "value": "#ebebd9",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#d6d7b3",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#777b00",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "groen": {
           "100": {
             "value": "#e1eddb",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#c4dbb6",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#39870c",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "400": {
-            "value": "#004B17",
-            "type": "color"
+            "value": "#004b17",
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "donkergroen": {
           "100": {
             "value": "#dfe6e1",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#becdc3",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#275937",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "bruin": {
           "100": {
             "value": "#efeada",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#dfd4b6",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#94710a",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "donkerbruin": {
           "100": {
             "value": "#e8e0df",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#d1c2be",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#673327",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "geel": {
           "100": {
             "value": "#fefbdd",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#fdf6bc",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#f9e11e",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "donkergeel": {
           "100": {
             "value": "#fff4db",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#ffe9b8",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#ffb612",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "400": {
-            "value": "#BF880D",
-            "type": "color"
+            "value": "#bf880d",
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "oranje": {
           "100": {
             "value": "#fbead9",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#f6d4b3",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#e17000",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "400": {
-            "value": "#B35900",
-            "type": "color"
+            "value": "#b35900",
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "rood": {
           "100": {
             "value": "#f9dfdd",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#f2bfbc",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#d52b1e",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "400": {
             "value": "#542621",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "roze": {
           "100": {
             "value": "#fdeff8",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#fbdef0",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#f092cd",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         },
         "robijnrood": {
           "100": {
             "value": "#f7d9e7",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "200": {
             "value": "#efb3ce",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           },
           "300": {
             "value": "#ca005d",
-            "type": "color"
+            "type": "color",
+            "parent": "core/default",
+            "description": ""
           }
         }
       },
       "border-radius": {
         "default": {
-          "value": "4px",
-          "type": "borderRadius"
+          "value": "0.25rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "none": {
-          "value": "0",
-          "type": "borderRadius"
+          "value": "0rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "m": {
-          "value": "2px",
-          "type": "borderRadius"
-        }
-      },
-      "font-family": {
-        "default": {
-          "value": "RijksoverheidSansWebText",
-          "type": "fontFamilies"
+          "value": "0.125rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         }
       },
       "border-width": {
         "default": {
-          "value": "1",
-          "type": "borderWidth"
+          "value": "0.0625rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "m": {
-          "value": "2",
-          "type": "borderWidth"
+          "value": "0.125rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "none": {
-          "value": "0",
-          "type": "borderWidth"
+          "value": "0rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         }
       },
       "space": {
         "0-x": {
-          "value": "{lux.space.1-x}*0",
-          "type": "dimension"
+          "value": "0rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "025-x": {
-          "value": "{lux.space.1-x}*0.25",
-          "type": "dimension"
+          "value": "0.125rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "05-x": {
-          "value": "{lux.space.1-x}*0.5",
-          "type": "dimension"
+          "value": "0.25rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "1-x": {
-          "value": "8px",
-          "type": "dimension"
+          "value": "0.5rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "105-x": {
-          "value": "{lux.space.1-x}*1.5",
-          "type": "dimension"
+          "value": "0.75rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "2-x": {
-          "value": "{lux.space.1-x}*2",
-          "type": "dimension"
+          "value": "1rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "3-x": {
-          "value": "{lux.space.1-x}*3",
-          "type": "dimension"
+          "value": "1.5rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "4-x": {
-          "value": "{lux.space.1-x}*4",
-          "type": "dimension"
+          "value": "2rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "5-x": {
-          "value": "{lux.space.1-x}*5",
-          "type": "dimension"
+          "value": "2.5rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "6-x": {
-          "value": "{lux.space.1-x}*6",
-          "type": "dimension"
+          "value": "3rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         },
         "7-x": {
-          "value": "{lux.space.1-x}*7",
-          "type": "dimension"
+          "value": "3.5rem",
+          "type": "dimension",
+          "parent": "core/default",
+          "description": ""
         }
       }
     }
   },
-  "viewport/xl": {
+  "component/default": {
     "lux": {
-      "font": {
-        "body": {
-          "s-400": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{lux.font.line-height.s}",
-              "fontSize": "{lux.font-size.s}"
-            },
-            "type": "typography"
+      "button": {
+        "disabled": {
+          "background-color": {
+            "value": "{lux.color.background.subdued}",
+            "type": "color",
+            "parent": "component/default",
+            "description": ""
           },
-          "s-700": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{lux.font.line-height.s}",
-              "fontSize": "{lux.font-size.s}"
-            },
-            "type": "typography"
+          "border-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "component/default",
+            "description": ""
           },
-          "m-400": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{lux.font.line-height.m}",
-              "fontSize": "{lux.font-size.m}"
-            },
-            "type": "typography"
-          },
-          "m-700": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{lux.font.line-height.m}",
-              "fontSize": "{lux.font-size.m}"
-            },
-            "type": "typography"
-          },
-          "l-400": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Regular",
-              "lineHeight": "{lux.font.line-height.l}",
-              "fontSize": "{lux.font-size.l}"
-            },
-            "type": "typography"
-          },
-          "l-700": {
-            "value": {
-              "fontFamily": "{lux.font-family.default}",
-              "fontWeight": "Bold",
-              "lineHeight": "{lux.font.line-height.l}",
-              "fontSize": "{lux.font-size.l}"
-            },
-            "type": "typography"
+          "color": {
+            "value": "{lux.color.foreground.subdued}",
+            "type": "color",
+            "parent": "component/default",
+            "description": ""
           }
         },
-        "heading": {
-          "level-4": {
-            "700": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Bold",
-                "lineHeight": "{lux.font.line-height.m}",
-                "fontSize": "{lux.font-size.m}"
-              },
-              "type": "typography"
-            }
-          },
-          "level-3": {
-            "400": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Regular",
-                "lineHeight": "{lux.font.line-height.l}",
-                "fontSize": "{lux.font-size.l}"
-              },
-              "type": "typography"
-            },
-            "700": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Bold",
-                "lineHeight": "{lux.font.line-height.l}",
-                "fontSize": "{lux.font-size.l}"
-              },
-              "type": "typography"
-            }
-          },
-          "level-2": {
-            "400": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Regular",
-                "lineHeight": "{lux.font.line-height.xl}",
-                "fontSize": "{lux.font-size.xl}"
-              },
-              "type": "typography"
-            },
-            "700": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Bold",
-                "lineHeight": "{lux.font.line-height.xl}",
-                "fontSize": "{lux.font-size.xl}"
-              },
-              "type": "typography"
-            }
-          },
-          "level-1": {
-            "400": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Regular",
-                "lineHeight": "{lux.font.line-height.2xl}",
-                "fontSize": "{lux.font-size.2xl}"
-              },
-              "type": "typography"
-            },
-            "700": {
-              "value": {
-                "fontFamily": "{lux.font-family.default}",
-                "fontWeight": "Bold",
-                "lineHeight": "{lux.font.line-height.2xl}",
-                "fontSize": "{lux.font-size.2xl}"
-              },
-              "type": "typography"
-            }
-          }
+        "border-radius": {
+          "value": "{lux.border-radius.default}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
         },
-        "line-height": {
-          "s": {
-            "value": "24px",
-            "type": "lineHeights"
-          },
-          "m": {
-            "value": "28px",
-            "type": "lineHeights"
-          },
-          "l": {
-            "value": "32px",
-            "type": "lineHeights"
-          },
-          "xl": {
-            "value": "36px",
-            "type": "lineHeights"
-          },
-          "2xl": {
-            "value": "56px",
-            "type": "lineHeights"
-          }
-        }
-      },
-      "icon": {
-        "size": {
-          "default": {
-            "value": "{lux.space.2-x}",
-            "type": "sizing"
-          },
-          "large": {
-            "value": "{lux.space.3-x}",
-            "type": "sizing"
-          }
-        }
-      },
-      "size": {
+        "border-width": {
+          "value": "{lux.border-width.default}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
         "icon": {
-          "wrapper-height": {
-            "value": "28px",
-            "type": "sizing"
+          "size": {
+            "value": "{lux.icon.size.default}",
+            "type": "dimension",
+            "parent": "component/default",
+            "description": ""
           }
         },
-        "target": {
-          "value": "48px",
-          "type": "sizing"
-        }
-      },
-      "font-size": {
-        "s": {
-          "value": "16px",
-          "type": "fontSizes"
+        "margin-inline": {
+          "value": "{lux.space.1-x}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
         },
-        "m": {
-          "value": "18px",
-          "type": "fontSizes"
+        "padding-block-end": {
+          "value": "{lux.space.1-x}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
         },
-        "l": {
-          "value": "22px",
-          "type": "fontSizes"
+        "padding-block-start": {
+          "value": "{lux.space.1-x}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
         },
-        "xl": {
-          "value": "26px",
-          "type": "fontSizes"
-        },
-        "2xl": {
-          "value": "40px",
-          "type": "fontSizes"
-        }
-      },
-      "grid": {
-        "gutter": {
-          "value": "{lux.space.4-x}",
-          "type": "sizing"
-        },
-        "margin": {
-          "value": "{lux.space.5-x}",
-          "type": "sizing"
-        }
-      }
-    },
-    "figma": {
-      "screen-size": {
-        "value": "1440px",
-        "type": "sizing"
-      }
-    }
-  },
-  "viewport/lg": {
-    "figma": {
-      "screen-size": {
-        "value": "1024px",
-        "type": "sizing"
-      }
-    }
-  },
-  "viewport/md": {
-    "figma": {
-      "screen-size": {
-        "value": "768px",
-        "type": "sizing"
-      }
-    },
-    "lux": {
-      "grid": {
-        "gutter": {
-          "value": "{lux.space.3-x}",
-          "type": "sizing"
-        },
-        "margin": {
-          "value": "{lux.space.4-x}",
-          "type": "sizing"
-        }
-      }
-    }
-  },
-  "viewport/sm": {
-    "figma": {
-      "screen-size": {
-        "value": "576px",
-        "type": "sizing"
-      }
-    },
-    "lux": {
-      "grid": {
-        "gutter": {
-          "value": "{lux.space.3-x}",
-          "type": "sizing"
-        },
-        "margin": {
-          "value": "{lux.space.3-x}",
-          "type": "sizing"
-        }
-      }
-    }
-  },
-  "viewport/xs": {
-    "lux": {
-      "size": {
-        "icon": {
-          "wrapper-height": {
-            "value": "24px",
-            "type": "sizing"
-          }
-        }
-      },
-      "font": {
-        "line-height": {
-          "s": {
-            "value": "24px",
-            "type": "lineHeights"
-          },
-          "m": {
-            "value": "24px",
-            "type": "lineHeights"
-          },
-          "l": {
-            "value": "28px",
-            "type": "lineHeights"
-          },
-          "xl": {
-            "value": "32px",
-            "type": "lineHeights"
-          },
-          "2xl": {
-            "value": "36px",
-            "type": "lineHeights"
-          }
-        }
-      },
-      "font-size": {
-        "s": {
-          "value": "14px",
-          "type": "fontSizes"
-        },
-        "m": {
-          "value": "16px",
-          "type": "fontSizes"
-        },
-        "l": {
-          "value": "20px",
-          "type": "fontSizes"
-        },
-        "xl": {
-          "value": "24px",
-          "type": "fontSizes"
-        },
-        "2xl": {
-          "value": "36px",
-          "type": "fontSizes"
-        }
-      },
-      "grid": {
-        "gutter": {
-          "value": "{lux.space.0-x}",
-          "type": "sizing"
-        },
-        "margin": {
+        "padding-inline-end": {
           "value": "{lux.space.2-x}",
-          "type": "sizing"
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "padding-inline-start": {
+          "value": "{lux.space.2-x}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "min-block-size": {
+          "value": "{lux.size.target}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "min-inline-size": {
+          "value": "{lux.size.target}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        }
+      },
+      "login-method-button": {
+        "color": {
+          "value": "{lux.color.foreground.default}",
+          "type": "color",
+          "parent": "component/default",
+          "description": ""
+        },
+        "background": {
+          "value": "{lux.color.background.default}",
+          "type": "color",
+          "parent": "component/default",
+          "description": ""
+        },
+        "border-color": {
+          "value": "{lux.color.border.default}",
+          "type": "color",
+          "parent": "component/default",
+          "description": ""
+        },
+        "hover": {
+          "color": {
+            "value": "{lux.color.foreground.default}",
+            "type": "color",
+            "parent": "component/default",
+            "description": ""
+          },
+          "background": {
+            "value": "{lux.color.background.hover}",
+            "type": "color",
+            "parent": "component/default",
+            "description": ""
+          },
+          "border-color": {
+            "value": "{lux.color.border.default}",
+            "type": "color",
+            "parent": "component/default",
+            "description": ""
+          }
+        },
+        "active": {
+          "color": {
+            "value": "{lux.color.foreground.default}",
+            "type": "color",
+            "parent": "component/default",
+            "description": ""
+          },
+          "background": {
+            "value": "{mode.login-method-button.active.background-color}",
+            "type": "color",
+            "parent": "component/default",
+            "description": ""
+          },
+          "border-color": {
+            "value": "{lux.color.border.default}",
+            "type": "color",
+            "parent": "component/default",
+            "description": ""
+          }
+        },
+        "padding-block-start": {
+          "value": "{lux.space.05-x}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "padding-block-end": {
+          "value": "{lux.space.05-x}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "padding-inline-start": {
+          "value": "{lux.space.2-x}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "padding-inline-end": {
+          "value": "{lux.space.05-x}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "min-inline-size": {
+          "value": "{lux.size.target}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "min-block-size": {
+          "value": "{lux.size.target}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "margin-inline": {
+          "value": "{lux.space.1-x}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "border-radius": {
+          "value": "{lux.border-radius.default}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "border-width": {
+          "value": "{lux.border-width.default}",
+          "type": "dimension",
+          "parent": "component/default",
+          "description": ""
+        },
+        "icon": {
+          "size": {
+            "value": "2.5rem",
+            "type": "dimension",
+            "parent": "component/default",
+            "description": ""
+          }
         }
       }
-    },
-    "figma": {
-      "screen-size": {
-        "value": "375px",
-        "type": "sizing"
+    }
+  },
+  "button/variant/primary": {
+    "lux": {
+      "button": {
+        "background-color": {
+          "value": "{lux.color.brand.default}",
+          "type": "color",
+          "parent": "button/variant/primary",
+          "description": ""
+        },
+        "border-color": {
+          "value": "{lux.color.none}",
+          "type": "color",
+          "parent": "button/variant/primary",
+          "description": ""
+        },
+        "hover": {
+          "background-color": {
+            "value": "{lux.color.brand.hover}",
+            "type": "color",
+            "parent": "button/variant/primary",
+            "description": ""
+          },
+          "border-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "button/variant/primary",
+            "description": ""
+          },
+          "color": {
+            "value": "{lux.color.foreground.onEmphasis}",
+            "type": "color",
+            "parent": "button/variant/primary",
+            "description": ""
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "button/variant/primary",
+            "description": ""
+          },
+          "border-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "button/variant/primary",
+            "description": ""
+          },
+          "color": {
+            "value": "{lux.color.foreground.onEmphasis}",
+            "type": "color",
+            "parent": "button/variant/primary",
+            "description": ""
+          }
+        },
+        "color": {
+          "value": "{lux.color.foreground.onEmphasis}",
+          "type": "color",
+          "parent": "button/variant/primary",
+          "description": ""
+        }
+      }
+    }
+  },
+  "button/variant/secondary": {
+    "lux": {
+      "button": {
+        "background-color": {
+          "value": "{lux.color.none}",
+          "type": "color",
+          "parent": "button/variant/secondary",
+          "description": ""
+        },
+        "border-color": {
+          "value": "{mode.button.secondary.border-color}",
+          "type": "color",
+          "parent": "button/variant/secondary",
+          "description": ""
+        },
+        "hover": {
+          "background-color": {
+            "value": "{lux.color.brand.subdued}",
+            "type": "color",
+            "parent": "button/variant/secondary",
+            "description": ""
+          },
+          "border-color": {
+            "value": "{lux.color.brand.hover}",
+            "type": "color",
+            "parent": "button/variant/secondary",
+            "description": ""
+          },
+          "color": {
+            "value": "{lux.color.brand.hover}",
+            "type": "color",
+            "parent": "button/variant/secondary",
+            "description": ""
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "button/variant/secondary",
+            "description": ""
+          },
+          "border-color": {
+            "value": "{mode.button.secondary.border-color}",
+            "type": "color",
+            "parent": "button/variant/secondary",
+            "description": ""
+          },
+          "color": {
+            "value": "{mode.button.secondary.color}",
+            "type": "color",
+            "parent": "button/variant/secondary",
+            "description": ""
+          }
+        },
+        "color": {
+          "value": "{lux.color.brand.default}",
+          "type": "color",
+          "parent": "button/variant/secondary",
+          "description": ""
+        }
+      }
+    }
+  },
+  "button/variant/tertairy": {
+    "lux": {
+      "button": {
+        "background-color": {
+          "value": "{lux.color.none}",
+          "type": "color",
+          "parent": "button/variant/tertairy",
+          "description": ""
+        },
+        "border-color": {
+          "value": "{lux.color.none}",
+          "type": "color",
+          "parent": "button/variant/tertairy",
+          "description": ""
+        },
+        "hover": {
+          "background-color": {
+            "value": "{mode.button.tertiary.hover.background-color}",
+            "type": "color",
+            "parent": "button/variant/tertairy",
+            "description": ""
+          },
+          "border-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "button/variant/tertairy",
+            "description": ""
+          },
+          "color": {
+            "value": "{mode.button.tertiary.hover.color}",
+            "type": "color",
+            "parent": "button/variant/tertairy",
+            "description": ""
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "button/variant/tertairy",
+            "description": ""
+          },
+          "border-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "button/variant/tertairy",
+            "description": ""
+          },
+          "color": {
+            "value": "{mode.button.tertiary.color}",
+            "type": "color",
+            "parent": "button/variant/tertairy",
+            "description": ""
+          }
+        },
+        "color": {
+          "value": "{mode.button.tertiary.color}",
+          "type": "color",
+          "parent": "button/variant/tertairy",
+          "description": ""
+        }
       }
     }
   },
@@ -757,80 +983,104 @@
         "brand": {
           "default": {
             "value": "{lux.color.groen.300}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/Logius",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.groen.100}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/Logius",
+            "description": ""
           },
           "hover": {
             "value": "{lux.color.groen.400}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/Logius",
+            "description": ""
           }
         }
       },
       "focus": {
         "outline-width": {
           "value": "{lux.border-width.m}",
-          "type": "borderWidth"
+          "type": "dimension",
+          "parent": "product/Logius",
+          "description": ""
         }
       },
       "border-radius": {
         "default": {
-          "value": "4",
-          "type": "borderRadius"
+          "value": "0.25rem",
+          "type": "dimension",
+          "parent": "product/Logius",
+          "description": ""
         }
       }
     },
     "product": {
       "button": {
         "secondary": {
-          "color": {
-            "value": "{lux.color.brand.default}",
-            "type": "color"
-          },
           "border-color": {
             "value": "{lux.color.brand.default}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/Logius",
+            "description": ""
           },
-          "background-color": {
-            "value": "{lux.color.none}",
-            "type": "color"
+          "color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/Logius",
+            "description": ""
           },
           "hover": {
             "border-color": {
               "value": "{lux.color.brand.hover}",
-              "type": "color"
+              "type": "color",
+              "parent": "product/Logius",
+              "description": ""
             },
             "color": {
               "value": "{lux.color.brand.hover}",
-              "type": "color"
+              "type": "color",
+              "parent": "product/Logius",
+              "description": ""
             },
             "background-color": {
               "value": "{lux.color.brand.subdued}",
-              "type": "color"
+              "type": "color",
+              "parent": "product/Logius",
+              "description": ""
             }
+          },
+          "background-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "product/Logius",
+            "description": ""
           }
         },
         "tertiary": {
           "color": {
             "value": "{lux.color.brand.default}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/Logius",
+            "description": ""
           },
           "hover": {
             "color": {
               "value": "{lux.color.brand.hover}",
-              "type": "color"
+              "type": "color",
+              "parent": "product/Logius",
+              "description": ""
             },
             "background-color": {
               "value": "{lux.color.brand.subdued}",
-              "type": "color"
+              "type": "color",
+              "parent": "product/Logius",
+              "description": ""
             }
           }
-        },
-        "font-size": {
-          "value": "{lux.font-size.m}",
-          "type": "fontSizes"
         }
       }
     }
@@ -841,15 +1091,103 @@
         "brand": {
           "default": {
             "value": "{lux.color.hemelblauw.300}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/MijnOverheid",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.donkerblauw.100}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/MijnOverheid",
+            "description": ""
           },
           "hover": {
             "value": "{lux.color.hemelblauw.400}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/MijnOverheid",
+            "description": ""
+          }
+        }
+      },
+      "focus": {
+        "outline-width": {
+          "value": "{lux.border-width.m}",
+          "type": "dimension",
+          "parent": "product/MijnOverheid",
+          "description": ""
+        }
+      },
+      "border-radius": {
+        "default": {
+          "value": "0.25rem",
+          "type": "dimension",
+          "parent": "product/MijnOverheid",
+          "description": ""
+        }
+      }
+    },
+    "product": {
+      "button": {
+        "secondary": {
+          "border-color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/MijnOverheid",
+            "description": ""
+          },
+          "color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/MijnOverheid",
+            "description": ""
+          },
+          "hover": {
+            "border-color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/MijnOverheid",
+              "description": ""
+            },
+            "color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/MijnOverheid",
+              "description": ""
+            },
+            "background-color": {
+              "value": "{lux.color.brand.subdued}",
+              "type": "color",
+              "parent": "product/MijnOverheid",
+              "description": ""
+            }
+          },
+          "background-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "product/MijnOverheid",
+            "description": ""
+          }
+        },
+        "tertiary": {
+          "color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/MijnOverheid",
+            "description": ""
+          },
+          "hover": {
+            "color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/MijnOverheid",
+              "description": ""
+            },
+            "background-color": {
+              "value": "{lux.color.brand.subdued}",
+              "type": "color",
+              "parent": "product/MijnOverheid",
+              "description": ""
+            }
           }
         }
       }
@@ -861,16 +1199,38 @@
         "brand": {
           "default": {
             "value": "{lux.color.oranje.300}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/DigiD",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.oranje.100}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/DigiD",
+            "description": ""
           },
           "hover": {
             "value": "{lux.color.oranje.400}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/DigiD",
+            "description": ""
           }
+        }
+      },
+      "focus": {
+        "outline-width": {
+          "value": "{lux.border-width.m}",
+          "type": "dimension",
+          "parent": "product/DigiD",
+          "description": ""
+        }
+      },
+      "border-radius": {
+        "default": {
+          "value": "0.25rem",
+          "type": "dimension",
+          "parent": "product/DigiD",
+          "description": ""
         }
       }
     },
@@ -879,47 +1239,64 @@
         "secondary": {
           "border-color": {
             "value": "{lux.color.border.default}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/DigiD",
+            "description": ""
           },
           "color": {
             "value": "{lux.color.foreground.default}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/DigiD",
+            "description": ""
           },
           "hover": {
             "border-color": {
               "value": "{mode.button.secondary.border-color}",
-              "type": "color"
+              "type": "color",
+              "parent": "product/DigiD",
+              "description": ""
             },
             "color": {
               "value": "{lux.color.foreground.default}",
-              "type": "color"
+              "type": "color",
+              "parent": "product/DigiD",
+              "description": ""
             },
             "background-color": {
               "value": "{lux.color.background.hover}",
-              "type": "color"
+              "type": "color",
+              "parent": "product/DigiD",
+              "description": ""
             }
+          },
+          "background-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "product/DigiD",
+            "description": ""
           }
         },
         "tertiary": {
           "color": {
             "value": "{lux.color.foreground.default}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/DigiD",
+            "description": ""
           },
           "hover": {
             "color": {
               "value": "{lux.color.foreground.default}",
-              "type": "color"
+              "type": "color",
+              "parent": "product/DigiD",
+              "description": ""
             },
             "background-color": {
               "value": "{lux.color.background.hover}",
-              "type": "color"
+              "type": "color",
+              "parent": "product/DigiD",
+              "description": ""
             }
           }
-        },
-        "font-size": {
-          "value": "19px",
-          "type": "fontSizes",
-          "description": "Bigger font for accessibility"
         }
       }
     }
@@ -930,28 +1307,104 @@
         "brand": {
           "default": {
             "value": "{lux.color.donkerblauw.300}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/NL doc - Rijksoverheid",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.donkerblauw.100}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/NL doc - Rijksoverheid",
+            "description": ""
           },
           "hover": {
             "value": "{lux.color.donkerblauw.400}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/NL doc - Rijksoverheid",
+            "description": ""
           }
-        }
-      },
-      "border-radius": {
-        "default": {
-          "value": "0",
-          "type": "borderRadius"
         }
       },
       "focus": {
         "outline-width": {
           "value": "{lux.border-width.default}",
-          "type": "borderWidth"
+          "type": "dimension",
+          "parent": "product/NL doc - Rijksoverheid",
+          "description": ""
+        }
+      },
+      "border-radius": {
+        "default": {
+          "value": "0.5rem",
+          "type": "dimension",
+          "parent": "product/NL doc - Rijksoverheid",
+          "description": ""
+        }
+      }
+    },
+    "product": {
+      "button": {
+        "secondary": {
+          "border-color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/NL doc - Rijksoverheid",
+            "description": ""
+          },
+          "color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/NL doc - Rijksoverheid",
+            "description": ""
+          },
+          "hover": {
+            "border-color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/NL doc - Rijksoverheid",
+              "description": ""
+            },
+            "color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/NL doc - Rijksoverheid",
+              "description": ""
+            },
+            "background-color": {
+              "value": "{lux.color.brand.subdued}",
+              "type": "color",
+              "parent": "product/NL doc - Rijksoverheid",
+              "description": ""
+            }
+          },
+          "background-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "product/NL doc - Rijksoverheid",
+            "description": ""
+          }
+        },
+        "tertiary": {
+          "color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/NL doc - Rijksoverheid",
+            "description": ""
+          },
+          "hover": {
+            "color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/NL doc - Rijksoverheid",
+              "description": ""
+            },
+            "background-color": {
+              "value": "{lux.color.brand.subdued}",
+              "type": "color",
+              "parent": "product/NL doc - Rijksoverheid",
+              "description": ""
+            }
+          }
         }
       }
     }
@@ -962,25 +1415,103 @@
         "brand": {
           "default": {
             "value": "{lux.color.donkerblauw.300}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/NL doc - Ridderkerk",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.donkerblauw.100}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/NL doc - Ridderkerk",
+            "description": ""
           },
           "hover": {
             "value": "{lux.color.donkerblauw.400}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/NL doc - Ridderkerk",
+            "description": ""
           }
+        }
+      },
+      "focus": {
+        "outline-width": {
+          "value": "{lux.border-width.default}",
+          "type": "dimension",
+          "parent": "product/NL doc - Ridderkerk",
+          "description": ""
+        }
+      },
+      "border-radius": {
+        "default": {
+          "value": "0.5rem",
+          "type": "dimension",
+          "parent": "product/NL doc - Ridderkerk",
+          "description": ""
         }
       }
     },
     "product": {
       "button": {
         "secondary": {
+          "border-color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/NL doc - Ridderkerk",
+            "description": ""
+          },
           "color": {
             "value": "{lux.color.grijs.700}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/NL doc - Ridderkerk",
+            "description": ""
+          },
+          "hover": {
+            "border-color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/NL doc - Ridderkerk",
+              "description": ""
+            },
+            "color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/NL doc - Ridderkerk",
+              "description": ""
+            },
+            "background-color": {
+              "value": "{lux.color.brand.subdued}",
+              "type": "color",
+              "parent": "product/NL doc - Ridderkerk",
+              "description": ""
+            }
+          },
+          "background-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "product/NL doc - Ridderkerk",
+            "description": ""
+          }
+        },
+        "tertiary": {
+          "color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/NL doc - Ridderkerk",
+            "description": ""
+          },
+          "hover": {
+            "color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/NL doc - Ridderkerk",
+              "description": ""
+            },
+            "background-color": {
+              "value": "{lux.color.brand.subdued}",
+              "type": "color",
+              "parent": "product/NL doc - Ridderkerk",
+              "description": ""
+            }
           }
         }
       }
@@ -992,28 +1523,104 @@
         "brand": {
           "default": {
             "value": "{lux.color.donkerblauw.300}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/NL doc - Waterschap Hollandse Delta",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.donkerblauw.100}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/NL doc - Waterschap Hollandse Delta",
+            "description": ""
           },
           "hover": {
             "value": "{lux.color.donkerblauw.400}",
-            "type": "color"
+            "type": "color",
+            "parent": "product/NL doc - Waterschap Hollandse Delta",
+            "description": ""
           }
-        }
-      },
-      "border-radius": {
-        "default": {
-          "value": "0",
-          "type": "borderRadius"
         }
       },
       "focus": {
         "outline-width": {
           "value": "{lux.border-width.default}",
-          "type": "borderWidth"
+          "type": "dimension",
+          "parent": "product/NL doc - Waterschap Hollandse Delta",
+          "description": ""
+        }
+      },
+      "border-radius": {
+        "default": {
+          "value": "0rem",
+          "type": "dimension",
+          "parent": "product/NL doc - Waterschap Hollandse Delta",
+          "description": ""
+        }
+      }
+    },
+    "product": {
+      "button": {
+        "secondary": {
+          "border-color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/NL doc - Waterschap Hollandse Delta",
+            "description": ""
+          },
+          "color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/NL doc - Waterschap Hollandse Delta",
+            "description": ""
+          },
+          "hover": {
+            "border-color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/NL doc - Waterschap Hollandse Delta",
+              "description": ""
+            },
+            "color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/NL doc - Waterschap Hollandse Delta",
+              "description": ""
+            },
+            "background-color": {
+              "value": "{lux.color.brand.subdued}",
+              "type": "color",
+              "parent": "product/NL doc - Waterschap Hollandse Delta",
+              "description": ""
+            }
+          },
+          "background-color": {
+            "value": "{lux.color.none}",
+            "type": "color",
+            "parent": "product/NL doc - Waterschap Hollandse Delta",
+            "description": ""
+          }
+        },
+        "tertiary": {
+          "color": {
+            "value": "{lux.color.brand.default}",
+            "type": "color",
+            "parent": "product/NL doc - Waterschap Hollandse Delta",
+            "description": ""
+          },
+          "hover": {
+            "color": {
+              "value": "{lux.color.brand.hover}",
+              "type": "color",
+              "parent": "product/NL doc - Waterschap Hollandse Delta",
+              "description": ""
+            },
+            "background-color": {
+              "value": "{lux.color.brand.subdued}",
+              "type": "color",
+              "parent": "product/NL doc - Waterschap Hollandse Delta",
+              "description": ""
+            }
+          }
         }
       }
     }
@@ -1025,16 +1632,19 @@
           "default": {
             "value": "{lux.color.grijs.700}",
             "type": "color",
-            "description": "Primary text, icons and strong borders"
+            "parent": "mode/light",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.grijs.500}",
             "type": "color",
-            "description": "Subdued text and icons"
+            "parent": "mode/light",
+            "description": ""
           },
           "onEmphasis": {
             "value": "{lux.color.wit}",
             "type": "color",
+            "parent": "mode/light",
             "description": "Text on stong backgrounds. Eg text on the brand color or the footer text"
           }
         },
@@ -1042,79 +1652,103 @@
           "default": {
             "value": "{lux.color.wit}",
             "type": "color",
-            "description": "Background"
+            "parent": "mode/light",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.grijs.200}",
             "type": "color",
-            "description": "Subdued background"
+            "parent": "mode/light",
+            "description": ""
           },
           "hover": {
             "value": "{lux.color.grijs.300}",
             "type": "color",
-            "description": "Default hover background color"
+            "parent": "mode/light",
+            "description": ""
           }
         },
         "border": {
           "default": {
             "value": "{lux.color.grijs.500}",
-            "type": "color"
+            "type": "color",
+            "parent": "mode/light",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.grijs.400}",
             "type": "color",
-            "description": "Subdued border"
+            "parent": "mode/light",
+            "description": ""
           },
           "strong": {
             "value": "{lux.color.grijs.700}",
             "type": "color",
-            "description": "Subdued border"
+            "parent": "mode/light",
+            "description": ""
           }
         },
         "canvas": {
           "value": "{lux.color.grijs.200}",
           "type": "color",
-          "description": "The background of the webpage"
+          "parent": "mode/light",
+          "description": "component-token"
         },
         "feedback": {
           "success": {
             "default": {
               "value": "{lux.color.groen.300}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             },
             "subdued": {
               "value": "{lux.color.groen.100}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             }
           },
           "info": {
             "default": {
               "value": "{lux.color.hemelblauw.300}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             },
             "subdued": {
               "value": "{lux.color.hemelblauw.100}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             }
           },
           "error": {
             "default": {
               "value": "{lux.color.rood.300}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             },
             "subdued": {
               "value": "{lux.color.rood.100}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             }
           },
           "warning": {
             "default": {
               "value": "{lux.color.donkergeel.300}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             },
             "subdued": {
               "value": "{lux.color.donkergeel.100}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             }
           }
         }
@@ -1126,44 +1760,62 @@
           "hover": {
             "background-color": {
               "value": "{product.button.tertiary.hover.background-color}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             },
             "color": {
               "value": "{product.button.tertiary.hover.color}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             }
           },
           "color": {
             "value": "{product.button.tertiary.color}",
-            "type": "color"
+            "type": "color",
+            "parent": "mode/light",
+            "description": ""
           }
         },
         "secondary": {
           "hover": {
             "color": {
               "value": "{product.button.secondary.hover.color}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             },
             "background-color": {
               "value": "{product.button.secondary.hover.background-color}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             },
             "border-color": {
               "value": "{product.button.secondary.hover.border-color}",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             }
           },
           "color": {
             "value": "{product.button.secondary.color}",
-            "type": "color"
+            "type": "color",
+            "parent": "mode/light",
+            "description": ""
           },
           "border-color": {
             "value": "{product.button.secondary.border-color}",
-            "type": "color"
+            "type": "color",
+            "parent": "mode/light",
+            "description": ""
           },
           "background-color": {
             "value": "{product.button.secondary.background-color}",
-            "type": "color"
+            "type": "color",
+            "parent": "mode/light",
+            "description": ""
           }
         }
       },
@@ -1171,32 +1823,44 @@
         "active": {
           "background-color": {
             "value": "{lux.color.grijs.400}",
-            "type": "color"
+            "type": "color",
+            "parent": "mode/light",
+            "description": ""
           }
         },
         "icon": {
           "eidas": {
             "stars-color": {
               "value": "#f1cc49",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             },
             "lock-color": {
-              "value": "#fff",
-              "type": "color"
+              "value": "#ffffff",
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             },
             "lines-color": {
               "value": "#6ba6f1",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             },
             "background-color": {
               "value": "#1d336a",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             }
           },
           "eherkenning": {
             "e-color": {
               "value": "#203a70",
-              "type": "color"
+              "type": "color",
+              "parent": "mode/light",
+              "description": ""
             }
           }
         }
@@ -1210,76 +1874,125 @@
           "default": {
             "value": "{lux.color.grijs.100}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.grijs.400}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           },
           "onEmphasis": {
-            "value": "{lux.color.wit}",
+            "value": "#ffffff",
             "type": "color",
-            "description": "Text on stong backgrounds. Eg text on the brand color or the footer text",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": "Text on stong backgrounds. Eg text on the brand color or the footer text"
           }
         },
         "background": {
           "default": {
             "value": "{lux.color.grijs.700}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.grijs.800}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           },
           "hover": {
             "value": "{lux.color.grijs.600}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           }
         },
         "border": {
           "default": {
             "value": "{lux.color.grijs.500}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           },
           "subdued": {
             "value": "{lux.color.grijs.600}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           },
           "strong": {
             "value": "{lux.color.grijs.100}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           }
         },
         "canvas": {
           "value": "{lux.color.zwart}",
           "type": "color",
+          "parent": "mode/dark",
           "description": "component-token"
+        },
+        "feedback": {
+          "success": {
+            "default": {
+              "value": "{lux.color.groen.300}",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
+            },
+            "subdued": {
+              "value": "{lux.color.groen.100}",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
+            }
+          },
+          "info": {
+            "default": {
+              "value": "{lux.color.hemelblauw.300}",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
+            },
+            "subdued": {
+              "value": "{lux.color.hemelblauw.100}",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
+            }
+          },
+          "error": {
+            "default": {
+              "value": "{lux.color.rood.300}",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
+            },
+            "subdued": {
+              "value": "{lux.color.rood.100}",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
+            }
+          },
+          "warning": {
+            "default": {
+              "value": "{lux.color.donkergeel.300}",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
+            },
+            "subdued": {
+              "value": "{lux.color.donkergeel.100}",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
+            }
+          }
         }
       }
     },
@@ -1290,24 +2003,21 @@
             "background-color": {
               "value": "{lux.color.background.hover}",
               "type": "color",
-              "$extensions": {
-                "studio.tokens": {}
-              }
+              "parent": "mode/dark",
+              "description": ""
             },
             "color": {
               "value": "{mode.button.tertiary.color}",
               "type": "color",
-              "$extensions": {
-                "studio.tokens": {}
-              }
+              "parent": "mode/dark",
+              "description": ""
             }
           },
           "color": {
             "value": "{lux.color.foreground.default}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           }
         },
         "secondary": {
@@ -1315,45 +2025,39 @@
             "color": {
               "value": "{mode.button.secondary.color}",
               "type": "color",
-              "$extensions": {
-                "studio.tokens": {}
-              }
+              "parent": "mode/dark",
+              "description": ""
             },
             "background-color": {
               "value": "{lux.color.background.hover}",
               "type": "color",
-              "$extensions": {
-                "studio.tokens": {}
-              }
+              "parent": "mode/dark",
+              "description": ""
             },
             "border-color": {
               "value": "{mode.button.secondary.border-color}",
               "type": "color",
-              "$extensions": {
-                "studio.tokens": {}
-              }
+              "parent": "mode/dark",
+              "description": ""
             }
           },
           "color": {
             "value": "{lux.color.foreground.default}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           },
           "border-color": {
             "value": "{lux.color.border.default}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           },
           "background-color": {
             "value": "{lux.color.none}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {}
-            }
+            "parent": "mode/dark",
+            "description": ""
           }
         }
       },
@@ -1361,427 +2065,445 @@
         "active": {
           "background-color": {
             "value": "{lux.color.grijs.500}",
-            "type": "color"
+            "type": "color",
+            "parent": "mode/dark",
+            "description": ""
           }
         },
         "icon": {
           "eidas": {
             "stars-color": {
-              "value": "#fff",
-              "type": "color"
+              "value": "#ffffff",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
             },
             "lock-color": {
-              "value": "#fff",
-              "type": "color"
+              "value": "#ffffff",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
             },
             "lines-color": {
-              "value": "#fff",
-              "type": "color"
+              "value": "#ffffff",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
             },
             "background-color": {
-              "value": "#fff",
-              "type": "color"
+              "value": "#ffffff",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
             }
           },
           "eherkenning": {
             "e-color": {
-              "value": "#fff",
-              "type": "color"
+              "value": "#ffffff",
+              "type": "color",
+              "parent": "mode/dark",
+              "description": ""
             }
           }
         }
       }
     }
   },
-  "component/button/default": {
-    "lux": {
-      "button": {
-        "disabled": {
-          "background-color": {
-            "value": "{lux.color.background.subdued}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{lux.color.none}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{lux.color.foreground.subdued}",
-            "type": "color"
-          }
-        },
-        "border-radius": {
-          "type": "borderRadius",
-          "value": "{lux.border-radius.default}"
-        },
-        "border-width": {
-          "type": "borderWidth",
-          "value": "{lux.border-width.default}"
-        },
-        "icon": {
-          "size": {
-            "type": "sizing",
-            "value": "{lux.icon.size.default}"
-          }
-        },
-        "margin-inline": {
-          "value": "{lux.space.1-x}",
-          "type": "spacing"
-        },
-        "font-family": {
-          "value": "{lux.font-family.default}",
-          "type": "fontFamilies"
-        },
-        "font-size": {
-          "value": "{lux.font-size.m}",
-          "type": "fontSizes"
-        },
-        "font-weight": {
-          "value": "Bold",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "{lux.font.line-height.l}",
-          "type": "lineHeights"
-        },
-        "padding-block-end": {
-          "value": "{lux.space.1-x}",
-          "type": "spacing"
-        },
-        "padding-block-start": {
-          "value": "{lux.space.1-x}",
-          "type": "spacing"
-        },
-        "padding-inline-end": {
-          "value": "{lux.space.2-x}",
-          "type": "spacing"
-        },
-        "padding-inline-start": {
-          "value": "{lux.space.2-x}",
-          "type": "spacing"
-        },
-        "min-block-size": {
-          "type": "sizing",
-          "value": "{lux.size.target}"
-        },
-        "min-inline-size": {
-          "type": "sizing",
-          "value": "{lux.size.target}"
-        }
-      }
-    }
-  },
-  "component/button/variant/primary": {
-    "lux": {
-      "button": {
-        "background-color": {
-          "type": "color",
-          "value": "{lux.color.brand.default}"
-        },
-        "border-color": {
-          "type": "color",
-          "value": "{lux.color.none}"
-        },
-        "color": {
-          "type": "color",
-          "value": "{lux.color.foreground.onEmphasis}"
-        },
-        "hover": {
-          "background-color": {
-            "type": "color",
-            "value": "{lux.color.brand.hover}"
-          },
-          "border-color": {
-            "value": "{lux.color.none}",
-            "type": "color"
-          },
-          "color": {
-            "type": "color",
-            "value": "{lux.color.foreground.onEmphasis}"
-          }
-        },
-        "active": {
-          "background-color": {
-            "value": "{lux.color.brand.default}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{lux.color.none}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{lux.color.foreground.onEmphasis}",
-            "type": "color"
-          }
-        },
-        "font-size": {
-          "value": "{lux.font-size.m}",
-          "type": "fontSizes"
-        }
-      }
-    }
-  },
-  "component/button/variant/secondary": {
-    "lux": {
-      "button": {
-        "background-color": {
-          "type": "color",
-          "value": "{lux.color.none}"
-        },
-        "border-color": {
-          "type": "color",
-          "value": "{mode.button.secondary.border-color}"
-        },
-        "color": {
-          "type": "color",
-          "value": "{lux.color.brand.default}"
-        },
-        "hover": {
-          "background-color": {
-            "type": "color",
-            "value": "{lux.color.brand.subdued}"
-          },
-          "border-color": {
-            "value": "{lux.color.brand.hover}",
-            "type": "color"
-          },
-          "color": {
-            "type": "color",
-            "value": "{lux.color.brand.hover}"
-          }
-        },
-        "active": {
-          "background-color": {
-            "value": "{lux.color.none}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{mode.button.secondary.border-color}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{mode.button.secondary.color}",
-            "type": "color"
-          }
-        }
-      }
-    }
-  },
-  "component/button/variant/tertairy": {
-    "lux": {
-      "button": {
-        "background-color": {
-          "type": "color",
-          "value": "{lux.color.none}"
-        },
-        "border-color": {
-          "type": "color",
-          "value": "{lux.color.none}"
-        },
-        "color": {
-          "type": "color",
-          "value": "{mode.button.tertiary.color}"
-        },
-        "hover": {
-          "background-color": {
-            "type": "color",
-            "value": "{mode.button.tertiary.hover.background-color}"
-          },
-          "border-color": {
-            "value": "{lux.color.none}",
-            "type": "color"
-          },
-          "color": {
-            "type": "color",
-            "value": "{mode.button.tertiary.hover.color}"
-          }
-        },
-        "active": {
-          "background-color": {
-            "value": "{lux.color.none}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{lux.color.none}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{mode.button.tertiary.color}",
-            "type": "color"
-          }
-        }
-      }
-    }
-  },
-  "component/button/icon/none": {
-    "lux": {
-      "button": {
-        "padding-inline-start": {
-          "value": "{lux.space.2-x}",
-          "type": "spacing"
-        },
-        "padding-inline-end": {
-          "value": "{lux.space.2-x}",
-          "type": "spacing"
-        }
-      }
-    },
+  "button/icon/none": {
     "figma": {
       "button": {
         "show-icon": {
           "start": {
             "value": "false",
-            "type": "boolean"
+            "type": "boolean",
+            "parent": "button/icon/none",
+            "description": ""
           },
           "end": {
             "value": "false",
-            "type": "boolean"
+            "type": "boolean",
+            "parent": "button/icon/none",
+            "description": ""
           }
+        }
+      }
+    },
+    "lux": {
+      "button": {
+        "padding-inline-start": {
+          "value": "{lux.space.2-x}",
+          "type": "dimension",
+          "parent": "button/icon/none",
+          "description": ""
+        },
+        "padding-inline-end": {
+          "value": "{lux.space.2-x}",
+          "type": "dimension",
+          "parent": "button/icon/none",
+          "description": ""
         }
       }
     }
   },
-  "component/button/icon/start": {
-    "lux": {
-      "button": {
-        "padding-inline-start": {
-          "value": "{lux.space.105-x}",
-          "type": "spacing"
-        },
-        "padding-inline-end": {
-          "value": "{lux.space.2-x}",
-          "type": "spacing"
-        }
-      }
-    },
+  "button/icon/start": {
     "figma": {
       "button": {
         "show-icon": {
           "start": {
             "value": "true",
-            "type": "boolean"
+            "type": "boolean",
+            "parent": "button/icon/start",
+            "description": ""
           },
           "end": {
             "value": "false",
-            "type": "boolean"
+            "type": "boolean",
+            "parent": "button/icon/start",
+            "description": ""
           }
+        }
+      }
+    },
+    "lux": {
+      "button": {
+        "padding-inline-start": {
+          "value": "{lux.space.105-x}",
+          "type": "dimension",
+          "parent": "button/icon/start",
+          "description": ""
+        },
+        "padding-inline-end": {
+          "value": "{lux.space.2-x}",
+          "type": "dimension",
+          "parent": "button/icon/start",
+          "description": ""
         }
       }
     }
   },
-  "component/button/icon/end": {
-    "lux": {
-      "button": {
-        "padding-inline-start": {
-          "value": "{lux.space.2-x}",
-          "type": "spacing"
-        },
-        "padding-inline-end": {
-          "value": "{lux.space.105-x}",
-          "type": "spacing"
-        }
-      }
-    },
+  "button/icon/end": {
     "figma": {
       "button": {
         "show-icon": {
           "start": {
             "value": "false",
-            "type": "boolean"
+            "type": "boolean",
+            "parent": "button/icon/end",
+            "description": ""
           },
           "end": {
             "value": "true",
-            "type": "boolean"
+            "type": "boolean",
+            "parent": "button/icon/end",
+            "description": ""
           }
+        }
+      }
+    },
+    "lux": {
+      "button": {
+        "padding-inline-start": {
+          "value": "{lux.space.2-x}",
+          "type": "dimension",
+          "parent": "button/icon/end",
+          "description": ""
+        },
+        "padding-inline-end": {
+          "value": "{lux.space.105-x}",
+          "type": "dimension",
+          "parent": "button/icon/end",
+          "description": ""
         }
       }
     }
   },
-  "component/login-method-button": {
+  "viewport/xl": {
     "lux": {
-      "login-method-button": {
-        "color": {
-          "value": "{lux.color.foreground.default}",
-          "type": "color"
-        },
-        "background": {
-          "value": "{lux.color.background.default}",
-          "type": "color"
-        },
-        "border-color": {
-          "value": "{lux.color.border.default}",
-          "type": "color"
-        },
-        "hover": {
-          "color": {
-            "value": "{lux.color.foreground.default}",
-            "type": "color"
+      "icon": {
+        "size": {
+          "default": {
+            "value": "{lux.space.2-x}",
+            "type": "dimension",
+            "parent": "viewport/xl",
+            "description": ""
           },
-          "background": {
-            "value": "{lux.color.background.hover}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{lux.color.border.default}",
-            "type": "color"
-          }
-        },
-        "active": {
-          "color": {
-            "value": "{lux.color.foreground.default}",
-            "type": "color"
-          },
-          "background": {
-            "value": "{mode.login-method-button.active.background-color}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{lux.color.border.default}",
-            "type": "color"
-          }
-        },
-        "padding-block-start": {
-          "value": "{lux.space.05-x}",
-          "type": "spacing"
-        },
-        "padding-block-end": {
-          "value": "{lux.space.05-x}",
-          "type": "spacing"
-        },
-        "padding-inline-start": {
-          "value": "{lux.space.2-x}",
-          "type": "spacing"
-        },
-        "padding-inline-end": {
-          "value": "{lux.space.05-x}",
-          "type": "spacing"
-        },
-        "min-inline-size": {
-          "value": "{lux.size.target}",
-          "type": "sizing"
-        },
-        "min-block-size": {
-          "value": "{lux.size.target}",
-          "type": "sizing"
-        },
-        "margin-inline": {
-          "value": "{lux.space.1-x}",
-          "type": "spacing"
-        },
-        "border-radius": {
-          "value": "{lux.border-radius.default}",
-          "type": "borderRadius"
-        },
-        "border-width": {
-          "value": "{lux.border-width.default}",
-          "type": "borderWidth"
-        },
-        "icon": {
-          "size": {
-            "value": "40px",
-            "type": "sizing"
+          "large": {
+            "value": "{lux.space.3-x}",
+            "type": "dimension",
+            "parent": "viewport/xl",
+            "description": ""
           }
         }
+      },
+      "size": {
+        "icon": {
+          "wrapper-height": {
+            "value": "1.75rem",
+            "type": "dimension",
+            "parent": "viewport/xl",
+            "description": ""
+          }
+        },
+        "target": {
+          "value": "3rem",
+          "type": "dimension",
+          "parent": "viewport/xl",
+          "description": ""
+        }
+      },
+      "grid": {
+        "gutter": {
+          "value": "{lux.space.4-x}",
+          "type": "dimension",
+          "parent": "viewport/xl",
+          "description": ""
+        },
+        "margin": {
+          "value": "{lux.space.5-x}",
+          "type": "dimension",
+          "parent": "viewport/xl",
+          "description": ""
+        }
+      }
+    },
+    "figma": {
+      "screen-size": {
+        "value": "90rem",
+        "type": "dimension",
+        "parent": "viewport/xl",
+        "description": ""
+      }
+    }
+  },
+  "viewport/lg": {
+    "lux": {
+      "icon": {
+        "size": {
+          "default": {
+            "value": "{lux.space.2-x}",
+            "type": "dimension",
+            "parent": "viewport/lg",
+            "description": ""
+          },
+          "large": {
+            "value": "{lux.space.3-x}",
+            "type": "dimension",
+            "parent": "viewport/lg",
+            "description": ""
+          }
+        }
+      },
+      "size": {
+        "icon": {
+          "wrapper-height": {
+            "value": "1.75rem",
+            "type": "dimension",
+            "parent": "viewport/lg",
+            "description": ""
+          }
+        },
+        "target": {
+          "value": "3rem",
+          "type": "dimension",
+          "parent": "viewport/lg",
+          "description": ""
+        }
+      },
+      "grid": {
+        "gutter": {
+          "value": "{lux.space.4-x}",
+          "type": "dimension",
+          "parent": "viewport/lg",
+          "description": ""
+        },
+        "margin": {
+          "value": "{lux.space.5-x}",
+          "type": "dimension",
+          "parent": "viewport/lg",
+          "description": ""
+        }
+      }
+    },
+    "figma": {
+      "screen-size": {
+        "value": "64rem",
+        "type": "dimension",
+        "parent": "viewport/lg",
+        "description": ""
+      }
+    }
+  },
+  "viewport/md": {
+    "lux": {
+      "icon": {
+        "size": {
+          "default": {
+            "value": "{lux.space.2-x}",
+            "type": "dimension",
+            "parent": "viewport/md",
+            "description": ""
+          },
+          "large": {
+            "value": "{lux.space.3-x}",
+            "type": "dimension",
+            "parent": "viewport/md",
+            "description": ""
+          }
+        }
+      },
+      "size": {
+        "icon": {
+          "wrapper-height": {
+            "value": "1.75rem",
+            "type": "dimension",
+            "parent": "viewport/md",
+            "description": ""
+          }
+        },
+        "target": {
+          "value": "3rem",
+          "type": "dimension",
+          "parent": "viewport/md",
+          "description": ""
+        }
+      },
+      "grid": {
+        "gutter": {
+          "value": "{lux.space.4-x}",
+          "type": "dimension",
+          "parent": "viewport/md",
+          "description": ""
+        },
+        "margin": {
+          "value": "{lux.space.5-x}",
+          "type": "dimension",
+          "parent": "viewport/md",
+          "description": ""
+        }
+      }
+    },
+    "figma": {
+      "screen-size": {
+        "value": "64rem",
+        "type": "dimension",
+        "parent": "viewport/md",
+        "description": ""
+      }
+    }
+  },
+  "viewport/sm": {
+    "lux": {
+      "icon": {
+        "size": {
+          "default": {
+            "value": "{lux.space.2-x}",
+            "type": "dimension",
+            "parent": "viewport/sm",
+            "description": ""
+          },
+          "large": {
+            "value": "{lux.space.3-x}",
+            "type": "dimension",
+            "parent": "viewport/sm",
+            "description": ""
+          }
+        }
+      },
+      "size": {
+        "icon": {
+          "wrapper-height": {
+            "value": "1.75rem",
+            "type": "dimension",
+            "parent": "viewport/sm",
+            "description": ""
+          }
+        },
+        "target": {
+          "value": "3rem",
+          "type": "dimension",
+          "parent": "viewport/sm",
+          "description": ""
+        }
+      },
+      "grid": {
+        "gutter": {
+          "value": "{lux.space.3-x}",
+          "type": "dimension",
+          "parent": "viewport/sm",
+          "description": ""
+        },
+        "margin": {
+          "value": "{lux.space.3-x}",
+          "type": "dimension",
+          "parent": "viewport/sm",
+          "description": ""
+        }
+      }
+    },
+    "figma": {
+      "screen-size": {
+        "value": "36rem",
+        "type": "dimension",
+        "parent": "viewport/sm",
+        "description": ""
+      }
+    }
+  },
+  "viewport/xs": {
+    "lux": {
+      "icon": {
+        "size": {
+          "default": {
+            "value": "{lux.space.2-x}",
+            "type": "dimension",
+            "parent": "viewport/xs",
+            "description": ""
+          },
+          "large": {
+            "value": "{lux.space.3-x}",
+            "type": "dimension",
+            "parent": "viewport/xs",
+            "description": ""
+          }
+        }
+      },
+      "size": {
+        "icon": {
+          "wrapper-height": {
+            "value": "1.5rem",
+            "type": "dimension",
+            "parent": "viewport/xs",
+            "description": ""
+          }
+        },
+        "target": {
+          "value": "3rem",
+          "type": "dimension",
+          "parent": "viewport/xs",
+          "description": ""
+        }
+      },
+      "grid": {
+        "gutter": {
+          "value": "{lux.space.0-x}",
+          "type": "dimension",
+          "parent": "viewport/xs",
+          "description": ""
+        },
+        "margin": {
+          "value": "{lux.space.2-x}",
+          "type": "dimension",
+          "parent": "viewport/xs",
+          "description": ""
+        }
+      }
+    },
+    "figma": {
+      "screen-size": {
+        "value": "23.4375rem",
+        "type": "dimension",
+        "parent": "viewport/xs",
+        "description": ""
       }
     }
   },
@@ -1790,9 +2512,7 @@
       "id": "a99df459f03533a690b4689febcce7a972b217c7",
       "name": "default",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "core/default": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaCollectionId": "VariableCollectionId:5:3",
       "$figmaModeId": "5:1",
       "$figmaVariableReferences": {
@@ -1891,10 +2611,7 @@
       "id": "a18504aa909f8765d81bb59f792bb291031f11a7",
       "name": "default",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "component/button/default": "enabled",
-        "component/login-method-button": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaCollectionId": "VariableCollectionId:5:92",
       "$figmaModeId": "5:2",
       "$figmaVariableReferences": {
@@ -1936,9 +2653,7 @@
     {
       "id": "60315acb9c82133759580124c5ba7498dc1b3ce4",
       "name": "Logius",
-      "selectedTokenSets": {
-        "product/Logius": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaStyleReferences": {
         "body.s-400": "S:945b3429270c1a4418b1a976ab78a0d37a826e15,",
         "body.s-700": "S:f56df3c786dfc93aaae42684baed5e49b3169c88,",
@@ -2251,10 +2966,7 @@
     {
       "id": "3d944389c8bc7e0096e33bdd337454b155bbf3b4",
       "name": "MijnOverheid",
-      "selectedTokenSets": {
-        "product/MijnOverheid": "enabled",
-        "product/Logius": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaStyleReferences": {
         "common.warning.background": "S:6d53d59a1c72d20d5fcc7ba2baa3321ba4b2b331,",
         "common.warning.icon-background": "S:f66cc5354a86193fcb60c7c46b525739f4fc50af,",
@@ -2484,10 +3196,7 @@
     {
       "id": "f5b6c8fb09c0a683c6037de2c2b4bb8c553ff9e8",
       "name": "DigiD",
-      "selectedTokenSets": {
-        "product/DigiD": "enabled",
-        "product/Logius": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaStyleReferences": {
         "common.highlight.base": "S:f8f46a43b805f4723eadb8c5fb2b20b8f220376c,",
         "common.highlight.hover": "S:e73e5e6da774df60ae9c3bd3ef122bad7628d455,",
@@ -2802,9 +3511,7 @@
       "id": "6bc5fe5338747a8377812225c705877a5e69aea8",
       "name": "light",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "mode/light": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:17",
       "$figmaVariableReferences": {
@@ -2848,10 +3555,7 @@
       "id": "b6dc798fba8b7d19c140d8d5a2d86c967eb55c9f",
       "name": "dark",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "mode/dark": "enabled",
-        "mode/light": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaCollectionId": "VariableCollectionId:6:202",
       "$figmaModeId": "6:18",
       "$figmaVariableReferences": {
@@ -2895,9 +3599,7 @@
       "id": "09c282ed911b6c743631ad19a8a655084fc8e11c",
       "name": "xl",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "viewport/xl": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaCollectionId": "VariableCollectionId:33:272",
       "$figmaModeId": "33:16",
       "$figmaVariableReferences": {
@@ -2915,10 +3617,7 @@
       "id": "0a3fce1b0e3b29df98a96c8aa7fca038fc08cfa0",
       "name": "lg",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "viewport/xl": "enabled",
-        "viewport/lg": "enabled"
-      },
+      "selectedTokenSets": {},
       "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:33:272",
       "$figmaModeId": "33:17",
@@ -2936,10 +3635,7 @@
       "id": "046d8dfeb74c180e829532f6b5501c6b40c3d3ba",
       "name": "md",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "viewport/xl": "enabled",
-        "viewport/lg": "enabled"
-      },
+      "selectedTokenSets": {},
       "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:33:272",
       "$figmaModeId": "33:18",
@@ -2957,10 +3653,7 @@
       "id": "f9fd3239d1fac0d21c2c0cb9bd3f0e9be4abd679",
       "name": "xs",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "viewport/xs": "enabled",
-        "viewport/xl": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaCollectionId": "VariableCollectionId:33:272",
       "$figmaModeId": "33:20",
       "$figmaVariableReferences": {
@@ -2978,9 +3671,7 @@
       "id": "bd37c158653263dda36574eb3a490e6b1c0e5280",
       "name": "primary",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "component/button/variant/primary": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaCollectionId": "VariableCollectionId:5:163",
       "$figmaModeId": "5:10",
       "$figmaVariableReferences": {
@@ -3000,10 +3691,7 @@
       "id": "c0a91f0dd275e5c8d86f8d1bed88a008e0e9f773",
       "name": "secondary",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "component/button/variant/secondary": "enabled",
-        "component/button/variant/primary": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaCollectionId": "VariableCollectionId:5:163",
       "$figmaModeId": "5:11",
       "$figmaVariableReferences": {
@@ -3023,11 +3711,7 @@
       "id": "b2e1ec9e17bb496c34acd0200f8fb30af1a810ac",
       "name": "tertairy",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "component/button/variant/tertairy": "enabled",
-        "component/button/variant/primary": "enabled",
-        "component/button/variant/secondary": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaVariableReferences": {
         "lux.button.background-color": "6565f5856bb22b81dd502166f5b1cf195a007d97",
         "lux.button.border-color": "502392baa5e582ca6f564fb8b322a7d20dab48db",
@@ -3047,9 +3731,7 @@
       "id": "8ecdc824340f1e30a32d41463d9c2f4374a6ece5",
       "name": "none",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "component/button/icon/none": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaCollectionId": "VariableCollectionId:28:254",
       "$figmaModeId": "28:1",
       "$figmaVariableReferences": {
@@ -3064,9 +3746,7 @@
       "id": "fbc06f4cfb4fec3993f2ad9ddc3c89d47248f546",
       "name": "start",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "component/button/icon/start": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaCollectionId": "VariableCollectionId:28:254",
       "$figmaModeId": "28:2",
       "$figmaVariableReferences": {
@@ -3081,9 +3761,7 @@
       "id": "836354f73044b76ce1358a2f0dfc59bb4f48248e",
       "name": "end",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "component/button/icon/end": "enabled"
-      },
+      "selectedTokenSets": {},
       "$figmaCollectionId": "VariableCollectionId:28:254",
       "$figmaModeId": "28:3",
       "$figmaVariableReferences": {
@@ -3098,10 +3776,7 @@
       "id": "68ed438a9e5a39c96b6fa024f8ca130b11063a4b",
       "name": "sm",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "viewport/xl": "enabled",
-        "viewport/sm": "enabled"
-      },
+      "selectedTokenSets": {},
       "group": "viewport",
       "$figmaCollectionId": "VariableCollectionId:33:272",
       "$figmaModeId": "33:19",
@@ -3119,10 +3794,7 @@
       "id": "b519841e3329ce04773b790d39f9cb6fba4a3cc2",
       "name": "NL doc - Rijksoverheid",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "product/Logius": "enabled",
-        "product/NL doc - Rijksoverheid": "enabled"
-      },
+      "selectedTokenSets": {},
       "group": "product",
       "$figmaCollectionId": "VariableCollectionId:6:190",
       "$figmaModeId": "33:8",
@@ -3147,11 +3819,7 @@
       "id": "90993215e1c089655763185936ac79d0c8f3cc57",
       "name": "NL doc - Ridderkerk",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "product/Logius": "enabled",
-        "product/NL doc - Rijksoverheid": "enabled",
-        "product/NL doc - Ridderkerk": "enabled"
-      },
+      "selectedTokenSets": {},
       "group": "product",
       "$figmaCollectionId": "VariableCollectionId:6:190",
       "$figmaModeId": "33:9",
@@ -3176,11 +3844,7 @@
       "id": "904cda23a965cb6df8c27a118c8cb56200f061d7",
       "name": "NL doc - Waterschap Hollandse Delta",
       "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "product/Logius": "enabled",
-        "product/NL doc - Rijksoverheid": "enabled",
-        "product/NL doc - Waterschap Hollandse Delta": "enabled"
-      },
+      "selectedTokenSets": {},
       "group": "product",
       "$figmaCollectionId": "VariableCollectionId:6:190",
       "$figmaModeId": "33:10",
@@ -3205,11 +3869,10 @@
   "$metadata": {
     "tokenSetOrder": [
       "core/default",
-      "viewport/xl",
-      "viewport/lg",
-      "viewport/md",
-      "viewport/sm",
-      "viewport/xs",
+      "component/default",
+      "button/variant/primary",
+      "button/variant/secondary",
+      "button/variant/tertairy",
       "product/Logius",
       "product/MijnOverheid",
       "product/DigiD",
@@ -3218,14 +3881,14 @@
       "product/NL doc - Waterschap Hollandse Delta",
       "mode/light",
       "mode/dark",
-      "component/button/default",
-      "component/button/variant/primary",
-      "component/button/variant/secondary",
-      "component/button/variant/tertairy",
-      "component/button/icon/none",
-      "component/button/icon/start",
-      "component/button/icon/end",
-      "component/login-method-button"
+      "button/icon/none",
+      "button/icon/start",
+      "button/icon/end",
+      "viewport/xl",
+      "viewport/lg",
+      "viewport/md",
+      "viewport/sm",
+      "viewport/xs"
     ]
   }
 }
